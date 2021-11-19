@@ -9,6 +9,10 @@
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
+    "d3": "^7.1.1",
+    "d3-svg-legend": "^2.25.6",
+    "h3-js": "^3.7.2",
+    "moment": "^2.29.1",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0"
   },
