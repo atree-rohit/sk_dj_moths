@@ -93,6 +93,30 @@
   text-decoration: none;
   cursor: pointer;
 }
+#species-modal{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "image map"
+                        "image chart"
+                        "details details";
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+#species-modal #image{
+    grid-area: image;
+    text-align: center;
+}
+#species-modal #map{
+    grid-area: map;
+    background-color: red;
+}
+#species-modal #chart{
+    grid-area: chart;
+}
+#species-modal #details{
+    grid-area: details;
+}
 @media only screen and (max-width: 480px){
     .genus-row{
         grid-template-columns: 1fr 1fr;
@@ -123,16 +147,17 @@
                     <template v-for="(subfamilyData, subfamily) in familyData" :key="subfamily">
                         <template v-for="(tribeData, tribe) in subfamilyData" :key="tribe">
                             <template v-for="(genusData, genus) in tribeData" :key="genus">
-                                <div v-for="species in genusData" class="species-card" :key="species[0]" @click='showSpeciesModal(species[1])'>
-                                    <img :src="require('@/assets/book_data/medium/'+species[1].img)" alt="">
-                                    <div class="species-name-div">
-                                        <span class="species-name">
-                                            {{species[0]}}
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <!-- {{species[1]}} -->
-                                    </div>
+                                <div v-for="(speciesData, species) in genusData" class="species-card" :key="species" @click='showSpeciesModal(species, speciesData)'>
+                                    <template v-for="observation in speciesData" :key="observation.id">
+                                        <div v-if="observation.img != null">
+                                            <img :src="require('@/assets/book_data/medium/'+observation.img)" alt="">
+                                            <div class="species-name-div">
+                                                <span class="species-name">
+                                                    {{species}}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </template>
                                 </div>
                             </template>
                         </template>
@@ -145,37 +170,53 @@
     <n-modal v-model:show="familyModalDisplay" transform-origin="center">
         <n-card style="width: 80%;" :bordered="false" size="huge">
             <template #header>Family {{selectedFamily}}</template>
-            <template #header-extra> <span class="close" @click="hideFamilyModal">&times;</span> </template>
+            <template #header-extra> <span class="close" @click="familyModalDisplay = false">&times;</span> </template>
             <p v-for="(p, k) in familyModalText" v-text="p" :key="k"></p>
         </n-card>
     </n-modal>
-    <n-modal v-model:show="speciesModalDisplay" transform-origin="center">
+    <n-modal v-model:show="speciesModalDisplay" transform-origin="center" :on-after-leave="closeModal()">
         <n-card style="width: 80%;" :bordered="false" size="huge">
-            <template #header>{{taxonomy_data[selectedSpecies.taxa_id].species}}</template>
-            <template #header-extra> <span class="close" @click="hideSpeciesModal">&times;</span> </template>
-            <img :src="require('@/assets/book_data/medium/'+selectedSpecies.img)" alt="">
-            <h3 class="title2">Observed by: {{user_data[selectedSpecies.user_id][0]}}</h3>
-            <h3 class="title2">Photo Date: {{selectedSpecies.observed_on}}</h3>
-            <!-- <w-button class="ma1" bg-color="success" color="white" lg @click="gotoSpeciesPage(selectedSpecies)">Go to Species Page</w-button> -->
+            <template #header>{{selectedSpecies}}</template>
+            <template #header-extra> <span class="close" @click="speciesModalDisplay = false">&times;</span> </template>
+            <div id="species-modal">
+                <div id="image">
+                    <img :src="require('@/assets/book_data/medium/'+selectedImageObservation.img)" alt="">
+                </div>
+                <div id="map">
+                    <SpeciesMap :points="selectedSpeciesData" />
+                </div>
+                <div id="chart">Chart</div>
+                <div id="details">
+                    <h3 v-text="speciesImageObserver"></h3>
+                    <h3 v-text="speciesImageDate"></h3>
+                    <!-- <w-button class="ma1" bg-color="success" color="white" lg @click="gotoSpeciesPage(selectedSpecies)">Go to Species Page</w-button> -->
+                </div>
+            </div>
+
         </n-card>
     </n-modal>
 
 </template>
 
 <script>
+    import SpeciesMap from './SpeciesMap.vue'
+
     import { NCard, NModal, NAutoComplete } from 'naive-ui'
+    import moment from 'moment'
 
     import book_data from '../assets/book_data/book_data.json'
+    import data_tree from '../assets/book_data/data_tree.json'
     import taxonomy_data from '../assets/book_data/taxonomy_data.json'
     import user_data from '../assets/book_data/user_data.json'
     import species_descriptions from '../assets/book_data/descriptions.json'
 
     export default {
         name: 'AllSpecies',
-        components: { NCard, NModal, NAutoComplete },
+        components: { SpeciesMap, NCard, NModal, NAutoComplete },
         data() {
             return {
                 book_data: book_data,
+                data_tree: data_tree,
                 user_data: user_data,
                 taxonomy_data: taxonomy_data,
                 descriptions: species_descriptions,
@@ -184,8 +225,10 @@
                 allSearchAutoCompleteValues:[],
                 familyModalDisplay: false,
                 speciesModalDisplay: false,
+                modalIsOpen:false,
                 selectedFamily:"",
                 selectedSpecies: "",
+                selectedSpeciesData: [],
             }
         },
         created() {
@@ -214,6 +257,39 @@
                     }
                 }
                 return op
+            },
+            selectedImageObservation() {
+                let op = {}
+                if(this.selectedSpeciesData.length > 0){
+                    let x = this.selectedSpeciesData.filter(o => o.img != null)[0]
+                    this.selectedSpeciesData.forEach(o => {
+                        if(o.img != null){
+                            op = o
+                        }
+                    })
+                }
+                return op
+            },
+            speciesImage() {
+                return this.selectedImageObservation.img
+            },
+            speciesImageObserver() {
+                let op = "Observed by: "
+                if(user_data[this.selectedImageObservation.user_id][0] != null){
+                    op += user_data[this.selectedImageObservation.user_id][0]
+                } else {
+                    op = this.selectedImageObservation.user_id
+                }
+
+                return op
+            },
+            speciesImageDate() {
+                return "Observed on: " + moment(this.selectedImageObservation.observed_on).format("D MMM, YY")
+            }
+        },
+        watch: {
+            modalIsOpen() {
+                document.body.style.overflow = (this.modalIsOpen == true) ? 'hidden' : 'auto'
             }
         },
         methods: {
@@ -221,22 +297,7 @@
                 let search_terms = new Set();
                 this.book_data.forEach(o => {
                     let taxa = this.taxonomy_data[o.taxa_id]
-                    if(this.tree[taxa.superfamily] == undefined){
-                        this.tree[taxa.superfamily] = {}
-                    }
-                    if(this.tree[taxa.superfamily][taxa.family] == undefined){
-                        this.tree[taxa.superfamily][taxa.family] = {}
-                    }
-                    if(this.tree[taxa.superfamily][taxa.family][taxa.subfamily] == undefined){
-                        this.tree[taxa.superfamily][taxa.family][taxa.subfamily] = {}
-                    }
-                    if(this.tree[taxa.superfamily][taxa.family][taxa.subfamily][taxa.tribe] == undefined){
-                        this.tree[taxa.superfamily][taxa.family][taxa.subfamily][taxa.tribe] = {}
-                    }
-                    if(this.tree[taxa.superfamily][taxa.family][taxa.subfamily][taxa.tribe][taxa.genus] == undefined){
-                        this.tree[taxa.superfamily][taxa.family][taxa.subfamily][taxa.tribe][taxa.genus] = []
-                    }
-                    this.tree[taxa.superfamily][taxa.family][taxa.subfamily][taxa.tribe][taxa.genus].push([taxa.species, o])
+                    this.tree = this.data_tree
 
                     search_terms.add("Superfamily " + taxa.superfamily)
                     search_terms.add("Family " + taxa.family)
@@ -337,22 +398,20 @@
                 window.open(url, '_blank').focus();
             },
             showFamilyModal(f){
-                document.body.style.overflow = 'hidden'
+                this.modalIsOpen = true
                 this.selectedFamily = f
                 this.familyModalDisplay = true
             },
-            hideFamilyModal(){
-                document.body.style.overflow = 'auto'
-                this.familyModalDisplay = false
-            },
-            showSpeciesModal(s){
-                document.body.style.overflow = 'hidden'
-                this.selectedSpecies = s
+            showSpeciesModal(species, speciesData){
+                this.modalIsOpen = true
+                this.selectedSpecies = species
+                this.selectedSpeciesData = speciesData
                 this.speciesModalDisplay = true
             },
-            hideSpeciesModal(){
-                document.body.style.overflow = 'auto'
-                this.speciesModalDisplay = false
+            closeModal(){
+                if(this.familyModalDisplay == false && this.speciesModalDisplay == false){
+                    this.modalIsOpen = false
+                }
             }
         }
     }
