@@ -1,0 +1,6657 @@
+[{
+	"id": 299276,
+	"observed_on": "2010-08-19",
+	"location": "26.892,88.1885",
+	"place_guess": "Mirik, West Bengal",
+	"taxa_id": 321235,
+	"user_id": "paraggiri",
+	"img": "Macrocilix_maia.jpg"
+}, {
+	"id": 310312,
+	"observed_on": "2011-09-02",
+	"location": "26.8913,88.188",
+	"place_guess": "Mirik, West Bengal",
+	"taxa_id": 321939,
+	"user_id": "paraggiri",
+	"img": "Cadphises_maculata.jpg"
+}, {
+	"id": 325265,
+	"observed_on": "2010-09-13",
+	"location": "26.8918,88.1887",
+	"place_guess": "Mirik, West Bengal",
+	"taxa_id": 68366,
+	"user_id": "paraggiri",
+	"img": "Actias_selene.jpg"
+}, {
+	"id": 333563,
+	"observed_on": "2012-05-17",
+	"location": "26.892,88.1885",
+	"place_guess": "Mirik, West Bengal",
+	"taxa_id": 1098015,
+	"user_id": "paraggiri",
+	"img": "Antheraea_knyvetti.jpg"
+}, {
+	"id": 1120531,
+	"observed_on": "2014-11-17",
+	"location": "27.3183,88.6071",
+	"place_guess": "Deorali Bazar, Gangtok, Sikkim 737102",
+	"taxa_id": 670568,
+	"user_id": "vijaybarve",
+	"img": "Hypolamprus_bastialis.jpg"
+}, {
+	"id": 1120544,
+	"observed_on": "2014-11-17",
+	"location": "27.3183,88.6071",
+	"place_guess": "Deorali Bazar, Gangtok, Sikkim 737102",
+	"taxa_id": 125204,
+	"user_id": "vijaybarve",
+	"img": "Comibaena_pictipennis.jpg"
+}, {
+	"id": 2332007,
+	"observed_on": "2015-10-27",
+	"location": "27.0978,88.6833",
+	"place_guess": "Neora Valley National Park",
+	"taxa_id": 497929,
+	"user_id": "subhajit_roy",
+	"img": "Dalima_metachromata.jpg"
+}, {
+	"id": 2339800,
+	"observed_on": "2008-03-20",
+	"location": "27.0109,88.7863",
+	"place_guess": "Suntaleykhola, Samsing, West Bengal",
+	"taxa_id": 470126,
+	"user_id": "vijaybarve",
+	"img": "Amblychia_angeronaria.jpg"
+}, {
+	"id": 3357115,
+	"observed_on": "2015-11-08",
+	"location": "27.1019,88.6762",
+	"place_guess": "Lingsaykha Khasmahal, West Bengal",
+	"taxa_id": 985198,
+	"user_id": "soumendra_mukhopadhyay",
+	"img": "Miltochrista_undulosa.jpg"
+}, {
+	"id": 4350406,
+	"observed_on": "2016-10-11",
+	"location": "27.2194,88.7355",
+	"place_guess": "Subanedara",
+	"taxa_id": 358029,
+	"user_id": "subhajit_roy",
+	"img": "Adaina_microdactyla.jpg"
+}, {
+	"id": 4363261,
+	"observed_on": "2016-10-11",
+	"location": "27.0985,88.5334",
+	"place_guess": "Dalapachand",
+	"taxa_id": 510814,
+	"user_id": "subhajit_roy",
+	"img": "Hyalospectra_hyalinata.jpg"
+}, {
+	"id": 4363266,
+	"observed_on": "2016-10-11",
+	"location": "27.0983,88.5332",
+	"place_guess": "Dalapachand",
+	"taxa_id": 155509,
+	"user_id": "subhajit_roy",
+	"img": "Lebeda_nobilis.jpg"
+}, {
+	"id": 4378199,
+	"observed_on": "2016-10-11",
+	"location": "27.0972,88.5411",
+	"place_guess": "Dalapachand",
+	"taxa_id": 201379,
+	"user_id": "subhajit_roy",
+	"img": "Cyana_bellissima.jpg"
+}, {
+	"id": 4406350,
+	"observed_on": "2016-10-11",
+	"location": "27.097,88.541",
+	"place_guess": "Dalapachand",
+	"taxa_id": 519474,
+	"user_id": "subhajit_roy",
+	"img": "Risoba_prominens.jpg"
+}, {
+	"id": 4406823,
+	"observed_on": "2016-10-10",
+	"location": "27.0968,88.5411",
+	"place_guess": "Dalapachand",
+	"taxa_id": 205311,
+	"user_id": "subhajit_roy",
+	"img": "Hesudra_divisa.jpg"
+}, {
+	"id": 4407175,
+	"observed_on": "2016-10-11",
+	"location": "27.2198,88.7418",
+	"place_guess": "Subanedara",
+	"taxa_id": 341023,
+	"user_id": "subhajit_roy",
+	"img": "Prabhasa_distorta.jpg"
+}, {
+	"id": 4411788,
+	"observed_on": "2016-10-11",
+	"location": "27.22,88.7432",
+	"place_guess": "Subanedara",
+	"taxa_id": 511530,
+	"user_id": "subhajit_roy",
+	"img": "Auzea_rufifrontata.jpg"
+}, {
+	"id": 4411869,
+	"observed_on": "2016-10-11",
+	"location": "27.0967,88.5413",
+	"place_guess": "Dalapachand",
+	"taxa_id": 124638,
+	"user_id": "subhajit_roy",
+	"img": "Calymera_endophaea.jpg"
+}, {
+	"id": 4425737,
+	"observed_on": "2016-10-11",
+	"location": "27.0988,88.534",
+	"place_guess": "Dalapachand",
+	"taxa_id": 512063,
+	"user_id": "subhajit_roy",
+	"img": "Pida_decolorata.jpg"
+}, {
+	"id": 4425738,
+	"observed_on": "2016-10-10",
+	"location": "27.0968,88.5414",
+	"place_guess": "Dalapachand",
+	"taxa_id": 511976,
+	"user_id": "subhajit_roy",
+	"img": "Juxtarctia_multiguttata.jpg"
+}, {
+	"id": 4425739,
+	"observed_on": "2016-10-10",
+	"location": "27.0969,88.5413",
+	"place_guess": "Dalapachand",
+	"taxa_id": 974191,
+	"user_id": "subhajit_roy",
+	"img": "Dolgoma_recta.jpg"
+}, {
+	"id": 4425817,
+	"observed_on": "2016-10-11",
+	"location": "27.2194,88.7358",
+	"place_guess": "Subanedara",
+	"taxa_id": 511990,
+	"user_id": "subhajit_roy",
+	"img": "Gazalina_transversa.jpg"
+}, {
+	"id": 4426850,
+	"observed_on": "2016-10-11",
+	"location": "27.0974,88.5325",
+	"place_guess": "Dalapachand",
+	"taxa_id": 972183,
+	"user_id": "subhajit_roy",
+	"img": "Chorodna_moorei.jpg"
+}, {
+	"id": 4426968,
+	"observed_on": "2016-10-11",
+	"location": "27.0975,88.534",
+	"place_guess": "Dalapachand",
+	"taxa_id": 511944,
+	"user_id": "subhajit_roy",
+	"img": "Heterabraxas_spontaneata.jpg"
+}, {
+	"id": 4427010,
+	"observed_on": "2016-10-11",
+	"location": "27.0966,88.5329",
+	"place_guess": "Dalapachand",
+	"taxa_id": 512016,
+	"user_id": "subhajit_roy",
+	"img": "Hypomecis_fulvosparsa.jpg"
+}, {
+	"id": 4431732,
+	"observed_on": "2016-10-10",
+	"location": "27.0966,88.5413",
+	"place_guess": "Dalapachand",
+	"taxa_id": 125246,
+	"user_id": "subhajit_roy",
+	"img": "Lamprosema_commixta.jpg"
+}, {
+	"id": 4431756,
+	"observed_on": "2016-10-11",
+	"location": "27.0966,88.5413",
+	"place_guess": "Dalapachand",
+	"taxa_id": 512078,
+	"user_id": "subhajit_roy",
+	"img": "Timandra_correspondens.jpg"
+}, {
+	"id": 4433939,
+	"observed_on": "2016-10-10",
+	"location": "27.0967,88.5411",
+	"place_guess": "Dalapachand",
+	"taxa_id": 512193,
+	"user_id": "subhajit_roy",
+	"img": "Electrophaes_fulgidaria.jpg"
+}, {
+	"id": 4492785,
+	"observed_on": "2016-10-11",
+	"location": "27.0971,88.5325",
+	"place_guess": "Dalapachand",
+	"taxa_id": 416744,
+	"user_id": "subhajit_roy",
+	"img": "Antipercnia_belluaria.jpg"
+}, {
+	"id": 4882929,
+	"observed_on": "2016-10-11",
+	"location": "27.0967,88.5414",
+	"place_guess": "Dalapchand",
+	"taxa_id": 631522,
+	"user_id": "subhajit_roy",
+	"img": "Xenochroa_chlorostigma.jpg"
+}, {
+	"id": 4978427,
+	"observed_on": "2016-10-11",
+	"location": "27.0968,88.5413",
+	"place_guess": "Dalapchand",
+	"taxa_id": 865117,
+	"user_id": "subhajit_roy",
+	"img": "Eublemma_latistriga.jpg"
+}, {
+	"id": 4998387,
+	"observed_on": "2016-10-11",
+	"location": "27.0935,88.5356",
+	"place_guess": "Dalapchand",
+	"taxa_id": 209559,
+	"user_id": "subhajit_roy",
+	"img": "Calletaera_postvittata.jpg"
+}, {
+	"id": 4999534,
+	"observed_on": "2016-10-11",
+	"location": "27.0967,88.5416",
+	"place_guess": "Dalapchand",
+	"taxa_id": 603168,
+	"user_id": "subhajit_roy",
+	"img": "Vamuna_remelana.jpg"
+}, {
+	"id": 5004748,
+	"observed_on": "2016-10-10",
+	"location": "27.0969,88.5413",
+	"place_guess": "Dalapchand",
+	"taxa_id": 203869,
+	"user_id": "subhajit_roy",
+	"img": "Traminda_aventiaria.jpg"
+}, {
+	"id": 5050855,
+	"observed_on": "2016-10-11",
+	"location": "27.0945,88.5387",
+	"place_guess": "Dalapachand",
+	"taxa_id": 533198,
+	"user_id": "subhajit_roy",
+	"img": "Comostola_hauensteini.jpg"
+}, {
+	"id": 6052319,
+	"observed_on": "2008-10-18",
+	"location": "27.533,88.5122",
+	"place_guess": "Sikkim",
+	"taxa_id": 340517,
+	"user_id": "mothlady",
+	"img": "Chlorochromodes_albicatena.jpg"
+}, {
+	"id": 11385915,
+	"observed_on": "2018-04-19",
+	"location": "26.99,88.1191",
+	"place_guess": "Maneybhanjyang",
+	"taxa_id": 125275,
+	"user_id": "subhajit_roy",
+	"img": "Asota_ficus.jpg"
+}, {
+	"id": 13509482,
+	"observed_on": "2018-04-18",
+	"location": "26.9882,88.1192",
+	"place_guess": "Maneybhanjyang",
+	"taxa_id": 1262969,
+	"user_id": "subhajit_roy",
+	"img": "Euproctis_dispersa.jpg"
+}, {
+	"id": 14661952,
+	"observed_on": "2014-11-17",
+	"location": "27.3184,88.6067",
+	"place_guess": "Deorali Bazar, Gangtok, Sikkim 737102",
+	"taxa_id": 460151,
+	"user_id": "vijaybarve",
+	"img": "Tanaorhinus_viridiluteata.jpg"
+}, {
+	"id": 16885744,
+	"observed_on": "2013-12-03",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 554993,
+	"user_id": "entomokot",
+	"img": "Patania_balteata.jpg"
+}, {
+	"id": 16885745,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 337029,
+	"user_id": "entomokot",
+	"img": "Chrysocraspeda_olearia.jpg"
+}, {
+	"id": 16885746,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 516923,
+	"user_id": "entomokot",
+	"img": "Hyposidra_violescens.jpg"
+}, {
+	"id": 16885753,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 801439,
+	"user_id": "entomokot",
+	"img": "Idaea_violacea.jpg"
+}, {
+	"id": 16885756,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 211093,
+	"user_id": "entomokot",
+	"img": "Cosmoclostis_pesseuta.jpg"
+}, {
+	"id": 16885758,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 125310,
+	"user_id": "entomokot",
+	"img": "Eublemma_accedens.jpg"
+}, {
+	"id": 16885760,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 632285,
+	"user_id": "entomokot",
+	"img": "Cleora_contiguata.jpg"
+}, {
+	"id": 16885766,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 334906,
+	"user_id": "entomokot",
+	"img": "Cirrhochrista_brizoalis.jpg"
+}, {
+	"id": 16885769,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 1273862,
+	"user_id": "entomokot",
+	"img": "Marasmia_poeyalis.jpg"
+}, {
+	"id": 16885770,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 244416,
+	"user_id": "entomokot",
+	"img": "Nola_analis.jpg"
+}, {
+	"id": 16885771,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 145579,
+	"user_id": "entomokot",
+	"img": "Hemonia_orbiferana.jpg"
+}, {
+	"id": 16885776,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 318437,
+	"user_id": "entomokot",
+	"img": "Lamprosema_tampiusalis.jpg"
+}, {
+	"id": 16885778,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 202111,
+	"user_id": "entomokot",
+	"img": "Eublemma_roseonivea.jpg"
+}, {
+	"id": 16885796,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 481661,
+	"user_id": "entomokot",
+	"img": "Anoba_pectinata.jpg"
+}, {
+	"id": 16885801,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 125276,
+	"user_id": "entomokot",
+	"img": "Lymantria_concolor.jpg"
+}, {
+	"id": 16885805,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 243609,
+	"user_id": "entomokot",
+	"img": "Cangetta_hartoghialis.jpg"
+}, {
+	"id": 16885818,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 61995,
+	"user_id": "entomokot",
+	"img": "Olene_mendosa(1).jpg"
+}, {
+	"id": 16885826,
+	"observed_on": "2013-12-05",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 124246,
+	"user_id": "entomokot",
+	"img": "Agathia_lycaenaria.jpg"
+}, {
+	"id": 16885833,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 196985,
+	"user_id": "entomokot",
+	"img": "Glyphodes_caesalis.jpg"
+}, {
+	"id": 16885838,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 199312,
+	"user_id": "entomokot",
+	"img": "Metoeca_nymphulalis.jpg"
+}, {
+	"id": 16885839,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 496565,
+	"user_id": "entomokot",
+	"img": "Manoba_tristicta.jpg"
+}, {
+	"id": 16885842,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 52001,
+	"user_id": "entomokot",
+	"img": "Nausinoe_perspectata.jpg"
+}, {
+	"id": 16885852,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 425157,
+	"user_id": "entomokot",
+	"img": "Niphopyralis_chionesis.jpg"
+}, {
+	"id": 16885860,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 556682,
+	"user_id": "entomokot",
+	"img": "Syntypistis_charistera.jpg"
+}, {
+	"id": 16885861,
+	"observed_on": "2013-12-06",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 541950,
+	"user_id": "entomokot",
+	"img": "Autocharis_fessalis.jpg"
+}, {
+	"id": 16885872,
+	"observed_on": "2013-12-08",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 426205,
+	"user_id": "entomokot",
+	"img": "Catoria_sublavaria.jpg"
+}, {
+	"id": 16885876,
+	"observed_on": "2013-12-09",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 318525,
+	"user_id": "entomokot",
+	"img": "Argina_astrea.jpg"
+}, {
+	"id": 16885886,
+	"observed_on": "2013-12-10",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 473599,
+	"user_id": "entomokot",
+	"img": "Pyrausta_phoenicealis.jpg"
+}, {
+	"id": 16885889,
+	"observed_on": "2013-12-10",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 126722,
+	"user_id": "entomokot",
+	"img": "Idaea_costiguttata.jpg"
+}, {
+	"id": 16885891,
+	"observed_on": "2013-12-10",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 496099,
+	"user_id": "entomokot",
+	"img": "Rivula_basalis.jpg"
+}, {
+	"id": 16885895,
+	"observed_on": "2013-12-10",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 199984,
+	"user_id": "entomokot",
+	"img": "Dactyloplusia_impulsa.jpg"
+}, {
+	"id": 16885897,
+	"observed_on": "2013-12-11",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 626760,
+	"user_id": "entomokot",
+	"img": "Chadisra_bipars.jpg"
+}, {
+	"id": 17705519,
+	"observed_on": "2018-10-21",
+	"location": "26.8867,88.2843",
+	"place_guess": "Baghgora Rd, Kurseong, West Bengal 734220",
+	"taxa_id": 124031,
+	"user_id": "prayash",
+	"img": "Agrius_convolvuli.jpg"
+}, {
+	"id": 21196922,
+	"observed_on": "2018-09-07",
+	"location": "27.3084,88.5895",
+	"place_guess": "Kanchanjunga Management Block, NH 31A, Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 359267,
+	"user_id": "swapnanillahon",
+	"img": "Pingasa_rubicunda.jpg"
+}, {
+	"id": 21196977,
+	"observed_on": "2018-10-05",
+	"location": "27.3032,88.5907",
+	"place_guess": "NH10, Gangtok, Sikkim 737102",
+	"taxa_id": 712360,
+	"user_id": "swapnanillahon",
+	"img": "Neohipparchus_vallata.jpg"
+}, {
+	"id": 24709975,
+	"observed_on": "2014-07-01",
+	"location": "27.3747,88.2224",
+	"place_guess": "Kanger Ghati National Park, West, Sikkim, IN",
+	"taxa_id": 125073,
+	"user_id": "karoconniff",
+	"img": "Samia_cynthia.jpg"
+}, {
+	"id": 26676389,
+	"observed_on": "2016-05-27",
+	"location": "27.3271,88.0911",
+	"place_guess": "Chilke, West Sikkim",
+	"taxa_id": 633730,
+	"user_id": "mahathi",
+	"img": "Agnidra_specularia.jpg"
+}, {
+	"id": 26676391,
+	"observed_on": "2016-05-27",
+	"location": "27.3271,88.0911",
+	"place_guess": "Chilke, West Sikkim",
+	"taxa_id": 736173,
+	"user_id": "mahathi",
+	"img": "Opisthograptis_moelleri.jpg"
+}, {
+	"id": 26676393,
+	"observed_on": "2016-05-27",
+	"location": "27.3271,88.0911",
+	"place_guess": "Chilke, West Sikkim",
+	"taxa_id": 855669,
+	"user_id": "mahathi",
+	"img": "Orthobrachia_latifasciata.jpg"
+}, {
+	"id": 26676396,
+	"observed_on": "2016-05-27",
+	"location": "27.3271,88.0911",
+	"place_guess": "Chilke, West Sikkim",
+	"taxa_id": 1038843,
+	"user_id": "mahathi",
+	"img": "Nothomiza_dentisignata.jpg"
+}, {
+	"id": 26676402,
+	"observed_on": "2016-05-27",
+	"location": "27.3271,88.0911",
+	"place_guess": "Chilke, West Sikkim",
+	"taxa_id": 1047587,
+	"user_id": "mahathi",
+	"img": "Arichanna_conspersa.jpg"
+}, {
+	"id": 26680024,
+	"observed_on": "2016-05-27",
+	"location": "27.3725,88.1114",
+	"place_guess": "Chilke,West Sikkim",
+	"taxa_id": 627589,
+	"user_id": "mahathi",
+	"img": "Lemyra_stigmata.jpg"
+}, {
+	"id": 26680033,
+	"observed_on": "2016-05-27",
+	"location": "27.3725,88.1114",
+	"place_guess": "Chilke,West Sikkim",
+	"taxa_id": 736147,
+	"user_id": "mahathi",
+	"img": "Odontopera_bilinearia.jpg"
+}, {
+	"id": 26680039,
+	"observed_on": "2016-05-27",
+	"location": "27.3725,88.1114",
+	"place_guess": "Chilke,West Sikkim",
+	"taxa_id": 340997,
+	"user_id": "mahathi",
+	"img": "Oreta_sanguinea.jpg"
+}, {
+	"id": 28726228,
+	"observed_on": "2018-05-16",
+	"location": "27.197,88.1167",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 209546,
+	"user_id": "kasturi",
+	"img": "Glyphodes_stolalis.jpg"
+}, {
+	"id": 28769394,
+	"observed_on": "2018-05-18",
+	"location": "27.2338,88.223",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 125285,
+	"user_id": "kasturi",
+	"img": "Barsine_defecta.jpg"
+}, {
+	"id": 28799321,
+	"observed_on": "2018-05-16",
+	"location": "27.1405,88.1185",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 196983,
+	"user_id": "kasturi",
+	"img": "Perina_nuda.jpg"
+}, {
+	"id": 29115757,
+	"observed_on": "2018-10-25",
+	"location": "27.2058,88.226",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 124629,
+	"user_id": "kasturi",
+	"img": "Zeuzera_multistrigata.jpg"
+}, {
+	"id": 29116074,
+	"observed_on": null,
+	"location": "27.3191,88.1173",
+	"place_guess": "West Sikkim, IN-SK, IN",
+	"taxa_id": 510239,
+	"user_id": "kasturi",
+	"img": "Samia_canningi(1).jpg"
+}, {
+	"id": 29147943,
+	"observed_on": "2018-05-15",
+	"location": "27.2914,88.1454",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 244217,
+	"user_id": "kasturi",
+	"img": "Numenes_patrana.jpg"
+}, {
+	"id": 29498407,
+	"observed_on": "2016-08-28",
+	"location": "27.0108,88.7862",
+	"place_guess": "Eastnar Forest, West Bengal",
+	"taxa_id": 1008180,
+	"user_id": "amila_sumanapala",
+	"img": "Epicopeia_philenora.jpg"
+}, {
+	"id": 29893701,
+	"observed_on": "2018-05-15",
+	"location": "27.3937,88.1794",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 959796,
+	"user_id": "kasturi",
+	"img": "Laciniodes_plurilinearia.jpg"
+}, {
+	"id": 31221223,
+	"observed_on": "2019-05-01",
+	"location": "26.8507,88.255",
+	"place_guess": "Makai Bari Tea Garden, West Bengal 734217",
+	"taxa_id": 52049,
+	"user_id": "adityazoo",
+	"img": "Grammodes_geometrica.jpg"
+}, {
+	"id": 31226765,
+	"observed_on": "2016-01-03",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 939287,
+	"user_id": "rohitmg",
+	"img": "Pasiphila_palpata.jpg"
+}, {
+	"id": 31226771,
+	"observed_on": "2015-12-18",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 925926,
+	"user_id": "rohitmg",
+	"img": "Lassaba_contaminata.jpg"
+}, {
+	"id": 31226785,
+	"observed_on": "2015-12-14",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 124225,
+	"user_id": "rohitmg",
+	"img": "Ectropis_bhurmitra.jpg"
+}, {
+	"id": 31226787,
+	"observed_on": "2015-12-08",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 738978,
+	"user_id": "rohitmg",
+	"img": "Xerodes_ypsaria.jpg"
+}, {
+	"id": 31226802,
+	"observed_on": "2015-11-29",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 336813,
+	"user_id": "rohitmg",
+	"img": "Chloroclystis_rubroviridis(1).jpg"
+}, {
+	"id": 31226808,
+	"observed_on": "2016-01-16",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 125171,
+	"user_id": "rohitmg",
+	"img": "Gasterocome_pannosaria.jpg"
+}, {
+	"id": 31226811,
+	"observed_on": "2015-12-13",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 244417,
+	"user_id": "rohitmg",
+	"img": "Diasemiopsis_ramburialis.jpg"
+}, {
+	"id": 31226818,
+	"observed_on": "2015-12-04",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 1039836,
+	"user_id": "rohitmg",
+	"img": "Hydrelia_rufinota.jpg"
+}, {
+	"id": 31226819,
+	"observed_on": "2015-12-01",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 122668,
+	"user_id": "rohitmg",
+	"img": "Maruca_vitrata.jpg"
+}, {
+	"id": 31226821,
+	"observed_on": "2016-01-18",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 733821,
+	"user_id": "rohitmg",
+	"img": "Ecliptopera_muscicolor.jpg"
+}, {
+	"id": 31226834,
+	"observed_on": "2016-02-27",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 461881,
+	"user_id": "rohitmg",
+	"img": "Oeonistis_altica.jpg"
+}, {
+	"id": 31226842,
+	"observed_on": "2015-12-13",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 194494,
+	"user_id": "rohitmg",
+	"img": "Comostola_laesaria.jpg"
+}, {
+	"id": 31226844,
+	"observed_on": "2015-12-10",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 926013,
+	"user_id": "rohitmg",
+	"img": "Ditrigona_regularis.jpg"
+}, {
+	"id": 31226851,
+	"observed_on": "2016-06-27",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 203102,
+	"user_id": "rohitmg",
+	"img": "Glyphodes_onychinalis.jpg"
+}, {
+	"id": 31226855,
+	"observed_on": "2015-12-02",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 470586,
+	"user_id": "rohitmg",
+	"img": "Chundana_emarginata.jpg"
+}, {
+	"id": 31226862,
+	"observed_on": "2016-11-27",
+	"location": "27.3382,88.614",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 834345,
+	"user_id": "rohitmg",
+	"img": "Pantana_luteiceps.jpg"
+}, {
+	"id": 31269811,
+	"observed_on": "2016-11-27",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 121891,
+	"user_id": "rohitmg",
+	"img": "Aethaloessa_calidalis.jpg"
+}, {
+	"id": 31269821,
+	"observed_on": "2015-12-18",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 244659,
+	"user_id": "rohitmg",
+	"img": "Acolutha_pictaria.jpg"
+}, {
+	"id": 31269822,
+	"observed_on": "2015-12-16",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 124213,
+	"user_id": "rohitmg",
+	"img": "Stenoptilodes_taprobanes.jpg"
+}, {
+	"id": 31269836,
+	"observed_on": "2015-12-10",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 482174,
+	"user_id": "rohitmg",
+	"img": "Dindica_polyphaenaria.jpg"
+}, {
+	"id": 31269837,
+	"observed_on": "2015-12-09",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 124651,
+	"user_id": "rohitmg",
+	"img": "Drepana_pallida.jpg"
+}, {
+	"id": 31269841,
+	"observed_on": "2015-12-08",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 209550,
+	"user_id": "rohitmg",
+	"img": "Electrophaes_aliena(1).jpg"
+}, {
+	"id": 31269845,
+	"observed_on": "2015-12-05",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 567585,
+	"user_id": "rohitmg",
+	"img": "Synegiodes_histrionaria.jpg"
+}, {
+	"id": 31269855,
+	"observed_on": "2015-11-30",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 423746,
+	"user_id": "rohitmg",
+	"img": "Eois_grataria.jpg"
+}, {
+	"id": 31269863,
+	"observed_on": "2016-01-15",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 210352,
+	"user_id": "rohitmg",
+	"img": "Luxiaria_mitorrhaphes(1).jpg"
+}, {
+	"id": 31269866,
+	"observed_on": "2015-12-30",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 1303955,
+	"user_id": "rohitmg",
+	"img": "Ditrigona_quinaria.jpg"
+}, {
+	"id": 31269871,
+	"observed_on": "2016-11-27",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 567977,
+	"user_id": "rohitmg",
+	"img": "Teldenia_vestigiata.jpg"
+}, {
+	"id": 31269872,
+	"observed_on": "2016-11-27",
+	"location": "27.3369,88.6131",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 204675,
+	"user_id": "rohitmg",
+	"img": "Ataboruza_divisa.jpg"
+}, {
+	"id": 31270259,
+	"observed_on": "2016-06-27",
+	"location": "27.3372,88.614",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 124655,
+	"user_id": "rohitmg",
+	"img": "Trabala_vishnou(1).jpg"
+}, {
+	"id": 31270264,
+	"observed_on": "2016-11-27",
+	"location": "27.3372,88.614",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 125248,
+	"user_id": "rohitmg",
+	"img": "Conogethes_punctiferalis.jpg"
+}, {
+	"id": 31270272,
+	"observed_on": "2016-01-11",
+	"location": "27.3372,88.614",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 1164191,
+	"user_id": "rohitmg",
+	"img": "Euphyia_viridis.jpg"
+}, {
+	"id": 31270290,
+	"observed_on": "2015-12-13",
+	"location": "27.3372,88.614",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 209399,
+	"user_id": "rohitmg",
+	"img": "Eurrhyparodes_tricoloralis.jpg"
+}, {
+	"id": 31270297,
+	"observed_on": "2015-12-12",
+	"location": "27.3372,88.614",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 734211,
+	"user_id": "rohitmg",
+	"img": "Eupithecia_albigutta.jpg"
+}, {
+	"id": 31275904,
+	"observed_on": "2015-12-30",
+	"location": "27.3438,88.6153",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 714756,
+	"user_id": "rohitmg",
+	"img": "Chrysocraspeda_sanguinea.jpg"
+}, {
+	"id": 31275922,
+	"observed_on": "2015-12-09",
+	"location": "27.3438,88.6153",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 1031757,
+	"user_id": "rohitmg",
+	"img": "Ecliptopera_postpallida.jpg"
+}, {
+	"id": 31275926,
+	"observed_on": "2015-12-04",
+	"location": "27.3438,88.6153",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 121182,
+	"user_id": "rohitmg",
+	"img": "Mythimna_separata.jpg"
+}, {
+	"id": 31276695,
+	"observed_on": "2017-03-17",
+	"location": "27.3106,88.5976",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 244229,
+	"user_id": "rohitmg",
+	"img": "Entomopteryx_obliquilinea.jpg"
+}, {
+	"id": 32455715,
+	"observed_on": "2019-08-29",
+	"location": "27.2402,88.4251",
+	"place_guess": "Temi bazar",
+	"taxa_id": 1122833,
+	"user_id": "saumenpal",
+	"img": "Petavia_erycinoides.jpg"
+}, {
+	"id": 32455877,
+	"observed_on": "2019-08-29",
+	"location": "27.2402,88.4251",
+	"place_guess": "Temi bazar",
+	"taxa_id": 538964,
+	"user_id": "saumenpal",
+	"img": "Hyposidra_aquilaria.jpg"
+}, {
+	"id": 32455894,
+	"observed_on": null,
+	"location": "27.2373,88.4312",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 622567,
+	"user_id": "saumenpal",
+	"img": "Setora_postornata.jpg"
+}, {
+	"id": 32456056,
+	"observed_on": "2019-08-29",
+	"location": "27.2407,88.429",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 338455,
+	"user_id": "saumenpal",
+	"img": "Chalcoscelides_castaneipars.jpg"
+}, {
+	"id": 32456212,
+	"observed_on": "2019-08-29",
+	"location": "27.2407,88.429",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 363806,
+	"user_id": "saumenpal",
+	"img": "Erpis_macularis.jpg"
+}, {
+	"id": 32456404,
+	"observed_on": "2019-08-28",
+	"location": "27.2406,88.426",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 510228,
+	"user_id": "saumenpal",
+	"img": "Cricula_trifenestrata.jpg"
+}, {
+	"id": 32456420,
+	"observed_on": "2019-08-28",
+	"location": "27.2377,88.4266",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 199656,
+	"user_id": "saumenpal",
+	"img": "Chloroclystis_conversa.jpg"
+}, {
+	"id": 32456620,
+	"observed_on": "2019-08-27",
+	"location": "27.2376,88.4224",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 199986,
+	"user_id": "saumenpal",
+	"img": "Parapoynx_fluctuosalis.jpg"
+}, {
+	"id": 32456789,
+	"observed_on": "2019-08-27",
+	"location": "27.2406,88.426",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 417722,
+	"user_id": "saumenpal",
+	"img": "Scopula_fibulata.jpg"
+}, {
+	"id": 32457230,
+	"observed_on": "2019-08-31",
+	"location": "26.7235,88.3954",
+	"place_guess": "Uttorayon Twp, Siliguri, West Bengal 734010",
+	"taxa_id": 193951,
+	"user_id": "saumenpal",
+	"img": "Glyphodes_canthusalis.jpg"
+}, {
+	"id": 32822803,
+	"observed_on": "2019-09-14",
+	"location": "27.3171,88.3624",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 125281,
+	"user_id": "arun-subba",
+	"img": "Asota_tortuosa.jpg"
+}, {
+	"id": 32823437,
+	"observed_on": "2019-09-14",
+	"location": "27.3171,88.3626",
+	"place_guess": "Sikkim 737139",
+	"taxa_id": 979214,
+	"user_id": "arun-subba",
+	"img": "Cyana_signa.jpg"
+}, {
+	"id": 33518213,
+	"observed_on": "2019-09-28",
+	"location": "27.32,88.6047",
+	"place_guess": "Kanger Ghati National Park, Upper Tadong, Sikkim, IN",
+	"taxa_id": 319205,
+	"user_id": "sailajapradhan",
+	"img": "Chlororithra_fea.jpg"
+}, {
+	"id": 34571230,
+	"observed_on": "2019-10-18",
+	"location": "26.9388,88.3114",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 888897,
+	"user_id": "rujasyonle",
+	"img": "Alcis_albifera.jpg"
+}, {
+	"id": 34575930,
+	"observed_on": "2019-10-19",
+	"location": "27.4807,88.5153",
+	"place_guess": "Sikkim 737116",
+	"taxa_id": 876837,
+	"user_id": "sonam12",
+	"img": "Chalcophaedra_zuleika.jpg"
+}, {
+	"id": 34626931,
+	"observed_on": "2019-10-20",
+	"location": "26.9386,88.3115",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 888908,
+	"user_id": "rujasyonle",
+	"img": "Docirava_pudicata.jpg"
+}, {
+	"id": 34635711,
+	"observed_on": "2019-10-20",
+	"location": "27.4785,88.5163",
+	"place_guess": "Sikkim 737116",
+	"taxa_id": 202656,
+	"user_id": "leon76",
+	"img": "Chorodna_creataria.jpg"
+}, {
+	"id": 34679257,
+	"observed_on": "2018-05-18",
+	"location": "27.2094,88.1376",
+	"place_guess": "North Sikkim, Sikkim 737116",
+	"taxa_id": 848098,
+	"user_id": "kasturi",
+	"img": "Docirava_fulgurata.jpg"
+}, {
+	"id": 34698577,
+	"observed_on": "2019-10-21",
+	"location": "26.9379,88.3122",
+	"place_guess": "Bagora Forest Bungalow, Mahal Diram Forest, West Bengal 734313",
+	"taxa_id": 1023948,
+	"user_id": "rujasyonle",
+	"img": "Asthena_albosignata.jpg"
+}, {
+	"id": 34698992,
+	"observed_on": "2019-10-21",
+	"location": "26.9388,88.3116",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 946274,
+	"user_id": "rujasyonle",
+	"img": "Apona_caschmirensis.jpg"
+}, {
+	"id": 34735746,
+	"observed_on": "2019-10-18",
+	"location": "26.8822,88.2813",
+	"place_guess": "119 TN ROAD, PO KURSEO NG, DARJEELING, Kurseong, West Bengal",
+	"taxa_id": 712726,
+	"user_id": "rujasyonle",
+	"img": "Arichanna_interplagata.jpg"
+}, {
+	"id": 34882029,
+	"observed_on": "2019-10-25",
+	"location": "26.9389,88.3115",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 470645,
+	"user_id": "rujasyonle",
+	"img": "Phazaca_theclata.jpg"
+}, {
+	"id": 34931253,
+	"observed_on": "2018-11-17",
+	"location": "27.1882,88.6753",
+	"place_guess": "Aritar, Sikkim",
+	"taxa_id": 878758,
+	"user_id": "supratimdeb",
+	"img": "Erebabraxas_metachromata.jpg"
+}, {
+	"id": 34931407,
+	"observed_on": "2018-11-17",
+	"location": "27.189,88.6768",
+	"place_guess": "Aritar, Sikkim",
+	"taxa_id": 959777,
+	"user_id": "supratimdeb",
+	"img": "Cleora_processaria.jpg"
+}, {
+	"id": 35136327,
+	"observed_on": "2019-10-31",
+	"location": "26.9378,88.3104",
+	"place_guess": "Chattakpur Forest, West Bengal",
+	"taxa_id": 960382,
+	"user_id": "rujasyonle",
+	"img": "Sirinopteryx_quadripunctata.jpg"
+}, {
+	"id": 35142364,
+	"observed_on": "2018-11-17",
+	"location": "27.1895,88.6749",
+	"place_guess": "Aritar, Sikkim",
+	"taxa_id": 865175,
+	"user_id": "supratimdeb",
+	"img": "Electrophaes_niveonotata.jpg"
+}, {
+	"id": 35142412,
+	"observed_on": "2018-11-17",
+	"location": "27.1899,88.6766",
+	"place_guess": "Aritar, Sikkim",
+	"taxa_id": 224526,
+	"user_id": "supratimdeb",
+	"img": "Meganola_minuscula.jpg"
+}, {
+	"id": 35142504,
+	"observed_on": "2018-11-17",
+	"location": "27.1891,88.6781",
+	"place_guess": "Aritar, Sikkim",
+	"taxa_id": 631519,
+	"user_id": "supratimdeb",
+	"img": "Tyana_callichlora(1).jpg"
+}, {
+	"id": 35170225,
+	"observed_on": "2019-10-21",
+	"location": "26.9384,88.3118",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 1093033,
+	"user_id": "rujasyonle",
+	"img": "Sydiva_stoliczkae.jpg"
+}, {
+	"id": 35909489,
+	"observed_on": "2019-11-20",
+	"location": "27.0549,88.4886",
+	"place_guess": "Bong Khasmahal, West Bengal 734301",
+	"taxa_id": 203828,
+	"user_id": "rohitmg",
+	"img": "Botyodes_asialis.jpg"
+}, {
+	"id": 35911726,
+	"observed_on": "2019-11-21",
+	"location": "26.9811,88.4993",
+	"place_guess": "Samether Khasmahal, West Bengal",
+	"taxa_id": 539055,
+	"user_id": "rohitmg",
+	"img": "Dysallacta_negatalis.jpg"
+}, {
+	"id": 35969828,
+	"observed_on": "2019-11-22",
+	"location": "27.0407,88.6267",
+	"place_guess": "Git Beong Khasmahal, West Bengal 734314",
+	"taxa_id": 203059,
+	"user_id": "rohitmg",
+	"img": "Teldenia_specca.jpg"
+}, {
+	"id": 36305844,
+	"observed_on": "2019-12-03",
+	"location": "27.1073,88.8412",
+	"place_guess": "Today Tangta Khasmahal, West Bengal 734319",
+	"taxa_id": 319060,
+	"user_id": "targain",
+	"img": "Scopula_ferrilineata.jpg"
+}, {
+	"id": 36625045,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 495868,
+	"user_id": "entomokot",
+	"img": "Hipoepa_biasalis.jpg"
+}, {
+	"id": 36625122,
+	"observed_on": "2013-12-04",
+	"location": "27.0669,88.4576",
+	"place_guess": "\u041c\u043e\u043d\u0433\u0431\u043e\u043b \u0411\u0430\u0441\u0442\u0438, \u041a\u0430\u043b\u0438\u043c\u043f\u043e\u043d\u0433, \u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0411\u0435\u043d\u0433\u0430\u043b\u0438\u044f, \u0418\u043d\u0434\u0438\u044f",
+	"taxa_id": 244672,
+	"user_id": "entomokot",
+	"img": "Bertula_abjudicalis.jpg"
+}, {
+	"id": 36750118,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 244301,
+	"user_id": "rohitmg",
+	"img": "Epiplema_himala.jpg"
+}, {
+	"id": 36750126,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 125176,
+	"user_id": "rohitmg",
+	"img": "Psyra_spurcataria.jpg"
+}, {
+	"id": 36750136,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 1009157,
+	"user_id": "rohitmg",
+	"img": "Agnibesa_plumbeolineata.jpg"
+}, {
+	"id": 36750139,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 854207,
+	"user_id": "rohitmg",
+	"img": "Micronidia_unipuncta.jpg"
+}, {
+	"id": 36750151,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 887095,
+	"user_id": "rohitmg",
+	"img": "Harutalcis_atrostipata.jpg"
+}, {
+	"id": 36750158,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 1028747,
+	"user_id": "rohitmg",
+	"img": "Hydrelia_sericea.jpg"
+}, {
+	"id": 36750160,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 627656,
+	"user_id": "rohitmg",
+	"img": "Cyana_divakara.jpg"
+}, {
+	"id": 36750166,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 367742,
+	"user_id": "rohitmg",
+	"img": "Arthroschista_hilaralis.jpg"
+}, {
+	"id": 36750168,
+	"observed_on": "2019-08-22",
+	"location": "27.3478,88.6287",
+	"place_guess": "Gangtok, Sikkim 737103",
+	"taxa_id": 735739,
+	"user_id": "rohitmg",
+	"img": "Leucoblepsis_fenestraria.jpg"
+}, {
+	"id": 38826569,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 244137,
+	"user_id": "rohitmg",
+	"img": "Arichanna_transfasciata(1).jpg"
+}, {
+	"id": 38826573,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 527685,
+	"user_id": "rohitmg",
+	"img": "Synegiodes_hyriaria.jpg"
+}, {
+	"id": 38826585,
+	"observed_on": "2019-10-17",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 701924,
+	"user_id": "rohitmg",
+	"img": "Alcis_variegata.jpg"
+}, {
+	"id": 38826589,
+	"observed_on": "2019-10-17",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 1013467,
+	"user_id": "rohitmg",
+	"img": "Uncobotyodes_patulalis.jpg"
+}, {
+	"id": 38826865,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 1079699,
+	"user_id": "rohitmg",
+	"img": "Chrysocraspeda_conspicuaria.jpg"
+}, {
+	"id": 38826866,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 1038814,
+	"user_id": "rohitmg",
+	"img": "Hydrelia_subobliquaria.jpg"
+}, {
+	"id": 38826867,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 125218,
+	"user_id": "rohitmg",
+	"img": "Mixochlora_vittata(1).jpg"
+}, {
+	"id": 38826880,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 855663,
+	"user_id": "rohitmg",
+	"img": "Orthobrachia_flavidior.jpg"
+}, {
+	"id": 38830570,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 512749,
+	"user_id": "rohitmg",
+	"img": "Psilalcis_albibasis(1).jpg"
+}, {
+	"id": 38830575,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 126064,
+	"user_id": "rohitmg",
+	"img": "Padenia_duplicana.jpg"
+}, {
+	"id": 38830583,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 899458,
+	"user_id": "rohitmg",
+	"img": "Boarmia_leucozona.jpg"
+}, {
+	"id": 38830588,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 193959,
+	"user_id": "rohitmg",
+	"img": "Trilocha_varians.jpg"
+}, {
+	"id": 38875908,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 199426,
+	"user_id": "rohitmg",
+	"img": "Adites_frigida.jpg"
+}, {
+	"id": 38875915,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 751142,
+	"user_id": "rohitmg",
+	"img": "Hypomecis_lioptilaria(1).jpg"
+}, {
+	"id": 38875918,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 878756,
+	"user_id": "rohitmg",
+	"img": "Harutalcis_vialis.jpg"
+}, {
+	"id": 38875923,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 701723,
+	"user_id": "rohitmg",
+	"img": "Somena_scintillans(1).jpg"
+}, {
+	"id": 38875929,
+	"observed_on": "2019-10-18",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 994134,
+	"user_id": "rohitmg",
+	"img": "Monocerotesa_connexa.jpg"
+}, {
+	"id": 38876465,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 183196,
+	"user_id": "rohitmg",
+	"img": "Pidorus_glaucopis.jpg"
+}, {
+	"id": 38879575,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 489725,
+	"user_id": "rohitmg",
+	"img": "Spaniocentra_hollowayi.jpg"
+}, {
+	"id": 38879577,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 319474,
+	"user_id": "rohitmg",
+	"img": "Ocinara_albicollis.jpg"
+}, {
+	"id": 38879579,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 338547,
+	"user_id": "rohitmg",
+	"img": "Epiplema_reticulata.jpg"
+}, {
+	"id": 38879580,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 751181,
+	"user_id": "rohitmg",
+	"img": "Nadagara_inordinata(1).jpg"
+}, {
+	"id": 38879581,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 1275969,
+	"user_id": "rohitmg",
+	"img": "Epiplema_bicaudata.jpg"
+}, {
+	"id": 38879584,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 968933,
+	"user_id": "rohitmg",
+	"img": "Psilalcis_bisinuata.jpg"
+}, {
+	"id": 38879586,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 423651,
+	"user_id": "rohitmg",
+	"img": "Cispia_venosa.jpg"
+}, {
+	"id": 38879587,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 319995,
+	"user_id": "rohitmg",
+	"img": "Siglophora_sanguinolenta.jpg"
+}, {
+	"id": 38879591,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 633731,
+	"user_id": "rohitmg",
+	"img": "Menophra_serpentinaria(1).jpg"
+}, {
+	"id": 38879592,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 338457,
+	"user_id": "rohitmg",
+	"img": "Gaurena_florens.jpg"
+}, {
+	"id": 38954733,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 371800,
+	"user_id": "rohitmg",
+	"img": "Pseudoblabes_oophora.jpg"
+}, {
+	"id": 38954740,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 961922,
+	"user_id": "rohitmg",
+	"img": "Hypomecis_pardaria.jpg"
+}, {
+	"id": 38954741,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 714083,
+	"user_id": "rohitmg",
+	"img": "Tyana_falcata.jpg"
+}, {
+	"id": 38954745,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 1046952,
+	"user_id": "rohitmg",
+	"img": "Hypomecis_oblivia.jpg"
+}, {
+	"id": 38954750,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 417496,
+	"user_id": "rohitmg",
+	"img": "Monocerotesa_strigata.jpg"
+}, {
+	"id": 38954751,
+	"observed_on": "2019-10-19",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 1076949,
+	"user_id": "rohitmg",
+	"img": "Idaea_falcipennis.jpg"
+}, {
+	"id": 38954758,
+	"observed_on": "2019-10-20",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 602322,
+	"user_id": "rohitmg",
+	"img": "Kunugia_ampla.jpg"
+}, {
+	"id": 39140448,
+	"observed_on": "2019-10-20",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 631524,
+	"user_id": "rohitmg",
+	"img": "Earias_roseifera.jpg"
+}, {
+	"id": 44092015,
+	"observed_on": "2017-03-01",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 124123,
+	"user_id": "rohitmg",
+	"img": "Ourapteryx_clara.jpg"
+}, {
+	"id": 44092026,
+	"observed_on": "2017-03-02",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 1076832,
+	"user_id": "rohitmg",
+	"img": "Idaea_insuavis.jpg"
+}, {
+	"id": 44122721,
+	"observed_on": "2017-03-19",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 479989,
+	"user_id": "rohitmg",
+	"img": "Chrysocraspeda_faganaria(1).jpg"
+}, {
+	"id": 44345089,
+	"observed_on": "2017-09-03",
+	"location": "27.5119,88.5266",
+	"place_guess": "Dzongu, North Sikkim, Sikkim",
+	"taxa_id": 1046174,
+	"user_id": "rohitmg",
+	"img": "Eumelea_vulpenaria.jpg"
+}, {
+	"id": 44346037,
+	"observed_on": "2017-09-05",
+	"location": "27.5123,88.5278",
+	"place_guess": "North Sikkim, Sikkim",
+	"taxa_id": 847604,
+	"user_id": "rohitmg",
+	"img": "Agathia_hilarata.jpg"
+}, {
+	"id": 44346046,
+	"observed_on": "2017-09-05",
+	"location": "27.5123,88.5278",
+	"place_guess": "North Sikkim, Sikkim",
+	"taxa_id": 154429,
+	"user_id": "rohitmg",
+	"img": "Nyctemera_adversata.jpg"
+}, {
+	"id": 44357262,
+	"observed_on": "2017-09-02",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 447175,
+	"user_id": "rohitmg",
+	"img": "Chiasmia_perfusaria.jpg"
+}, {
+	"id": 44737612,
+	"observed_on": "2017-09-26",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 337338,
+	"user_id": "rohitmg",
+	"img": "Polynesia_truncapex.jpg"
+}, {
+	"id": 44737615,
+	"observed_on": "2017-09-28",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 311614,
+	"user_id": "rohitmg",
+	"img": "Erebomorpha_fulgurita(1).jpg"
+}, {
+	"id": 44737628,
+	"observed_on": "2017-10-03",
+	"location": "27.3314,88.6138",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 450785,
+	"user_id": "rohitmg",
+	"img": "Drapetodes_mitaria.jpg"
+}, {
+	"id": 44852593,
+	"observed_on": "2017-10-23",
+	"location": "27.0331,88.0866",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 1077348,
+	"user_id": "rohitmg",
+	"img": "Dysstroma_subapicaria.jpg"
+}, {
+	"id": 47747094,
+	"observed_on": "2020-05-29",
+	"location": "26.7664,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 985646,
+	"user_id": "rujasyonle",
+	"img": "Ammatho_cuneonotatus.jpg"
+}, {
+	"id": 47747115,
+	"observed_on": "2020-05-29",
+	"location": "26.7664,88.3777",
+	"place_guess": "Chamta, West Bengal 734009",
+	"taxa_id": 243791,
+	"user_id": "rujasyonle",
+	"img": "Endotricha_mesenterialis.jpg"
+}, {
+	"id": 47747172,
+	"observed_on": "2020-05-29",
+	"location": "26.7664,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 793892,
+	"user_id": "rujasyonle",
+	"img": "Piletocera_sodalis.jpg"
+}, {
+	"id": 48318286,
+	"observed_on": "2020-06-02",
+	"location": "26.7666,88.3775",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 635112,
+	"user_id": "rujasyonle",
+	"img": "Eoophyla_conjunctalis.jpg"
+}, {
+	"id": 48350012,
+	"observed_on": "2020-06-02",
+	"location": "26.7663,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 429158,
+	"user_id": "rujasyonle",
+	"img": "Autocharis_hedyphaes.jpg"
+}, {
+	"id": 49038435,
+	"observed_on": "2020-06-09",
+	"location": "26.7662,88.3787",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 417719,
+	"user_id": "rujasyonle",
+	"img": "Agrotera_basinotata(1).jpg"
+}, {
+	"id": 49103454,
+	"observed_on": "2020-06-09",
+	"location": "26.7664,88.3781",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 489912,
+	"user_id": "rujasyonle",
+	"img": "Pachynoa_sabelialis(1).jpg"
+}, {
+	"id": 49104329,
+	"observed_on": "2020-06-09",
+	"location": "26.7663,88.3779",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 371607,
+	"user_id": "rujasyonle",
+	"img": "Homona_coffearia.jpg"
+}, {
+	"id": 49105305,
+	"observed_on": "2020-06-09",
+	"location": "26.7662,88.3787",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 417701,
+	"user_id": "rujasyonle",
+	"img": "Hypsopygia_mauritialis.jpg"
+}, {
+	"id": 49110322,
+	"observed_on": "2020-06-09",
+	"location": "26.7665,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 319480,
+	"user_id": "rujasyonle",
+	"img": "Cotachena_histricalis.jpg"
+}, {
+	"id": 49196195,
+	"observed_on": "2020-06-10",
+	"location": "26.7663,88.3777",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 338085,
+	"user_id": "rujasyonle",
+	"img": "Epicrocis_oegnusalis.jpg"
+}, {
+	"id": 49196271,
+	"observed_on": "2020-06-10",
+	"location": "26.7663,88.3777",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 200148,
+	"user_id": "rujasyonle",
+	"img": "Arsacia_rectalis.jpg"
+}, {
+	"id": 53244245,
+	"observed_on": "2016-10-10",
+	"location": "27.0908,88.5236",
+	"place_guess": "Dalapchand",
+	"taxa_id": 1112189,
+	"user_id": "subhajit_roy",
+	"img": "Cydalima_pfeifferae(1).jpg"
+}, {
+	"id": 53277203,
+	"observed_on": "2016-10-10",
+	"location": "27.0996,88.538",
+	"place_guess": "Dalapchand",
+	"taxa_id": 199438,
+	"user_id": "subhajit_roy",
+	"img": "Orgyia_postica(1).jpg"
+}, {
+	"id": 53279234,
+	"observed_on": "2016-10-10",
+	"location": "27.0971,88.5363",
+	"place_guess": "Dalapchand",
+	"taxa_id": 199205,
+	"user_id": "subhajit_roy",
+	"img": "Metoeca_foedalis(1).jpg"
+}, {
+	"id": 53383710,
+	"observed_on": "2016-10-11",
+	"location": "27.2163,88.7421",
+	"place_guess": "Subanedara",
+	"taxa_id": 874686,
+	"user_id": "subhajit_roy",
+	"img": "Dichromia_quadralis.jpg"
+}, {
+	"id": 53431694,
+	"observed_on": null,
+	"location": "27.3772,88.7646",
+	"place_guess": "Sikkim 737103",
+	"taxa_id": 119066,
+	"user_id": "rajkamal",
+	"img": "Idia_lubricalis.jpg"
+}, {
+	"id": 53555571,
+	"observed_on": "2020-07-19",
+	"location": "27.0782,88.5146",
+	"place_guess": "Icha Khasmahal, West Bengal 734316",
+	"taxa_id": 963998,
+	"user_id": "karishma8",
+	"img": "Thinopteryx_crocoptera(1).jpg"
+}, {
+	"id": 53823677,
+	"observed_on": "2020-07-21",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 1128547,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Ecliptopera_zophera.jpg"
+}, {
+	"id": 53823707,
+	"observed_on": "2020-07-21",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 124872,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Pygospila_tyres.jpg"
+}, {
+	"id": 53824473,
+	"observed_on": "2020-07-21",
+	"location": "27.0509,88.3087",
+	"place_guess": "Mineral Spring Village, West Bengal 734123",
+	"taxa_id": 423951,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Dalima_patularia.jpg"
+}, {
+	"id": 53825860,
+	"observed_on": "2020-07-21",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 318849,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Acolutha_pulchella.jpg"
+}, {
+	"id": 53825874,
+	"observed_on": "2020-07-21",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 1150015,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Arichanna_furcifera.jpg"
+}, {
+	"id": 53826662,
+	"observed_on": "2020-07-21",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 424824,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Padenia_transversa.jpg"
+}, {
+	"id": 53826669,
+	"observed_on": "2020-07-21",
+	"location": "27.4716,88.5093",
+	"place_guess": "Hee-Gyathang, Sikkim 737116",
+	"taxa_id": 338246,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Saturnia_anna.jpg"
+}, {
+	"id": 54011648,
+	"observed_on": "2020-07-22",
+	"location": "27.1276,88.098",
+	"place_guess": "Sepi Gaon, West Bengal 734201",
+	"taxa_id": 1126752,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Myrioblephara_duplexa(1).jpg"
+}, {
+	"id": 54011926,
+	"observed_on": "2020-07-22",
+	"location": "26.9599,88.2679",
+	"place_guess": "Sonada Khasmahal, West Bengal",
+	"taxa_id": 211068,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Eudocima_phalonia.jpg"
+}, {
+	"id": 54012158,
+	"observed_on": "2020-07-22",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 244233,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Chlorodontopera_discospilata(1).jpg"
+}, {
+	"id": 54012159,
+	"observed_on": "2020-07-22",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 319809,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Eudocima_materna.jpg"
+}, {
+	"id": 54012171,
+	"observed_on": "2020-07-22",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 243468,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Racotis_boarmiaria.jpg"
+}, {
+	"id": 54012176,
+	"observed_on": "2020-07-22",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 803896,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Homodes_vivida.jpg"
+}, {
+	"id": 54022316,
+	"observed_on": "2017-09-04",
+	"location": "27.5098,88.4375",
+	"place_guess": "Upper Dzongu Forest Block, Sikkim 737116",
+	"taxa_id": 199442,
+	"user_id": "avinashsant",
+	"img": "Cyclidia_substigmaria(1).jpg"
+}, {
+	"id": 54022319,
+	"observed_on": "2017-09-03",
+	"location": "27.5098,88.4375",
+	"place_guess": "Upper Dzongu Forest Block, Sikkim 737116",
+	"taxa_id": 469887,
+	"user_id": "avinashsant",
+	"img": "Arctornis_l-nigrum.jpg"
+}, {
+	"id": 54022320,
+	"observed_on": "2017-09-03",
+	"location": "27.5098,88.4375",
+	"place_guess": "Upper Dzongu Forest Block, Sikkim 737116",
+	"taxa_id": 627592,
+	"user_id": "avinashsant",
+	"img": "Phyllodes_eyndhovii.jpg"
+}, {
+	"id": 54022329,
+	"observed_on": "2017-09-05",
+	"location": "27.5098,88.4375",
+	"place_guess": "Upper Dzongu Forest Block, Sikkim 737116",
+	"taxa_id": 153102,
+	"user_id": "avinashsant",
+	"img": "Dysphania_militaris.jpg"
+}, {
+	"id": 54024935,
+	"observed_on": "2020-07-22",
+	"location": "27.074,88.3373",
+	"place_guess": "Singringtam, West Bengal 734213",
+	"taxa_id": 124253,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Hypomecis_transcissa(1).jpg"
+}, {
+	"id": 54025987,
+	"observed_on": "2020-07-22",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 124866,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Agathodes_ostentalis.jpg"
+}, {
+	"id": 54048673,
+	"observed_on": "2016-10-10",
+	"location": "27.1001,88.5379",
+	"place_guess": "Dalapchand",
+	"taxa_id": 125130,
+	"user_id": "subhajit_roy",
+	"img": "Hydrelia_bicolorata(1).jpg"
+}, {
+	"id": 54049850,
+	"observed_on": "2016-10-11",
+	"location": "27.0999,88.5386",
+	"place_guess": "Dalapchand",
+	"taxa_id": 870185,
+	"user_id": "subhajit_roy",
+	"img": "Abaciscus_intractabilis.jpg"
+}, {
+	"id": 54049853,
+	"observed_on": "2016-10-11",
+	"location": "27.0998,88.5373",
+	"place_guess": "Dalapchand",
+	"taxa_id": 775762,
+	"user_id": "subhajit_roy",
+	"img": "Lophophelma_costistrigaria.jpg"
+}, {
+	"id": 54073839,
+	"observed_on": "2016-10-11",
+	"location": "27.0981,88.5364",
+	"place_guess": "Dalapchand",
+	"taxa_id": 340898,
+	"user_id": "subhajit_roy",
+	"img": "Ourapteryx_sciticaudaria(1).jpg"
+}, {
+	"id": 54083587,
+	"observed_on": "2016-10-11",
+	"location": "27.099,88.5371",
+	"place_guess": "Dalapchand",
+	"taxa_id": 775288,
+	"user_id": "subhajit_roy",
+	"img": "Westermannia_triangularis.jpg"
+}, {
+	"id": 54083598,
+	"observed_on": "2016-10-11",
+	"location": "27.0979,88.5362",
+	"place_guess": "Dalapchand",
+	"taxa_id": 124802,
+	"user_id": "subhajit_roy",
+	"img": "Cydalima_laticostalis.jpg"
+}, {
+	"id": 54089789,
+	"observed_on": "2016-10-11",
+	"location": "27.2201,88.7363",
+	"place_guess": "Subanedara",
+	"taxa_id": 423818,
+	"user_id": "subhajit_roy",
+	"img": "Xanthorhoe_saturata.jpg"
+}, {
+	"id": 54168777,
+	"observed_on": "2020-07-24",
+	"location": "26.8963,88.28",
+	"place_guess": "Singel Tea Garden, West Bengal 734203",
+	"taxa_id": 743386,
+	"user_id": "prayash29",
+	"img": "Perisyntrocha_ossealis.jpg"
+}, {
+	"id": 54367528,
+	"observed_on": "2020-07-25",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 714767,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Chlorissa_distinctaria.jpg"
+}, {
+	"id": 54367532,
+	"observed_on": "2020-07-25",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 1128197,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Elphos_pardicelata.jpg"
+}, {
+	"id": 54367718,
+	"observed_on": "2020-07-25",
+	"location": "27.1276,88.098",
+	"place_guess": "Sepi Gaon, West Bengal 734201",
+	"taxa_id": 628661,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Dalima_truncataria.jpg"
+}, {
+	"id": 54368089,
+	"observed_on": "2020-07-25",
+	"location": "27.0509,88.3087",
+	"place_guess": "Mineral Spring Village, West Bengal 734123",
+	"taxa_id": 196588,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Hyposidra_talaca.jpg"
+}, {
+	"id": 54513587,
+	"observed_on": "2020-07-26",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 1039805,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Pseudopanthera_himalayica(1).jpg"
+}, {
+	"id": 54513595,
+	"observed_on": "2020-07-26",
+	"location": "27.0167,88.2471",
+	"place_guess": "West Point, Darjeeling, West Bengal 734102",
+	"taxa_id": 779052,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Calletaera_obliquata.jpg"
+}, {
+	"id": 54514138,
+	"observed_on": "2020-07-26",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 734257,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Ethmia_crocosoma.jpg"
+}, {
+	"id": 54514141,
+	"observed_on": "2020-07-26",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 205161,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Nevrina_procopia.jpg"
+}, {
+	"id": 54514155,
+	"observed_on": "2020-07-26",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 947448,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Perizoma_maculata(1).jpg"
+}, {
+	"id": 54514171,
+	"observed_on": "2020-07-26",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 784713,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Paradarisa_comparataria(1).jpg"
+}, {
+	"id": 54514180,
+	"observed_on": "2020-07-26",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 244237,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Tanaoctenia_haliaria.jpg"
+}, {
+	"id": 55788714,
+	"observed_on": "2020-06-02",
+	"location": "26.7663,88.3786",
+	"place_guess": "Dabgram Fullbari, Panchanai, West Bengal 734009",
+	"taxa_id": 633322,
+	"user_id": "rujasyonle",
+	"img": "Eupterote_bifasciata.jpg"
+}, {
+	"id": 55930815,
+	"observed_on": "2018-06-07",
+	"location": "27.2464,88.4374",
+	"place_guess": "South Sikkim",
+	"taxa_id": 336695,
+	"user_id": "chikku",
+	"img": "Nyctemera_arctata.jpg"
+}, {
+	"id": 56011325,
+	"observed_on": "2020-08-10",
+	"location": "27.0509,88.3087",
+	"place_guess": "Mineral Spring Village, West Bengal 734123",
+	"taxa_id": 151806,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Eterusia_aedea.jpg"
+}, {
+	"id": 56011626,
+	"observed_on": "2020-08-09",
+	"location": "27.124,88.0579",
+	"place_guess": "Singalila Forest, West Bengal 734201",
+	"taxa_id": 82830,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Acherontia_styx.jpg"
+}, {
+	"id": 56011628,
+	"observed_on": "2020-08-09",
+	"location": "27.124,88.0579",
+	"place_guess": "Singalila Forest, West Bengal 734201",
+	"taxa_id": 623596,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Arichanna_flavinigra(1).jpg"
+}, {
+	"id": 56011637,
+	"observed_on": "2020-08-09",
+	"location": "27.124,88.0579",
+	"place_guess": "Singalila Forest, West Bengal 734201",
+	"taxa_id": 499913,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Arichanna_melanaria.jpg"
+}, {
+	"id": 56012388,
+	"observed_on": "2020-08-10",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 622836,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Macrohastina_gemmifera.jpg"
+}, {
+	"id": 56193555,
+	"observed_on": "2020-08-12",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 900068,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Cyclidia_rectificata.jpg"
+}, {
+	"id": 56293817,
+	"observed_on": "2020-08-13",
+	"location": "27.3059,88.5363",
+	"place_guess": "Rumtek, Sikkim 737135",
+	"taxa_id": 733801,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Eilema_obliquistria.jpg"
+}, {
+	"id": 56293821,
+	"observed_on": "2020-08-13",
+	"location": "27.3059,88.5363",
+	"place_guess": "Rumtek, Sikkim 737135",
+	"taxa_id": 470655,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Cispia_punctifascia(1).jpg"
+}, {
+	"id": 56304632,
+	"observed_on": "2019-10-20",
+	"location": "26.9389,88.3116",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 366948,
+	"user_id": "rujasyonle",
+	"img": "Hypena_longipennis.jpg"
+}, {
+	"id": 56304787,
+	"observed_on": "2019-10-24",
+	"location": "26.9395,88.3118",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 993622,
+	"user_id": "rujasyonle",
+	"img": "Barsura_nubifascia.jpg"
+}, {
+	"id": 56304945,
+	"observed_on": "2019-10-25",
+	"location": "26.9383,88.312",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 244298,
+	"user_id": "rujasyonle",
+	"img": "Alcis_maculata.jpg"
+}, {
+	"id": 56306103,
+	"observed_on": "2019-10-24",
+	"location": "26.9378,88.3119",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 739377,
+	"user_id": "rujasyonle",
+	"img": "Tanaorhinus_kina.jpg"
+}, {
+	"id": 56306336,
+	"observed_on": "2019-10-24",
+	"location": "26.9378,88.3119",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 355729,
+	"user_id": "rujasyonle",
+	"img": "Blenina_quinaria.jpg"
+}, {
+	"id": 56306853,
+	"observed_on": "2019-10-24",
+	"location": "26.9378,88.3101",
+	"place_guess": "Chattakpur Forest, West Bengal",
+	"taxa_id": 480246,
+	"user_id": "rujasyonle",
+	"img": "Hypena_obacerralis.jpg"
+}, {
+	"id": 56516602,
+	"observed_on": "2019-10-02",
+	"location": "26.9387,88.3115",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 418812,
+	"user_id": "rujasyonle",
+	"img": "Meroctena_tullalis.jpg"
+}, {
+	"id": 56587844,
+	"observed_on": "2019-10-21",
+	"location": "26.9387,88.3113",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 1121192,
+	"user_id": "rujasyonle",
+	"img": "Hysterura_multifaria.jpg"
+}, {
+	"id": 56597947,
+	"observed_on": "2019-10-23",
+	"location": "26.9378,88.3101",
+	"place_guess": "Chattakpur Forest, West Bengal",
+	"taxa_id": 856385,
+	"user_id": "rujasyonle",
+	"img": "Eustroma_hampsoni.jpg"
+}, {
+	"id": 56602436,
+	"observed_on": "2019-09-28",
+	"location": "26.9364,88.3135",
+	"place_guess": "Bagora Forest Bungalow, Mahal Diram Forest, West Bengal 734313",
+	"taxa_id": 1050854,
+	"user_id": "rujasyonle",
+	"img": "Diphtherocome_pallida.jpg"
+}, {
+	"id": 56658175,
+	"observed_on": "2020-06-09",
+	"location": "26.7664,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 344338,
+	"user_id": "rujasyonle",
+	"img": "Spatalia_sikkima.jpg"
+}, {
+	"id": 56664597,
+	"observed_on": "2019-09-30",
+	"location": "26.9052,88.2864",
+	"place_guess": "Kharia Busty, West Bengal 734203",
+	"taxa_id": 1043043,
+	"user_id": "rujasyonle",
+	"img": "Cechetra_scotti.jpg"
+}, {
+	"id": 56713879,
+	"observed_on": "2020-08-16",
+	"location": "27.0509,88.3087",
+	"place_guess": "Mineral Spring Village, West Bengal 734123",
+	"taxa_id": 202258,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Asota_plana.jpg"
+}, {
+	"id": 56821661,
+	"observed_on": "2019-11-10",
+	"location": "26.9387,88.3113",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 901974,
+	"user_id": "rujasyonle",
+	"img": "Photoscotosia_miniosata.jpg"
+}, {
+	"id": 56946961,
+	"observed_on": "2019-11-02",
+	"location": "26.9389,88.3116",
+	"place_guess": "bagora village, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 429224,
+	"user_id": "rujasyonle",
+	"img": "Phlogophora_albovittata.jpg"
+}, {
+	"id": 57003982,
+	"observed_on": "2020-08-11",
+	"location": "27.0395,88.3605",
+	"place_guess": "Darjiling, West Bengal",
+	"taxa_id": 121948,
+	"user_id": "adityazoo",
+	"img": "Thyas_coronata.jpg"
+}, {
+	"id": 57003991,
+	"observed_on": "2020-08-11",
+	"location": "27.0395,88.3605",
+	"place_guess": "Darjiling, West Bengal",
+	"taxa_id": 1134160,
+	"user_id": "adityazoo",
+	"img": "Medasina_similis.jpg"
+}, {
+	"id": 57005801,
+	"observed_on": "2020-08-06",
+	"location": "27.0395,88.3605",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 631523,
+	"user_id": "adityazoo",
+	"img": "Ariolica_pulchella.jpg"
+}, {
+	"id": 57436191,
+	"observed_on": "2019-10-06",
+	"location": "26.8767,88.2736",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 1116177,
+	"user_id": "rujasyonle",
+	"img": "Osteosema_pastor.jpg"
+}, {
+	"id": 57529298,
+	"observed_on": "2020-08-25",
+	"location": "27.3093,88.5965",
+	"place_guess": "Metro Point Bus Stop, Lower Tadong, Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 211014,
+	"user_id": "rohitmg",
+	"img": "Tyspanodes_linealis.jpg"
+}, {
+	"id": 57562028,
+	"observed_on": "2019-10-06",
+	"location": "26.882,88.2823",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 244247,
+	"user_id": "rujasyonle",
+	"img": "Krananda_semihyalina.jpg"
+}, {
+	"id": 57626272,
+	"observed_on": "2020-06-09",
+	"location": "26.7665,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 497119,
+	"user_id": "rujasyonle",
+	"img": "Bocula_diffisa.jpg"
+}, {
+	"id": 57903955,
+	"observed_on": "2020-08-29",
+	"location": "27.0396,88.3576",
+	"place_guess": "Hum Tukdah Khasmahal, West Bengal",
+	"taxa_id": 626517,
+	"user_id": "adityazoo",
+	"img": "Soritia_leptalina(1).jpg"
+}, {
+	"id": 58806537,
+	"observed_on": "2020-09-07",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 203868,
+	"user_id": "rujasyonle",
+	"img": "Chiasmia_emersaria.jpg"
+}, {
+	"id": 58825696,
+	"observed_on": "2020-09-06",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 503326,
+	"user_id": "rujasyonle",
+	"img": "Omiodes_pernitescens.jpg"
+}, {
+	"id": 58924579,
+	"observed_on": "2020-09-08",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 326858,
+	"user_id": "rujasyonle",
+	"img": "Timandra_ruptilinea.jpg"
+}, {
+	"id": 58933871,
+	"observed_on": "2020-09-08",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 205731,
+	"user_id": "rujasyonle",
+	"img": "Parapoynx_diminutalis.jpg"
+}, {
+	"id": 58933999,
+	"observed_on": "2020-08-03",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 362811,
+	"user_id": "rujasyonle",
+	"img": "Sphrageidus_similis.jpg"
+}, {
+	"id": 58934444,
+	"observed_on": "2020-08-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 202785,
+	"user_id": "rujasyonle",
+	"img": "Zonoplusia_ochreata.jpg"
+}, {
+	"id": 58973622,
+	"observed_on": "2020-09-09",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 367919,
+	"user_id": "rujasyonle",
+	"img": "Hyalobathra_aequalis.jpg"
+}, {
+	"id": 59027297,
+	"observed_on": "2019-11-08",
+	"location": "26.9384,88.3115",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 1074412,
+	"user_id": "rujasyonle",
+	"img": "Colostygia_albigirata.jpg"
+}, {
+	"id": 59027772,
+	"observed_on": "2019-09-28",
+	"location": "26.9386,88.3098",
+	"place_guess": "Chattakpur Forest, West Bengal",
+	"taxa_id": 202242,
+	"user_id": "rujasyonle",
+	"img": "Hypena_laceratalis.jpg"
+}, {
+	"id": 59027981,
+	"observed_on": "2019-10-15",
+	"location": "26.9385,88.3114",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 795798,
+	"user_id": "rujasyonle",
+	"img": "Alcis_admissaria.jpg"
+}, {
+	"id": 59029670,
+	"observed_on": "2018-10-16",
+	"location": "26.8859,88.2833",
+	"place_guess": "Dowhill Road",
+	"taxa_id": 200930,
+	"user_id": "rujasyonle",
+	"img": "Zeuzera_pyrina.jpg"
+}, {
+	"id": 59051491,
+	"observed_on": "2020-09-08",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 199158,
+	"user_id": "rujasyonle",
+	"img": "Antitrygodes_divisaria.jpg"
+}, {
+	"id": 59051610,
+	"observed_on": "2020-09-08",
+	"location": "26.7665,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 338238,
+	"user_id": "rujasyonle",
+	"img": "Tinolius_eburneigutta.jpg"
+}, {
+	"id": 59051641,
+	"observed_on": "2020-09-08",
+	"location": "26.7665,88.3781",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 496619,
+	"user_id": "rujasyonle",
+	"img": "Bastilla_absentimacula.jpg"
+}, {
+	"id": 59051741,
+	"observed_on": "2020-09-08",
+	"location": "26.7664,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 52012,
+	"user_id": "rujasyonle",
+	"img": "Isocentris_filalis.jpg"
+}, {
+	"id": 59101271,
+	"observed_on": "2020-09-08",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 502961,
+	"user_id": "rujasyonle",
+	"img": "Pseudeustrotia_semialba.jpg"
+}, {
+	"id": 59114992,
+	"observed_on": "2018-10-16",
+	"location": "26.8859,88.2833",
+	"place_guess": "Dowhill Road",
+	"taxa_id": 244583,
+	"user_id": "rujasyonle",
+	"img": "Serrodes_campana.jpg"
+}, {
+	"id": 59115127,
+	"observed_on": "2020-09-09",
+	"location": "26.7055,88.3098",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 123994,
+	"user_id": "anirbandattaroy",
+	"img": "Garudinia_latana.jpg"
+}, {
+	"id": 59206886,
+	"observed_on": "2019-10-23",
+	"location": "26.9389,88.3113",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 733817,
+	"user_id": "rujasyonle",
+	"img": "Ecliptopera_triangulifera.jpg"
+}, {
+	"id": 59211360,
+	"observed_on": null,
+	"location": "26.8859,88.2833",
+	"place_guess": "Dowhill Road",
+	"taxa_id": 627649,
+	"user_id": "rujasyonle",
+	"img": "Cyana_adita.jpg"
+}, {
+	"id": 59213645,
+	"observed_on": "2019-10-15",
+	"location": "26.9375,88.3101",
+	"place_guess": "Chattakpur Forest, West Bengal",
+	"taxa_id": 506071,
+	"user_id": "rujasyonle",
+	"img": "Eudocima_sikhimensis.jpg"
+}, {
+	"id": 59213920,
+	"observed_on": "2019-09-30",
+	"location": "26.8821,88.2824",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 423906,
+	"user_id": "rujasyonle",
+	"img": "Lymantria_bivittata(1).jpg"
+}, {
+	"id": 59297465,
+	"observed_on": "2019-08-22",
+	"location": "26.9389,88.3112",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 125180,
+	"user_id": "rujasyonle",
+	"img": "Pseudomiza_cruentaria.jpg"
+}, {
+	"id": 59329673,
+	"observed_on": "2019-10-06",
+	"location": "26.8822,88.2823",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 333539,
+	"user_id": "rujasyonle",
+	"img": "Euproctis_plagiata.jpg"
+}, {
+	"id": 59332748,
+	"observed_on": null,
+	"location": "26.9389,88.3112",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 55246,
+	"user_id": "rujasyonle",
+	"img": "Lymantria_mathura(1).jpg"
+}, {
+	"id": 59333769,
+	"observed_on": null,
+	"location": "26.9389,88.3112",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 208107,
+	"user_id": "rujasyonle",
+	"img": "Berta_chrysolineata.jpg"
+}, {
+	"id": 59407930,
+	"observed_on": "2020-09-13",
+	"location": "27.0395,88.3604",
+	"place_guess": "Hum Tukdah Khasmahal, West Bengal",
+	"taxa_id": 124811,
+	"user_id": "adityazoo",
+	"img": "Scirpophaga_incertulas(1).jpg"
+}, {
+	"id": 59453771,
+	"observed_on": "2019-11-08",
+	"location": "26.9386,88.3113",
+	"place_guess": "West Bengal 734204",
+	"taxa_id": 713041,
+	"user_id": "rujasyonle",
+	"img": "Heterolocha_biplagiata.jpg"
+}, {
+	"id": 59455268,
+	"observed_on": "2019-10-06",
+	"location": "26.8821,88.2824",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 201298,
+	"user_id": "rujasyonle",
+	"img": "Neocerura_liturata.jpg"
+}, {
+	"id": 59458004,
+	"observed_on": "2019-10-19",
+	"location": "26.9367,88.3155",
+	"place_guess": "Bagora m4 road, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 625500,
+	"user_id": "rujasyonle",
+	"img": "Mardara_calligramma.jpg"
+}, {
+	"id": 59467307,
+	"observed_on": "2019-09-30",
+	"location": "26.8974,88.2837",
+	"place_guess": "Singel Tea Garden, West Bengal 734203",
+	"taxa_id": 202054,
+	"user_id": "rujasyonle",
+	"img": "Syntypistis_pallidifascia(1).jpg"
+}, {
+	"id": 59469061,
+	"observed_on": "2019-10-06",
+	"location": "26.8822,88.2822",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 461177,
+	"user_id": "rujasyonle",
+	"img": "Dysaethria_quadricaudata.jpg"
+}, {
+	"id": 59471015,
+	"observed_on": "2020-05-27",
+	"location": "26.7662,88.3786",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 428667,
+	"user_id": "rujasyonle",
+	"img": "Cerynea_punctilinealis.jpg"
+}, {
+	"id": 59562912,
+	"observed_on": "2019-10-25",
+	"location": "26.9388,88.3114",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 176116,
+	"user_id": "rujasyonle",
+	"img": "Palpita_annulifer.jpg"
+}, {
+	"id": 59570881,
+	"observed_on": "2019-10-06",
+	"location": "26.8767,88.2736",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 244204,
+	"user_id": "rujasyonle",
+	"img": "Ethmia_lineatonotella.jpg"
+}, {
+	"id": 59656486,
+	"observed_on": "2019-10-02",
+	"location": "26.9389,88.3112",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 1097482,
+	"user_id": "rujasyonle",
+	"img": "Chrysorabdia_viridata.jpg"
+}, {
+	"id": 59664277,
+	"observed_on": null,
+	"location": "26.8821,88.2824",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 467634,
+	"user_id": "rujasyonle",
+	"img": "Sauris_marginepunctata.jpg"
+}, {
+	"id": 59974153,
+	"observed_on": "2020-09-18",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 208030,
+	"user_id": "rujasyonle",
+	"img": "Herpetogramma_cynaralis.jpg"
+}, {
+	"id": 59974176,
+	"observed_on": "2020-09-18",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 201821,
+	"user_id": "rujasyonle",
+	"img": "Nygmia_plana.jpg"
+}, {
+	"id": 59974202,
+	"observed_on": "2020-09-18",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 322058,
+	"user_id": "rujasyonle",
+	"img": "Mecodina_praecipua.jpg"
+}, {
+	"id": 60166845,
+	"observed_on": "2020-09-18",
+	"location": "26.7649,88.3772",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 319903,
+	"user_id": "rujasyonle",
+	"img": "Glyphodes_actorionalis.jpg"
+}, {
+	"id": 60170118,
+	"observed_on": "2020-09-18",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 985199,
+	"user_id": "rujasyonle",
+	"img": "Miltochrista_dharma.jpg"
+}, {
+	"id": 60172198,
+	"observed_on": "2019-10-25",
+	"location": "26.9388,88.311",
+	"place_guess": "Mahal Diram Forest, West Bengal",
+	"taxa_id": 324314,
+	"user_id": "rujasyonle",
+	"img": "Pyrrhia_umbra.jpg"
+}, {
+	"id": 60180388,
+	"observed_on": "2007-09-13",
+	"location": "27.3314,88.6138",
+	"place_guess": "Arithang, Gangtok, Sikkim 737101",
+	"taxa_id": 800890,
+	"user_id": "rujasyonle",
+	"img": "Pachynoa_xanthochyta.jpg"
+}, {
+	"id": 60206492,
+	"observed_on": "2020-09-20",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 243788,
+	"user_id": "rujasyonle",
+	"img": "Ericeia_inangulata.jpg"
+}, {
+	"id": 60206579,
+	"observed_on": "2020-09-20",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 1277210,
+	"user_id": "rujasyonle",
+	"img": "Nephelomilta_effracta.jpg"
+}, {
+	"id": 60208512,
+	"observed_on": "2020-06-09",
+	"location": "26.7662,88.3787",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 985196,
+	"user_id": "rujasyonle",
+	"img": "Miltochrista_obsoleta(1).jpg"
+}, {
+	"id": 60212604,
+	"observed_on": "2019-09-30",
+	"location": "26.8821,88.2824",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 470147,
+	"user_id": "rujasyonle",
+	"img": "Trabala_ganesha.jpg"
+}, {
+	"id": 60213688,
+	"observed_on": "2019-09-30",
+	"location": "26.8821,88.2824",
+	"place_guess": "Bara Shibkhola Forest, West Bengal",
+	"taxa_id": 338292,
+	"user_id": "rujasyonle",
+	"img": "Theretra_clotho.jpg"
+}, {
+	"id": 60277190,
+	"observed_on": "2020-09-18",
+	"location": "26.7663,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 371227,
+	"user_id": "rujasyonle",
+	"img": "Ganisa_similis.jpg"
+}, {
+	"id": 60293609,
+	"observed_on": "2020-09-18",
+	"location": "27.041,88.2663",
+	"place_guess": "Darjeeling, West Bengal",
+	"taxa_id": 124691,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Campylotes_histrionicus(1).jpg"
+}, {
+	"id": 60308462,
+	"observed_on": "2020-09-18",
+	"location": "26.7663,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 415538,
+	"user_id": "rujasyonle",
+	"img": "Bastilla_crameri.jpg"
+}, {
+	"id": 60327236,
+	"observed_on": "2019-10-19",
+	"location": "26.9367,88.3155",
+	"place_guess": "Bagora m4 road, Mahal Diram Forest, West Bengal 734224",
+	"taxa_id": 784717,
+	"user_id": "rujasyonle",
+	"img": "Apithecia_viridata.jpg"
+}, {
+	"id": 60344784,
+	"observed_on": "2020-09-21",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 360134,
+	"user_id": "rujasyonle",
+	"img": "Spodoptera_pecten.jpg"
+}, {
+	"id": 60344966,
+	"observed_on": "2020-09-21",
+	"location": "26.7664,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 199441,
+	"user_id": "rujasyonle",
+	"img": "Creatonotos_gangis.jpg"
+}, {
+	"id": 60398738,
+	"observed_on": "2020-09-22",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 362055,
+	"user_id": "rujasyonle",
+	"img": "Gesonia_obeditalis.jpg"
+}, {
+	"id": 60410320,
+	"observed_on": "2020-09-22",
+	"location": "26.7664,88.3778",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 342784,
+	"user_id": "rujasyonle",
+	"img": "Arctornis_cygna.jpg"
+}, {
+	"id": 60418418,
+	"observed_on": "2020-09-22",
+	"location": "26.7663,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 423540,
+	"user_id": "rujasyonle",
+	"img": "Herpetogramma_basalis.jpg"
+}, {
+	"id": 60419128,
+	"observed_on": "2020-09-22",
+	"location": "26.7056,88.3097",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 203078,
+	"user_id": "anirbandattaroy",
+	"img": "Haritalodes_derogata(1).jpg"
+}, {
+	"id": 60427875,
+	"observed_on": "2020-09-22",
+	"location": "26.7662,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 121872,
+	"user_id": "rujasyonle",
+	"img": "Callopistria_placodoides.jpg"
+}, {
+	"id": 60494533,
+	"observed_on": "2020-09-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 52092,
+	"user_id": "rujasyonle",
+	"img": "Loboschiza_koenigiana.jpg"
+}, {
+	"id": 60495017,
+	"observed_on": "2020-09-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 338459,
+	"user_id": "rujasyonle",
+	"img": "Eoophyla_peribocalis.jpg"
+}, {
+	"id": 60495324,
+	"observed_on": "2020-09-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 985211,
+	"user_id": "rujasyonle",
+	"img": "Miltochrista_calamaria(1).jpg"
+}, {
+	"id": 60496689,
+	"observed_on": "2020-09-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 554474,
+	"user_id": "rujasyonle",
+	"img": "Parapoynx_bilinealis.jpg"
+}, {
+	"id": 60528578,
+	"observed_on": "2020-09-23",
+	"location": "26.7645,88.3784",
+	"place_guess": "Chamta, West Bengal 734009",
+	"taxa_id": 194577,
+	"user_id": "rujasyonle",
+	"img": "Plusiopalpa_adrasta.jpg"
+}, {
+	"id": 60544201,
+	"observed_on": "2020-09-23",
+	"location": "26.699,88.3132",
+	"place_guess": "Upper Bagdogra",
+	"taxa_id": 52045,
+	"user_id": "anirbandattaroy",
+	"img": "Cnaphalocrocis_medinalis.jpg"
+}, {
+	"id": 60609530,
+	"observed_on": "2020-09-24",
+	"location": "26.7056,88.3098",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 503524,
+	"user_id": "anirbandattaroy",
+	"img": "Pycnarmon_virgatalis(1).jpg"
+}, {
+	"id": 60613146,
+	"observed_on": "2020-09-24",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 370854,
+	"user_id": "rujasyonle",
+	"img": "Mabra_eryxalis.jpg"
+}, {
+	"id": 60613858,
+	"observed_on": "2020-09-24",
+	"location": "26.7662,88.3781",
+	"place_guess": "Sukna Forest, West Bengal",
+	"taxa_id": 202649,
+	"user_id": "rujasyonle",
+	"img": "Hyblaea_puera.jpg"
+}, {
+	"id": 60614537,
+	"observed_on": "2020-09-24",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 330478,
+	"user_id": "rujasyonle",
+	"img": "Pyralis_manihotalis.jpg"
+}, {
+	"id": 60669577,
+	"observed_on": "2020-09-25",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 124869,
+	"user_id": "rujasyonle",
+	"img": "Leucinodes_orbonalis.jpg"
+}, {
+	"id": 60671646,
+	"observed_on": "2020-09-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 538923,
+	"user_id": "rujasyonle",
+	"img": "Cyana_catorhoda.jpg"
+}, {
+	"id": 60728021,
+	"observed_on": "2020-09-25",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 199428,
+	"user_id": "rujasyonle",
+	"img": "Hydriris_ornatalis.jpg"
+}, {
+	"id": 60918146,
+	"observed_on": "2020-09-26",
+	"location": "26.7665,88.3779",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 145574,
+	"user_id": "rujasyonle",
+	"img": "Stictane_rectilinea.jpg"
+}, {
+	"id": 61071845,
+	"observed_on": "2020-09-21",
+	"location": "27.3318,88.5142",
+	"place_guess": "Tumin, Sikkim 737107",
+	"taxa_id": 622431,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Abraxas_neomartaria(1).jpg"
+}, {
+	"id": 61073135,
+	"observed_on": "2020-09-24",
+	"location": "26.9803,88.5027",
+	"place_guess": "Samthar, Kalimpong Khasmahal, Kalimpong, West Bengal 734301",
+	"taxa_id": 623198,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Miltochrista_linga.jpg"
+}, {
+	"id": 61073138,
+	"observed_on": "2020-09-24",
+	"location": "26.9803,88.5027",
+	"place_guess": "Samthar, Kalimpong Khasmahal, Kalimpong, West Bengal 734301",
+	"taxa_id": 319467,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Cyclomilta_melanolepia.jpg"
+}, {
+	"id": 61360883,
+	"observed_on": "2020-10-01",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 209508,
+	"user_id": "rujasyonle",
+	"img": "Glycythyma_chrysorycta.jpg"
+}, {
+	"id": 61558471,
+	"observed_on": "2020-09-26",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 126073,
+	"user_id": "rujasyonle",
+	"img": "Lobobasis_niveimaculata.jpg"
+}, {
+	"id": 61772549,
+	"observed_on": "2020-10-04",
+	"location": "27.0653,88.255",
+	"place_guess": "Pattabong Tea Garden, West Bengal",
+	"taxa_id": 489947,
+	"user_id": "rujasyonle",
+	"img": "Chorodna_erebusaria.jpg"
+}, {
+	"id": 61831655,
+	"observed_on": "2020-10-06",
+	"location": "26.7686,88.3811",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 906364,
+	"user_id": "rujasyonle",
+	"img": "Tamba_rufipennis.jpg"
+}, {
+	"id": 61947800,
+	"observed_on": "2020-09-22",
+	"location": "26.7664,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 204015,
+	"user_id": "rujasyonle",
+	"img": "Alucita_spilodesma.jpg"
+}, {
+	"id": 62044297,
+	"observed_on": "2020-10-08",
+	"location": "26.7665,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 199514,
+	"user_id": "rujasyonle",
+	"img": "Maliattha_signifera.jpg"
+}, {
+	"id": 62077342,
+	"observed_on": "2020-10-09",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 554981,
+	"user_id": "rujasyonle",
+	"img": "Patania_iopasalis.jpg"
+}, {
+	"id": 62183666,
+	"observed_on": "2020-10-09",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 1273861,
+	"user_id": "rujasyonle",
+	"img": "Marasmia_exigua.jpg"
+}, {
+	"id": 62381276,
+	"observed_on": "2020-10-09",
+	"location": "27.0776,88.5058",
+	"place_guess": "Vrindavan School, Kalimpong",
+	"taxa_id": 324318,
+	"user_id": "karishma8",
+	"img": "Dichocrocis_zebralis.jpg"
+}, {
+	"id": 62567475,
+	"observed_on": "2020-10-14",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 124532,
+	"user_id": "rujasyonle",
+	"img": "Callidrepana_argenteola.jpg"
+}, {
+	"id": 63246538,
+	"observed_on": "2020-10-21",
+	"location": "26.7794,88.4225",
+	"place_guess": "Sisabari, West Bengal 734003",
+	"taxa_id": 474559,
+	"user_id": "rujasyonle",
+	"img": "Spirama_helicina.jpg"
+}, {
+	"id": 63945930,
+	"observed_on": "2019-04-21",
+	"location": "27.1451,88.1015",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 199458,
+	"user_id": "yuvanaves",
+	"img": "Hippotion_celerio(1).jpg"
+}, {
+	"id": 63945934,
+	"observed_on": "2019-04-22",
+	"location": "27.145,88.1015",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 52036,
+	"user_id": "yuvanaves",
+	"img": "Nephele_hespera.jpg"
+}, {
+	"id": 63945938,
+	"observed_on": "2019-04-19",
+	"location": "26.8807,88.4696",
+	"place_guess": "Darjiling, West Bengal",
+	"taxa_id": 210962,
+	"user_id": "yuvanaves",
+	"img": "Eressa_confinis.jpg"
+}, {
+	"id": 63945939,
+	"observed_on": "2019-04-21",
+	"location": "27.1452,88.1014",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 124890,
+	"user_id": "yuvanaves",
+	"img": "Thysanoplusia_orichalcea.jpg"
+}, {
+	"id": 63945947,
+	"observed_on": "2019-04-29",
+	"location": "27.0046,88.6459",
+	"place_guess": "India",
+	"taxa_id": 121814,
+	"user_id": "yuvanaves",
+	"img": "Loepa_sikkima(1).jpg"
+}, {
+	"id": 63945951,
+	"observed_on": "2019-04-23",
+	"location": "27.3191,88.363",
+	"place_guess": "South Sikkim, Sikkim",
+	"taxa_id": 244309,
+	"user_id": "yuvanaves",
+	"img": "Acosmeryx_naga(1).jpg"
+}, {
+	"id": 63945952,
+	"observed_on": "2019-04-29",
+	"location": "27.1011,88.6801",
+	"place_guess": "Lingsaykha Khasmahal, West Bengal",
+	"taxa_id": 709614,
+	"user_id": "yuvanaves",
+	"img": "Antheraea_roylei.jpg"
+}, {
+	"id": 63945954,
+	"observed_on": "2019-04-23",
+	"location": "27.2925,88.3464",
+	"place_guess": "South Sikkim, Sikkim",
+	"taxa_id": 123022,
+	"user_id": "yuvanaves",
+	"img": "Thyatira_batis.jpg"
+}, {
+	"id": 63945955,
+	"observed_on": "2019-04-29",
+	"location": "27.1193,88.6844",
+	"place_guess": "Raset Forest, West Bengal 734319",
+	"taxa_id": 121879,
+	"user_id": "yuvanaves",
+	"img": "Heortia_vitessoides.jpg"
+}, {
+	"id": 63945958,
+	"observed_on": "2019-04-21",
+	"location": "27.1453,88.1015",
+	"place_guess": "West Sikkim, Sikkim",
+	"taxa_id": 945340,
+	"user_id": "yuvanaves",
+	"img": "Mustilia_falcipennis.jpg"
+}, {
+	"id": 63945960,
+	"observed_on": "2019-04-23",
+	"location": "27.2925,88.3463",
+	"place_guess": "South Sikkim, Sikkim",
+	"taxa_id": 121864,
+	"user_id": "yuvanaves",
+	"img": "Acosmeryx_sericeus(1).jpg"
+}, {
+	"id": 63945961,
+	"observed_on": "2019-04-23",
+	"location": "27.2926,88.3464",
+	"place_guess": "South Sikkim, Sikkim",
+	"taxa_id": 497199,
+	"user_id": "yuvanaves",
+	"img": "Sirinopteryx_rufivinctata.jpg"
+}, {
+	"id": 63945962,
+	"observed_on": "2019-04-29",
+	"location": "27.134,88.7006",
+	"place_guess": "Rhenok Forest, West Bengal 734319",
+	"taxa_id": 461126,
+	"user_id": "yuvanaves",
+	"img": "Vitessa_suradeva.jpg"
+}, {
+	"id": 63945967,
+	"observed_on": "2019-04-19",
+	"location": "26.883,88.468",
+	"place_guess": "Sivok Hill Forest, West Bengal",
+	"taxa_id": 204713,
+	"user_id": "yuvanaves",
+	"img": "Celerena_divisa.jpg"
+}, {
+	"id": 63946370,
+	"observed_on": "2019-04-30",
+	"location": "27.1011,88.6801",
+	"place_guess": "Lingsaykha Khasmahal, West Bengal",
+	"taxa_id": 244177,
+	"user_id": "yuvanaves",
+	"img": "Iotaphora_iridicolor.jpg"
+}, {
+	"id": 64011738,
+	"observed_on": "2020-11-02",
+	"location": "26.7055,88.3099",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 201660,
+	"user_id": "anirbandattaroy",
+	"img": "Cleora_alienaria(1).jpg"
+}, {
+	"id": 64050618,
+	"observed_on": "2020-11-02",
+	"location": "26.7055,88.3099",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 423926,
+	"user_id": "anirbandattaroy",
+	"img": "Timandra_convectaria.jpg"
+}, {
+	"id": 64179194,
+	"observed_on": "2020-11-04",
+	"location": "26.7056,88.3098",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 199870,
+	"user_id": "anirbandattaroy",
+	"img": "Pyralis_farinalis.jpg"
+}, {
+	"id": 64222883,
+	"observed_on": "2020-11-05",
+	"location": "26.7054,88.3099",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 122956,
+	"user_id": "anirbandattaroy",
+	"img": "Syntomoides_imaon(1).jpg"
+}, {
+	"id": 64300024,
+	"observed_on": "2020-11-06",
+	"location": "26.7058,88.3101",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 211013,
+	"user_id": "anirbandattaroy",
+	"img": "Maliattha_separata.jpg"
+}, {
+	"id": 64335874,
+	"observed_on": "2020-11-07",
+	"location": "26.7062,88.31",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 205293,
+	"user_id": "anirbandattaroy",
+	"img": "Calliteara_grotei.jpg"
+}, {
+	"id": 64336223,
+	"observed_on": "2020-11-07",
+	"location": "26.7061,88.3097",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 209613,
+	"user_id": "anirbandattaroy",
+	"img": "Dasychira_chekiangensis.jpg"
+}, {
+	"id": 65004477,
+	"observed_on": "2020-10-09",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 333592,
+	"user_id": "prayash",
+	"img": "Cricula_andrei.jpg"
+}, {
+	"id": 65004522,
+	"observed_on": "2020-10-20",
+	"location": "26.8876,88.2805",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 470135,
+	"user_id": "prayash",
+	"img": "Chorodna_ochreimacula.jpg"
+}, {
+	"id": 65048156,
+	"observed_on": "2020-11-16",
+	"location": "26.7062,88.309",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 474103,
+	"user_id": "anirbandattaroy",
+	"img": "Hypomecis_separata(1).jpg"
+}, {
+	"id": 65586516,
+	"observed_on": "2020-11-25",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 325800,
+	"user_id": "rujasyonle",
+	"img": "Glyphodes_bivitralis.jpg"
+}, {
+	"id": 65586669,
+	"observed_on": "2020-11-25",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 204667,
+	"user_id": "rujasyonle",
+	"img": "Nola_lucidalis.jpg"
+}, {
+	"id": 65587026,
+	"observed_on": "2020-11-25",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 211020,
+	"user_id": "rujasyonle",
+	"img": "Spodoptera_mauritia.jpg"
+}, {
+	"id": 65587345,
+	"observed_on": "2020-11-23",
+	"location": "26.7664,88.378",
+	"place_guess": "Venchijote Patharghata 1number more, behind Vastu Residency, Chamta, West Bengal 734009",
+	"taxa_id": 121840,
+	"user_id": "rujasyonle",
+	"img": "Erebus_macrops(1).jpg"
+}, {
+	"id": 65817001,
+	"observed_on": "2020-11-29",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 1146519,
+	"user_id": "rujasyonle",
+	"img": "Synegiodes_diffusifascia.jpg"
+}, {
+	"id": 66997535,
+	"observed_on": "2020-12-24",
+	"location": "26.7663,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 201820,
+	"user_id": "rujasyonle",
+	"img": "Olene_inclusa(1).jpg"
+}, {
+	"id": 67464960,
+	"observed_on": "2015-08-16",
+	"location": "27.3418,88.6357",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 743453,
+	"user_id": "environeill",
+	"img": "Abraxas_martaria(1).jpg"
+}, {
+	"id": 67465674,
+	"observed_on": "2015-08-16",
+	"location": "27.3473,88.6285",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 209655,
+	"user_id": "environeill",
+	"img": "Urapteroides_astheniata.jpg"
+}, {
+	"id": 67466226,
+	"observed_on": "2015-08-17",
+	"location": "27.3663,88.5927",
+	"place_guess": "Gangtok, Sikkim",
+	"taxa_id": 538906,
+	"user_id": "environeill",
+	"img": "Tridrepana_albonotata.jpg"
+}, {
+	"id": 67689305,
+	"observed_on": "2015-11-08",
+	"location": "27.5526,88.4896",
+	"place_guess": "North Sikkim, Sikkim",
+	"taxa_id": 1177186,
+	"user_id": "environeill",
+	"img": "Corymica_immaculata.jpg"
+}, {
+	"id": 67766823,
+	"observed_on": "2015-12-03",
+	"location": "27.3643,88.5691",
+	"place_guess": "East Sikkim, Sikkim",
+	"taxa_id": 737788,
+	"user_id": "environeill",
+	"img": "Sewa_orbiferata.jpg"
+}, {
+	"id": 67803782,
+	"observed_on": "2016-01-03",
+	"location": "27.3129,88.5962",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 556153,
+	"user_id": "environeill",
+	"img": "Tristeirometa_decussata.jpg"
+}, {
+	"id": 67889663,
+	"observed_on": "2016-03-29",
+	"location": "27.3645,88.5692",
+	"place_guess": "East Sikkim, Sikkim",
+	"taxa_id": 567346,
+	"user_id": "environeill",
+	"img": "Maxates_thetydaria(1).jpg"
+}, {
+	"id": 67964849,
+	"observed_on": "2016-05-27",
+	"location": "27.4697,88.5382",
+	"place_guess": "North Sikkim, Sikkim",
+	"taxa_id": 544438,
+	"user_id": "environeill",
+	"img": "Callidula_attenuata.jpg"
+}, {
+	"id": 68325861,
+	"observed_on": "2021-01-18",
+	"location": "26.7663,88.3781",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 714803,
+	"user_id": "rujasyonle",
+	"img": "Ceratarcha_umbrosa.jpg"
+}, {
+	"id": 68649563,
+	"observed_on": "2020-10-17",
+	"location": "27.1068,88.8349",
+	"place_guess": "Today Tangta Khasmahal, West Bengal 734319",
+	"taxa_id": 623197,
+	"user_id": "sailendradewan",
+	"img": "Barsine_roseata.jpg"
+}, {
+	"id": 73255619,
+	"observed_on": "2021-04-08",
+	"location": "27.3574,88.267",
+	"place_guess": "Arithang",
+	"taxa_id": 124893,
+	"user_id": "la165",
+	"img": "Macrocilix_mysticata(1).jpg"
+}, {
+	"id": 73529189,
+	"observed_on": "2019-04-30",
+	"location": "26.915,88.4027",
+	"place_guess": "latpanchar, West Bengal",
+	"taxa_id": 124687,
+	"user_id": "sarbajit1",
+	"img": "Loepa_katinka(1).jpg"
+}, {
+	"id": 75330082,
+	"observed_on": "2021-04-22",
+	"location": "27.0068,88.8024",
+	"place_guess": "Rocky Island",
+	"taxa_id": 870882,
+	"user_id": "subhajit_roy",
+	"img": "Problepsis_delphiaria.jpg"
+}, {
+	"id": 75655729,
+	"observed_on": "2008-05-08",
+	"location": "26.8942,88.1809",
+	"place_guess": "Mirik, West Bengal, Indie",
+	"taxa_id": 622340,
+	"user_id": "mnauky",
+	"img": "Belippa_horrida.jpg"
+}, {
+	"id": 77877236,
+	"observed_on": "2019-10-01",
+	"location": "27.5187,88.5313",
+	"place_guess": "Namprikdang, Sikkim 737116",
+	"taxa_id": 514307,
+	"user_id": "arundeep",
+	"img": "Anonychia_lativitta.jpg"
+}, {
+	"id": 77877426,
+	"observed_on": "2019-10-01",
+	"location": "27.5187,88.5313",
+	"place_guess": "Namprikdang, Sikkim",
+	"taxa_id": 1050846,
+	"user_id": "arundeep",
+	"img": "Psyra_angulifera.jpg"
+}, {
+	"id": 79356193,
+	"observed_on": "2021-05-18",
+	"location": "27.4706,88.509",
+	"place_guess": "Hee Gyathang Dzongu,North Sikkim, Sikkim",
+	"taxa_id": 523785,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Tarsolepis_fulgurifera.jpg"
+}, {
+	"id": 79386352,
+	"observed_on": "2021-05-15",
+	"location": "26.7057,88.31",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 125231,
+	"user_id": "anirbandattaroy",
+	"img": "Utetheisa_pulchelloides.jpg"
+}, {
+	"id": 80084171,
+	"observed_on": "2021-05-23",
+	"location": "26.7665,88.3779",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 789601,
+	"user_id": "rujasyonle",
+	"img": "Euchromius_ocellea.jpg"
+}, {
+	"id": 80109738,
+	"observed_on": "2021-05-23",
+	"location": "27.1225,88.0597",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 503842,
+	"user_id": "mingma_tamang1",
+	"img": "Apha_floralis.jpg"
+}, {
+	"id": 80915438,
+	"observed_on": "2021-05-30",
+	"location": "26.7663,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 322014,
+	"user_id": "rujasyonle",
+	"img": "Pergesa_acteus.jpg"
+}, {
+	"id": 80916570,
+	"observed_on": "2021-05-30",
+	"location": "26.7663,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 522970,
+	"user_id": "rujasyonle",
+	"img": "Parapoynx_crisonalis(1).jpg"
+}, {
+	"id": 81144492,
+	"observed_on": "2021-05-31",
+	"location": "27.4706,88.509",
+	"place_guess": "Hee Gyathang Dzongu,North Sikkim, Sikkim",
+	"taxa_id": 563807,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Ganisa_plana.jpg"
+}, {
+	"id": 81451644,
+	"observed_on": "2021-06-03",
+	"location": "26.7664,88.378",
+	"place_guess": "Panchanai, West Bengal",
+	"taxa_id": 428603,
+	"user_id": "rujasyonle",
+	"img": "Somena_similis.jpg"
+}, {
+	"id": 82451983,
+	"observed_on": "2021-06-10",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 324523,
+	"user_id": "prayash29",
+	"img": "Hypopyra_vespertilio(1).jpg"
+}, {
+	"id": 82454427,
+	"observed_on": "2021-06-10",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 51922,
+	"user_id": "prayash29",
+	"img": "Diaphania_indica.jpg"
+}, {
+	"id": 82497124,
+	"observed_on": "2021-06-08",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 325745,
+	"user_id": "prayash29",
+	"img": "Vamuna_virilis.jpg"
+}, {
+	"id": 82504289,
+	"observed_on": "2021-06-01",
+	"location": "26.8945,88.2814",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 194347,
+	"user_id": "prayash29",
+	"img": "Terastia_egialealis.jpg"
+}, {
+	"id": 82510361,
+	"observed_on": "2021-06-10",
+	"location": "26.8945,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 124587,
+	"user_id": "prayash29",
+	"img": "Crocidolomia_pavonana(1).jpg"
+}, {
+	"id": 82510602,
+	"observed_on": "2021-06-09",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 203904,
+	"user_id": "prayash29",
+	"img": "Oraesia_emarginata.jpg"
+}, {
+	"id": 82510715,
+	"observed_on": "2020-07-17",
+	"location": "26.8946,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 627579,
+	"user_id": "prayash29",
+	"img": "Ovipennis_dudgeoni.jpg"
+}, {
+	"id": 82543978,
+	"observed_on": "2021-06-09",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 202666,
+	"user_id": "prayash29",
+	"img": "Glyphodes_bicolor.jpg"
+}, {
+	"id": 82560298,
+	"observed_on": "2021-06-11",
+	"location": "26.8945,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 704463,
+	"user_id": "prayash29",
+	"img": "Xandrames_dholaria.jpg"
+}, {
+	"id": 82560525,
+	"observed_on": "2021-06-11",
+	"location": "26.8945,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 333286,
+	"user_id": "prayash29",
+	"img": "Xandrames_albofasciata.jpg"
+}, {
+	"id": 82578336,
+	"observed_on": "2021-06-11",
+	"location": "26.8944,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 638057,
+	"user_id": "prayash29",
+	"img": "Dalima_schistacearia.jpg"
+}, {
+	"id": 82630852,
+	"observed_on": "2021-06-11",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 325740,
+	"user_id": "prayash29",
+	"img": "Vamuna_maculata.jpg"
+}, {
+	"id": 82631965,
+	"observed_on": "2021-06-11",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 784389,
+	"user_id": "prayash29",
+	"img": "Crocidolomia_luteolalis.jpg"
+}, {
+	"id": 82683595,
+	"observed_on": "2021-06-11",
+	"location": "26.7663,88.378",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 204805,
+	"user_id": "rujasyonle",
+	"img": "Diasemia_accalis(1).jpg"
+}, {
+	"id": 83014548,
+	"observed_on": "2021-06-14",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 319452,
+	"user_id": "prayash29",
+	"img": "Bastilla_maturata.jpg"
+}, {
+	"id": 83126666,
+	"observed_on": "2021-03-18",
+	"location": "27.0128,88.1992",
+	"place_guess": "Lepchajagat, West Bengal",
+	"taxa_id": 900733,
+	"user_id": "ivijayanand",
+	"img": "Perizoma_seriata(1).jpg"
+}, {
+	"id": 83190753,
+	"observed_on": "2021-06-16",
+	"location": "26.8945,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 199561,
+	"user_id": "prayash29",
+	"img": "Bastilla_joviana.jpg"
+}, {
+	"id": 83193160,
+	"observed_on": "2021-06-16",
+	"location": "26.8945,88.2814",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 975941,
+	"user_id": "prayash29",
+	"img": "Alphaea_impleta.jpg"
+}, {
+	"id": 83196875,
+	"observed_on": "2021-06-16",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 461130,
+	"user_id": "prayash29",
+	"img": "Polynesia_sunandava.jpg"
+}, {
+	"id": 83200223,
+	"observed_on": "2021-06-15",
+	"location": "26.8945,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 1255073,
+	"user_id": "prayash29",
+	"img": "Myrioblephara_harutai.jpg"
+}, {
+	"id": 83208079,
+	"observed_on": "2021-06-13",
+	"location": "26.8945,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 244151,
+	"user_id": "prayash29",
+	"img": "Dindicodes_crocina.jpg"
+}, {
+	"id": 83390777,
+	"observed_on": "2021-06-17",
+	"location": "26.8944,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 700612,
+	"user_id": "prayash29",
+	"img": "Ozola_sinuicosta.jpg"
+}, {
+	"id": 83401518,
+	"observed_on": "2021-06-17",
+	"location": "26.8944,88.2815",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 122754,
+	"user_id": "prayash29",
+	"img": "Artena_dotata.jpg"
+}, {
+	"id": 83547571,
+	"observed_on": "2021-06-17",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 209361,
+	"user_id": "prayash29",
+	"img": "Herochroma_viridaria.jpg"
+}, {
+	"id": 83601293,
+	"observed_on": "2021-06-17",
+	"location": "26.8944,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 682664,
+	"user_id": "prayash29",
+	"img": "Pericyma_umbrina(1).jpg"
+}, {
+	"id": 83602008,
+	"observed_on": "2021-06-17",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 127105,
+	"user_id": "prayash29",
+	"img": "Cleora_fraterna.jpg"
+}, {
+	"id": 83602763,
+	"observed_on": "2021-06-17",
+	"location": "26.8945,88.2817",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 244181,
+	"user_id": "prayash29",
+	"img": "Hypocala_subsatura.jpg"
+}, {
+	"id": 84022916,
+	"observed_on": "2021-03-20",
+	"location": "27.1859,88.1221",
+	"place_guess": "Hilley, West Sikkim",
+	"taxa_id": 83806,
+	"user_id": "ivijayanand",
+	"img": "Helicoverpa_armigera.jpg"
+}, {
+	"id": 84850257,
+	"observed_on": "2021-06-01",
+	"location": "26.8948,88.282",
+	"place_guess": "Hill Cart Rd, Kurseong, West Bengal 734203",
+	"taxa_id": 1259828,
+	"user_id": "prayash29",
+	"img": "Dysstroma_brunneoviridata.jpg"
+}, {
+	"id": 84941304,
+	"observed_on": "2021-06-06",
+	"location": "26.8945,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 578547,
+	"user_id": "prayash29",
+	"img": "Dysstroma_cinereata(1).jpg"
+}, {
+	"id": 84963570,
+	"observed_on": "2021-06-06",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 713025,
+	"user_id": "prayash29",
+	"img": "Mythimna_sinuosa.jpg"
+}, {
+	"id": 84966572,
+	"observed_on": "2021-06-05",
+	"location": "26.8945,88.2816",
+	"place_guess": "Hill Cart Rd, Kurseong, West Bengal 734203",
+	"taxa_id": 491887,
+	"user_id": "prayash29",
+	"img": "Coarica_fasciata.jpg"
+}, {
+	"id": 85749398,
+	"observed_on": "2021-05-31",
+	"location": "26.8946,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 625687,
+	"user_id": "prayash29",
+	"img": "Nygmia_uniformis.jpg"
+}, {
+	"id": 85751462,
+	"observed_on": "2021-06-08",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 1042272,
+	"user_id": "prayash29",
+	"img": "Bivincula_kalikotei.jpg"
+}, {
+	"id": 86849818,
+	"observed_on": "2015-08-02",
+	"location": "27.3354,88.6116",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 1277189,
+	"user_id": "drnamgyal04",
+	"img": "Aruta_flavipes.jpg"
+}, {
+	"id": 86852779,
+	"observed_on": "2014-09-06",
+	"location": "27.3331,88.6111",
+	"place_guess": "Iris Inn, Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 743291,
+	"user_id": "drnamgyal04",
+	"img": "Garaeus_apicata(1).jpg"
+}, {
+	"id": 86936945,
+	"observed_on": "2019-06-16",
+	"location": "27.6922,88.7414",
+	"place_guess": "Lachung, Sikkim 737120",
+	"taxa_id": 700944,
+	"user_id": "drnamgyal04",
+	"img": "Brahmaea_wallichii.jpg"
+}, {
+	"id": 86938399,
+	"observed_on": "2014-08-24",
+	"location": "27.3426,88.5921",
+	"place_guess": "Khelgaun Ranka, Gangtok, Sikkim",
+	"taxa_id": 121881,
+	"user_id": "drnamgyal04",
+	"img": "Tetragonus_catamitus.jpg"
+}, {
+	"id": 86978763,
+	"observed_on": "2014-09-01",
+	"location": "27.3354,88.6116",
+	"place_guess": "Iris Inn, Upper Sichey, Gangtok, Sikkim India",
+	"taxa_id": 781076,
+	"user_id": "drnamgyal04",
+	"img": "Pterotopteryx_spilodesma.jpg"
+}, {
+	"id": 86979353,
+	"observed_on": "2020-09-05",
+	"location": "27.3354,88.6114",
+	"place_guess": "Iris Inn, Upper Sichey, Gangtok, Sikkim India",
+	"taxa_id": 781071,
+	"user_id": "drnamgyal04",
+	"img": "Pterotopteryx_dodecadactyla.jpg"
+}, {
+	"id": 86982004,
+	"observed_on": "2014-04-29",
+	"location": "27.3353,88.6115",
+	"place_guess": "Iris Inn, Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 782611,
+	"user_id": "drnamgyal04",
+	"img": "Endoclita_malabaricus.jpg"
+}, {
+	"id": 87134881,
+	"observed_on": "2019-08-29",
+	"location": "27.3354,88.6113",
+	"place_guess": "Iris Inn, Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 216808,
+	"user_id": "drnamgyal04",
+	"img": "Choristoneura_parallela.jpg"
+}, {
+	"id": 87222294,
+	"observed_on": "2018-06-16",
+	"location": "27.3445,88.6111",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 361729,
+	"user_id": "drnamgyal04",
+	"img": "Langia_zenzeroides.jpg"
+}, {
+	"id": 87241475,
+	"observed_on": "2021-07-15",
+	"location": "27.3093,88.5966",
+	"place_guess": "Nh 31 A,, Tadong, East Sikkim, near Sikkim Jewels, Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 964493,
+	"user_id": "rohitmg",
+	"img": "Ectropis_dentilineata.jpg"
+}, {
+	"id": 87245673,
+	"observed_on": "2021-07-15",
+	"location": "27.3098,88.5969",
+	"place_guess": "gangtok",
+	"taxa_id": 785913,
+	"user_id": "rohitmg",
+	"img": "Synegiodes_sanguinaria(1).jpg"
+}, {
+	"id": 87245695,
+	"observed_on": "2021-07-15",
+	"location": "27.3093,88.5967",
+	"place_guess": "Nh 31 A,, Tadong, East Sikkim, near Sikkim Jewels, Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 921327,
+	"user_id": "rohitmg",
+	"img": "Hypomecis_ratotaria.jpg"
+}, {
+	"id": 87257951,
+	"observed_on": "2021-06-03",
+	"location": "27.0909,88.4568",
+	"place_guess": "Melli Dara Manjee",
+	"taxa_id": 370739,
+	"user_id": "diwakar_g",
+	"img": "Parasa_pastoralis(1).jpg"
+}, {
+	"id": 87363687,
+	"observed_on": "2020-06-17",
+	"location": "27.0244,88.2627",
+	"place_guess": "Alubari Basty, West Bengal 734102",
+	"taxa_id": 52004,
+	"user_id": "rewaz_gurung",
+	"img": "Theretra_nessus.jpg"
+}, {
+	"id": 87371282,
+	"observed_on": "2009-01-01",
+	"location": "26.8945,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 509800,
+	"user_id": "prayash29",
+	"img": "Antheraea_paphia.jpg"
+}, {
+	"id": 87373562,
+	"observed_on": "2018-10-16",
+	"location": "26.8823,88.2827",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 319476,
+	"user_id": "prayash29",
+	"img": "Sarcinodes_restitutaria(1).jpg"
+}, {
+	"id": 87373869,
+	"observed_on": "2019-08-22",
+	"location": "26.8944,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 922288,
+	"user_id": "prayash29",
+	"img": "Comparmustilia_sphingiformis.jpg"
+}, {
+	"id": 87374858,
+	"observed_on": "2018-11-16",
+	"location": "27.0535,88.2603",
+	"place_guess": "Richmond Hill, Darjeeling, West Bengal",
+	"taxa_id": 878752,
+	"user_id": "prayash29",
+	"img": "Nordstromia_vira.jpg"
+}, {
+	"id": 87375408,
+	"observed_on": "2021-07-17",
+	"location": "27.1216,88.0577",
+	"place_guess": "Gurdum MINGMA Homestay",
+	"taxa_id": 125325,
+	"user_id": "mingma_tamang1",
+	"img": "Callindra_principalis.jpg"
+}, {
+	"id": 87376073,
+	"observed_on": "2018-10-03",
+	"location": "27.0628,88.2541",
+	"place_guess": "North Point, Darjeeling, West Bengal 734104",
+	"taxa_id": 325711,
+	"user_id": "prayash29",
+	"img": "Calliteara_complicata.jpg"
+}, {
+	"id": 87376510,
+	"observed_on": "2018-05-09",
+	"location": "27.0628,88.2542",
+	"place_guess": "North Point, Darjeeling, West Bengal 734104",
+	"taxa_id": 627655,
+	"user_id": "prayash29",
+	"img": "Cyana_detrita(1).jpg"
+}, {
+	"id": 87378328,
+	"observed_on": "2021-05-30",
+	"location": "27.0759,88.1615",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 491271,
+	"user_id": "prayash29",
+	"img": "Miresa_bracteata.jpg"
+}, {
+	"id": 87378729,
+	"observed_on": "2021-06-02",
+	"location": "27.0753,88.1615",
+	"place_guess": "Lamagaon, West Bengal 734201",
+	"taxa_id": 204735,
+	"user_id": "prayash29",
+	"img": "Macrobrochis_prasena.jpg"
+}, {
+	"id": 87379029,
+	"observed_on": "2021-05-21",
+	"location": "27.0754,88.1618",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 333245,
+	"user_id": "prayash29",
+	"img": "Archaeoattacus_edwardsii.jpg"
+}, {
+	"id": 87380104,
+	"observed_on": "2021-06-10",
+	"location": "27.0753,88.1617",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 121809,
+	"user_id": "prayash29",
+	"img": "Arctioblepsis_rubida.jpg"
+}, {
+	"id": 87380419,
+	"observed_on": "2021-06-11",
+	"location": "27.0752,88.1619",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 124780,
+	"user_id": "prayash29",
+	"img": "Dudusa_sphingiformis.jpg"
+}, {
+	"id": 87381465,
+	"observed_on": "2021-05-21",
+	"location": "27.0757,88.1616",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 557079,
+	"user_id": "prayash29",
+	"img": "Praesetora_divergens.jpg"
+}, {
+	"id": 87382829,
+	"observed_on": "2021-05-30",
+	"location": "27.0752,88.1618",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 497028,
+	"user_id": "prayash29",
+	"img": "Mecodina_diastriga.jpg"
+}, {
+	"id": 87385385,
+	"observed_on": "2021-05-30",
+	"location": "27.0753,88.1618",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 468562,
+	"user_id": "prayash29",
+	"img": "Mecodina_cineracea.jpg"
+}, {
+	"id": 87385699,
+	"observed_on": "2021-05-29",
+	"location": "27.0754,88.1617",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 703241,
+	"user_id": "prayash29",
+	"img": "Maliattha_picata.jpg"
+}, {
+	"id": 87387225,
+	"observed_on": "2021-06-02",
+	"location": "27.0753,88.1617",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 354731,
+	"user_id": "prayash29",
+	"img": "Cyana_gelida.jpg"
+}, {
+	"id": 87389534,
+	"observed_on": "2021-05-30",
+	"location": "27.0755,88.1617",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 892526,
+	"user_id": "prayash29",
+	"img": "Nagiella_quadrimaculalis.jpg"
+}, {
+	"id": 87390858,
+	"observed_on": "2021-06-26",
+	"location": "27.0753,88.1618",
+	"place_guess": "Kainjalia, West Bengal 734201",
+	"taxa_id": 634971,
+	"user_id": "prayash29",
+	"img": "Maliattha_quadripartita.jpg"
+}, {
+	"id": 87393355,
+	"observed_on": "2021-06-06",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 203053,
+	"user_id": "prayash29",
+	"img": "Entomogramma_fautrix.jpg"
+}, {
+	"id": 87393974,
+	"observed_on": "2021-07-17",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 203994,
+	"user_id": "prayash29",
+	"img": "Erebus_hieroglyphica.jpg"
+}, {
+	"id": 87394505,
+	"observed_on": "2021-07-17",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 125271,
+	"user_id": "prayash29",
+	"img": "Spirama_retorta.jpg"
+}, {
+	"id": 87394838,
+	"observed_on": "2021-07-17",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 521702,
+	"user_id": "prayash29",
+	"img": "Scopelodes_venosa.jpg"
+}, {
+	"id": 87395534,
+	"observed_on": "2021-07-17",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 622329,
+	"user_id": "prayash29",
+	"img": "Phocoderma_velutina.jpg"
+}, {
+	"id": 87396523,
+	"observed_on": "2018-09-04",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 244132,
+	"user_id": "meghna_limboo",
+	"img": "Gloriana_ornata.jpg"
+}, {
+	"id": 87403350,
+	"observed_on": "2021-07-17",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 901110,
+	"user_id": "prayash29",
+	"img": "Dysgonia_praetermissa.jpg"
+}, {
+	"id": 87405316,
+	"observed_on": "2021-07-17",
+	"location": "27.1041,88.1224",
+	"place_guess": "Bijanbari Rd, Lodhoma Bazar, Lodhoma, West Bengal 734201",
+	"taxa_id": 1147459,
+	"user_id": "prayash29",
+	"img": "Parasynegia_lidderdalii.jpg"
+}, {
+	"id": 87405635,
+	"observed_on": "2021-07-15",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 130101,
+	"user_id": "susadhnagurung",
+	"img": "Cabera_pusaria.jpg"
+}, {
+	"id": 87407536,
+	"observed_on": "2021-04-15",
+	"location": "27.042,88.3667",
+	"place_guess": "Hum Tukdah Khasmahal, West Bengal",
+	"taxa_id": 710255,
+	"user_id": "prayash29",
+	"img": "Palirisa_cervina(1).jpg"
+}, {
+	"id": 87423361,
+	"observed_on": "2021-07-17",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 145630,
+	"user_id": "susadhnagurung",
+	"img": "Micronia_aculeata.jpg"
+}, {
+	"id": 87423563,
+	"observed_on": "2021-07-17",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 52429,
+	"user_id": "susadhnagurung",
+	"img": "Abraxas_sylvata(1).jpg"
+}, {
+	"id": 87490479,
+	"observed_on": "2021-07-17",
+	"location": "27.0398,88.2659",
+	"place_guess": "Limbugaon, Darjeeling, West Bengal",
+	"taxa_id": 220292,
+	"user_id": "bonpradhan",
+	"img": "Garella_nilotica.jpg"
+}, {
+	"id": 87507924,
+	"observed_on": "2021-07-18",
+	"location": "27.1574,88.0798",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 536696,
+	"user_id": "nisha22",
+	"img": "Salassa_lola.jpg"
+}, {
+	"id": 87509915,
+	"observed_on": "2021-07-18",
+	"location": "27.0149,88.3166",
+	"place_guess": "Pubong Khasmahal, West Bengal 734123",
+	"taxa_id": 125346,
+	"user_id": "rajenchhetri",
+	"img": "Thyas_juno.jpg"
+}, {
+	"id": 87509921,
+	"observed_on": "2021-07-18",
+	"location": "27.0149,88.3166",
+	"place_guess": "Pubong Khasmahal, West Bengal 734123",
+	"taxa_id": 121807,
+	"user_id": "rajenchhetri",
+	"img": "Ambulyx_ochracea.jpg"
+}, {
+	"id": 87566303,
+	"observed_on": "2021-07-18",
+	"location": "27.1576,88.0796",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 637668,
+	"user_id": "nisha22",
+	"img": "Agnibesa_pictaria(1).jpg"
+}, {
+	"id": 87579691,
+	"observed_on": "2021-07-17",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 126723,
+	"user_id": "susadhnagurung",
+	"img": "Hemithea_tritonaria(1).jpg"
+}, {
+	"id": 87581853,
+	"observed_on": "2021-07-18",
+	"location": "27.0396,88.3577",
+	"place_guess": "Bunglaw No. 7, Martin Park, Takdah Cantonment, Hum Tukdah Khasmahal, West Bengal 734222",
+	"taxa_id": 424572,
+	"user_id": "adityazoo",
+	"img": "Cyclothea_disjuncta.jpg"
+}, {
+	"id": 87584144,
+	"observed_on": "2021-07-17",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 387745,
+	"user_id": "susadhnagurung",
+	"img": "Cnephasia_jactatana.jpg"
+}, {
+	"id": 87584999,
+	"observed_on": "2021-07-17",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 230610,
+	"user_id": "susadhnagurung",
+	"img": "Schrankia_macula.jpg"
+}, {
+	"id": 87587519,
+	"observed_on": "2021-07-18",
+	"location": "27.0397,88.3577",
+	"place_guess": "Bunglaw No. 7, Martin Park, Takdah Cantonment, Hum Tukdah Khasmahal, West Bengal 734222",
+	"taxa_id": 523946,
+	"user_id": "adityazoo",
+	"img": "Cechetra_lineosa(1).jpg"
+}, {
+	"id": 87589313,
+	"observed_on": "2021-07-18",
+	"location": "27.0396,88.3578",
+	"place_guess": "Bunglaw No. 7, Martin Park, Takdah Cantonment, Hum Tukdah Khasmahal, West Bengal 734222",
+	"taxa_id": 322130,
+	"user_id": "adityazoo",
+	"img": "Herminia_grisealis.jpg"
+}, {
+	"id": 87623452,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 124612,
+	"user_id": "prayash29",
+	"img": "Gazalina_apsara.jpg"
+}, {
+	"id": 87626559,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 125169,
+	"user_id": "prayash29",
+	"img": "Peratophyga_hyalinata.jpg"
+}, {
+	"id": 87632535,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 505176,
+	"user_id": "prayash29",
+	"img": "Rusicada_fulvida.jpg"
+}, {
+	"id": 87634643,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 348211,
+	"user_id": "prayash29",
+	"img": "Heterostegane_urbica.jpg"
+}, {
+	"id": 87634915,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 635236,
+	"user_id": "prayash29",
+	"img": "Petelia_medardaria(1).jpg"
+}, {
+	"id": 87636550,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 55649,
+	"user_id": "prayash29",
+	"img": "Chrysodeixis_eriosoma(1).jpg"
+}, {
+	"id": 87639861,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 244304,
+	"user_id": "prayash29",
+	"img": "Rhagastis_confusa.jpg"
+}, {
+	"id": 87640059,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 125114,
+	"user_id": "prayash29",
+	"img": "Rhagastis_olivacea.jpg"
+}, {
+	"id": 87640538,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 125465,
+	"user_id": "prayash29",
+	"img": "Calesia_dasypterus.jpg"
+}, {
+	"id": 87640765,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 204643,
+	"user_id": "prayash29",
+	"img": "Westermannia_superba.jpg"
+}, {
+	"id": 87645179,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 355436,
+	"user_id": "prayash29",
+	"img": "Hulodes_donata.jpg"
+}, {
+	"id": 87646286,
+	"observed_on": "2021-07-19",
+	"location": "27.1577,88.0796",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 713429,
+	"user_id": "nisha22",
+	"img": "Arguda_vinata.jpg"
+}, {
+	"id": 87647072,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 1264843,
+	"user_id": "prayash29",
+	"img": "Carea_nitida.jpg"
+}, {
+	"id": 87648707,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 624152,
+	"user_id": "prayash29",
+	"img": "Ramila_angustifimbrialis.jpg"
+}, {
+	"id": 87649224,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 628426,
+	"user_id": "prayash29",
+	"img": "Comibaena_biplaga.jpg"
+}, {
+	"id": 87654845,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 121904,
+	"user_id": "prayash29",
+	"img": "Anisoneura_aluco(1).jpg"
+}, {
+	"id": 87655447,
+	"observed_on": "2021-07-19",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 785514,
+	"user_id": "bonpradhan",
+	"img": "Hastina_subfalcaria.jpg"
+}, {
+	"id": 87657351,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 578548,
+	"user_id": "prayash29",
+	"img": "Lassaba_parvalbidaria.jpg"
+}, {
+	"id": 87659129,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 125304,
+	"user_id": "prayash29",
+	"img": "Spilarctia_obliqua.jpg"
+}, {
+	"id": 87673434,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 417506,
+	"user_id": "prayash29",
+	"img": "Lophoptera_squammigera.jpg"
+}, {
+	"id": 87673857,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 337106,
+	"user_id": "prayash29",
+	"img": "Orthocabera_sericea.jpg"
+}, {
+	"id": 87675323,
+	"observed_on": "2021-07-19",
+	"location": "26.8946,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 205306,
+	"user_id": "prayash29",
+	"img": "Nacna_splendens.jpg"
+}, {
+	"id": 87677332,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 734517,
+	"user_id": "prayash29",
+	"img": "Jodis_inumbrata.jpg"
+}, {
+	"id": 87678191,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2816",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 462028,
+	"user_id": "prayash29",
+	"img": "Poliobotys_ablactalis(1).jpg"
+}, {
+	"id": 87695815,
+	"observed_on": "2021-07-19",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 52086,
+	"user_id": "bonpradhan",
+	"img": "Asota_caricae.jpg"
+}, {
+	"id": 87697567,
+	"observed_on": "2021-07-19",
+	"location": "27.3094,88.5966",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 124756,
+	"user_id": "arun-subba",
+	"img": "Pyralis_pictalis.jpg"
+}, {
+	"id": 87705020,
+	"observed_on": "2021-07-19",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 205308,
+	"user_id": "meghna25",
+	"img": "Mangina_argus.jpg"
+}, {
+	"id": 87706799,
+	"observed_on": "2021-07-19",
+	"location": "26.929,88.2502",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 311408,
+	"user_id": "meghna25",
+	"img": "Eudocima_salaminia(1).jpg"
+}, {
+	"id": 87708525,
+	"observed_on": "2021-07-19",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 291093,
+	"user_id": "meghna25",
+	"img": "Agathia_carissima.jpg"
+}, {
+	"id": 87710877,
+	"observed_on": "2021-07-17",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 332979,
+	"user_id": "meghna25",
+	"img": "Episteme_adulatrix.jpg"
+}, {
+	"id": 87722864,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 325706,
+	"user_id": "prayash29",
+	"img": "Baradesa_omissa.jpg"
+}, {
+	"id": 87723570,
+	"observed_on": "2021-07-19",
+	"location": "26.8945,88.2817",
+	"place_guess": "Kurseong, West Bengal",
+	"taxa_id": 752250,
+	"user_id": "prayash29",
+	"img": "Piletocera_aegimiusalis.jpg"
+}, {
+	"id": 87729787,
+	"observed_on": "2021-07-19",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 484485,
+	"user_id": "meghna25",
+	"img": "Sinna_floralis.jpg"
+}, {
+	"id": 87730151,
+	"observed_on": "2021-07-19",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 125258,
+	"user_id": "meghna25",
+	"img": "Creatonotos_transiens.jpg"
+}, {
+	"id": 87741326,
+	"observed_on": "2021-07-19",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 125260,
+	"user_id": "meghna25",
+	"img": "Areas_galactina(1).jpg"
+}, {
+	"id": 87814279,
+	"observed_on": "2021-07-19",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 52034,
+	"user_id": "meghna25",
+	"img": "Mocis_undata(1).jpg"
+}, {
+	"id": 87818182,
+	"observed_on": "2021-07-20",
+	"location": "27.1221,88.0569",
+	"place_guess": "Gurdum forest P.O.Daragaon P.S lodhama, Singalila Forest, West Bengal 734201",
+	"taxa_id": 338253,
+	"user_id": "pasang1",
+	"img": "Saturnia_zuleika.jpg"
+}, {
+	"id": 87851951,
+	"observed_on": "2021-07-20",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 340847,
+	"user_id": "bonpradhan",
+	"img": "Pindara_illibata.jpg"
+}, {
+	"id": 87854393,
+	"observed_on": "2021-07-20",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 713676,
+	"user_id": "bonpradhan",
+	"img": "Daddala_brevicauda.jpg"
+}, {
+	"id": 87854890,
+	"observed_on": "2021-07-20",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 510161,
+	"user_id": "bonpradhan",
+	"img": "Syngamia_latimarginalis.jpg"
+}, {
+	"id": 87858496,
+	"observed_on": "2021-07-20",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 319482,
+	"user_id": "meghna25",
+	"img": "Omiodes_indicata(1).jpg"
+}, {
+	"id": 87863557,
+	"observed_on": "2021-07-20",
+	"location": "27.0909,88.4567",
+	"place_guess": "Melli",
+	"taxa_id": 196579,
+	"user_id": "diwakar_g",
+	"img": "Ischyja_manlia.jpg"
+}, {
+	"id": 87867168,
+	"observed_on": "2021-07-20",
+	"location": "27.4696,88.5127",
+	"place_guess": "Sikkim 737116",
+	"taxa_id": 787794,
+	"user_id": "pundimyt",
+	"img": "Episothalma_robustaria.jpg"
+}, {
+	"id": 87869550,
+	"observed_on": "2021-07-20",
+	"location": "26.9574,88.142",
+	"place_guess": "Pokhribong Khasmahal, West Bengal 734216",
+	"taxa_id": 202658,
+	"user_id": "susadhnagurung",
+	"img": "Chorodna_strixaria.jpg"
+}, {
+	"id": 87931136,
+	"observed_on": "2021-07-20",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 734454,
+	"user_id": "bonpradhan",
+	"img": "Hypochrosis_rufescens.jpg"
+}, {
+	"id": 87963530,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 204819,
+	"user_id": "meghna25",
+	"img": "Sympis_rufibasis.jpg"
+}, {
+	"id": 87965930,
+	"observed_on": "2021-07-20",
+	"location": "27.1182,88.1084",
+	"place_guess": "Rimbick, West Bengal 734201",
+	"taxa_id": 357356,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Erebomorpha_fulguraria.jpg"
+}, {
+	"id": 87989004,
+	"observed_on": "2021-07-20",
+	"location": "26.9531,88.1558",
+	"place_guess": "Chamu Tea Garden, West Bengal 734216",
+	"taxa_id": 125049,
+	"user_id": "susadhnagurung",
+	"img": "Trachea_atriplicis.jpg"
+}, {
+	"id": 87989875,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 125234,
+	"user_id": "meghna25",
+	"img": "Cyana_arama.jpg"
+}, {
+	"id": 87990027,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 337837,
+	"user_id": "meghna25",
+	"img": "Gonitis_involuta.jpg"
+}, {
+	"id": 87992528,
+	"observed_on": "2021-07-20",
+	"location": "26.9531,88.1558",
+	"place_guess": "Chamu Tea Garden, West Bengal 734216",
+	"taxa_id": 143282,
+	"user_id": "susadhnagurung",
+	"img": "Pandemis_limitata.jpg"
+}, {
+	"id": 87993243,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 952250,
+	"user_id": "meghna25",
+	"img": "Scopula_umbelaria.jpg"
+}, {
+	"id": 88002957,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 124308,
+	"user_id": "meghna25",
+	"img": "Nausinoe_geometralis.jpg"
+}, {
+	"id": 88003701,
+	"observed_on": "2021-07-21",
+	"location": "27.1197,88.3025",
+	"place_guess": "Singla Tea Garden, West Bengal",
+	"taxa_id": 209608,
+	"user_id": "basu_limbu",
+	"img": "Ercheia_cyllaria(1).jpg"
+}, {
+	"id": 88003973,
+	"observed_on": null,
+	"location": "27.1162,88.295",
+	"place_guess": "Singla Primary School",
+	"taxa_id": 204042,
+	"user_id": "basu_limbu",
+	"img": "Achaea_janata.jpg"
+}, {
+	"id": 88004939,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 143615,
+	"user_id": "meghna25",
+	"img": "Udea_rubigalis(1).jpg"
+}, {
+	"id": 88008957,
+	"observed_on": "2021-07-21",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 142995,
+	"user_id": "meghna25",
+	"img": "Hymenia_perspectalis(1).jpg"
+}, {
+	"id": 88075817,
+	"observed_on": "2018-08-09",
+	"location": "27.3354,88.6113",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 124701,
+	"user_id": "drnamgyal04",
+	"img": "Soritia_pulchella.jpg"
+}, {
+	"id": 88076416,
+	"observed_on": "2019-09-14",
+	"location": "27.106,88.3233",
+	"place_guess": "Majhitar, South Sikkim",
+	"taxa_id": 202782,
+	"user_id": "drnamgyal04",
+	"img": "Histia_flabellicornis.jpg"
+}, {
+	"id": 88079747,
+	"observed_on": "2021-07-22",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 633323,
+	"user_id": "meghna25",
+	"img": "Eupterote_mollifera.jpg"
+}, {
+	"id": 88089131,
+	"observed_on": "2021-07-22",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 367114,
+	"user_id": "bonpradhan",
+	"img": "Corymica_specularia.jpg"
+}, {
+	"id": 88099781,
+	"observed_on": "2019-09-24",
+	"location": "27.5657,88.4425",
+	"place_guess": "Bay North Sikkim, Sikkim",
+	"taxa_id": 804383,
+	"user_id": "pemayangden",
+	"img": "Cyana_puer.jpg"
+}, {
+	"id": 88099969,
+	"observed_on": "2021-07-22",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 202812,
+	"user_id": "meghna25",
+	"img": "Callopistria_juventina.jpg"
+}, {
+	"id": 88100361,
+	"observed_on": "2019-11-18",
+	"location": "27.5657,88.4425",
+	"place_guess": "Bay North Sikkim, Sikkim",
+	"taxa_id": 504471,
+	"user_id": "pemayangden",
+	"img": "Acmeshachia_gigantea.jpg"
+}, {
+	"id": 88100362,
+	"observed_on": "2019-11-18",
+	"location": "27.5657,88.4425",
+	"place_guess": "Bay North Sikkim, Sikkim",
+	"taxa_id": 338245,
+	"user_id": "pemayangden",
+	"img": "Saturnia_thibeta(1).jpg"
+}, {
+	"id": 88100625,
+	"observed_on": "2019-10-22",
+	"location": "27.5471,88.4838",
+	"place_guess": "Namprik North Sikkim, Sikkim",
+	"taxa_id": 633214,
+	"user_id": "pemayangden",
+	"img": "Maxates_veninotata.jpg"
+}, {
+	"id": 88100632,
+	"observed_on": "2019-10-22",
+	"location": "27.5471,88.4838",
+	"place_guess": "Namprik North Sikkim, Sikkim",
+	"taxa_id": 735518,
+	"user_id": "pemayangden",
+	"img": "Chorodna_parisnattei.jpg"
+}, {
+	"id": 88100635,
+	"observed_on": "2019-10-22",
+	"location": "27.5471,88.4838",
+	"place_guess": "Namprik North Sikkim, Sikkim",
+	"taxa_id": 124527,
+	"user_id": "pemayangden",
+	"img": "Callidrepana_patrana.jpg"
+}, {
+	"id": 88109615,
+	"observed_on": "2020-08-21",
+	"location": "27.3096,88.5967",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 322907,
+	"user_id": "rohitmg",
+	"img": "Amata_bicincta.jpg"
+}, {
+	"id": 88109629,
+	"observed_on": "2020-08-21",
+	"location": "27.3096,88.5967",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 199439,
+	"user_id": "rohitmg",
+	"img": "Eurrhyparodes_bracteolalis.jpg"
+}, {
+	"id": 88127141,
+	"observed_on": "2021-07-22",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 243911,
+	"user_id": "meghna25",
+	"img": "Herpetogramma_licarsisalis(1).jpg"
+}, {
+	"id": 88132826,
+	"observed_on": "2021-06-27",
+	"location": "27.1287,88.0979",
+	"place_guess": "Sepi Gaon, West Bengal 734201",
+	"taxa_id": 125329,
+	"user_id": "laxmi4",
+	"img": "Areas_imperialis.jpg"
+}, {
+	"id": 88135499,
+	"observed_on": "2021-07-22",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 882290,
+	"user_id": "bonpradhan",
+	"img": "Abraxas_leucostola(1).jpg"
+}, {
+	"id": 88136058,
+	"observed_on": "2021-07-22",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 1208872,
+	"user_id": "meghna25",
+	"img": "Huangilene_alikangiae(1).jpg"
+}, {
+	"id": 88141608,
+	"observed_on": "2021-07-22",
+	"location": "27.0339,88.26",
+	"place_guess": "Rajbari, Darjeeling, West Bengal",
+	"taxa_id": 1258247,
+	"user_id": "yougesh1",
+	"img": "Lygniodes_vampyrus.jpg"
+}, {
+	"id": 88157569,
+	"observed_on": "2021-07-22",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden",
+	"taxa_id": 902377,
+	"user_id": "meghna25",
+	"img": "Amblychia_pardicelata.jpg"
+}, {
+	"id": 88199429,
+	"observed_on": "2021-07-23",
+	"location": "27.1671,88.3652",
+	"place_guess": "Namchi",
+	"taxa_id": 125245,
+	"user_id": "anu_kerongi_lama",
+	"img": "Anonychia_grisea(1).jpg"
+}, {
+	"id": 88231901,
+	"observed_on": "2021-05-21",
+	"location": "27.103,88.4283",
+	"place_guess": "Melli Dara",
+	"taxa_id": 68362,
+	"user_id": "pamina_chhetri",
+	"img": "Actias_maenas.jpg"
+}, {
+	"id": 88239267,
+	"observed_on": "2020-08-26",
+	"location": "27.3096,88.5967",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 705527,
+	"user_id": "rohitmg",
+	"img": "Harutaea_flavizona.jpg"
+}, {
+	"id": 88239277,
+	"observed_on": "2020-08-26",
+	"location": "27.3096,88.5967",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 632521,
+	"user_id": "rohitmg",
+	"img": "Pelagodes_veraria.jpg"
+}, {
+	"id": 88239282,
+	"observed_on": "2020-08-25",
+	"location": "27.3096,88.5967",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 1077170,
+	"user_id": "rohitmg",
+	"img": "Prochasma_mimica.jpg"
+}, {
+	"id": 88239283,
+	"observed_on": "2020-08-25",
+	"location": "27.3096,88.5967",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 546919,
+	"user_id": "rohitmg",
+	"img": "Heterostegane_subtessellata.jpg"
+}, {
+	"id": 88257517,
+	"observed_on": "2021-07-23",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 124255,
+	"user_id": "meghna25",
+	"img": "Orvasca_subnotata(1).jpg"
+}, {
+	"id": 88259764,
+	"observed_on": "2021-07-23",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 320979,
+	"user_id": "meghna25",
+	"img": "Prasinocyma_semicrocea.jpg"
+}, {
+	"id": 88261506,
+	"observed_on": "2021-07-23",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 479202,
+	"user_id": "meghna25",
+	"img": "Scopula_benitaria.jpg"
+}, {
+	"id": 88271792,
+	"observed_on": "2021-07-23",
+	"location": "26.933,88.2315",
+	"place_guess": "Moonda Kotee Tea Garden, West Bengal",
+	"taxa_id": 209610,
+	"user_id": "meghna25",
+	"img": "Hyposidra_infixaria(1).jpg"
+}, {
+	"id": 88282934,
+	"observed_on": "2021-07-23",
+	"location": "27.0396,88.3577",
+	"place_guess": "Bunglaw No. 7, Martin Park, Takdah Cantonment, Hum Tukdah Khasmahal, West Bengal 734222",
+	"taxa_id": 199856,
+	"user_id": "adityazoo",
+	"img": "Calamotropha_latella.jpg"
+}, {
+	"id": 88337169,
+	"observed_on": "2021-07-24",
+	"location": "27.4477,88.4967",
+	"place_guess": "Gnon-Samdong",
+	"taxa_id": 124133,
+	"user_id": "punurip",
+	"img": "Glanycus_insolitus.jpg"
+}, {
+	"id": 88343351,
+	"observed_on": "2021-07-23",
+	"location": "27.0397,88.3577",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 52043,
+	"user_id": "adityazoo",
+	"img": "Spoladea_recurvalis.jpg"
+}, {
+	"id": 88343684,
+	"observed_on": "2021-07-23",
+	"location": "27.0396,88.3578",
+	"place_guess": "Bunglaw No. 7, Martin Park, Takdah Cantonment, Hum Tukdah Khasmahal, West Bengal 734222",
+	"taxa_id": 124609,
+	"user_id": "adityazoo",
+	"img": "Gazalina_chrysolopha(1).jpg"
+}, {
+	"id": 88349544,
+	"observed_on": null,
+	"location": "27.1276,88.098",
+	"place_guess": "Sepi Gaon",
+	"taxa_id": 126982,
+	"user_id": "sristika_rai",
+	"img": "Dichorda_iridaria.jpg"
+}, {
+	"id": 88349721,
+	"observed_on": null,
+	"location": "27.1276,88.098",
+	"place_guess": "Sepi Gaon, West Bengal 734201",
+	"taxa_id": 734497,
+	"user_id": "sristika_rai",
+	"img": "Iotaphora_admirabilis.jpg"
+}, {
+	"id": 88349802,
+	"observed_on": null,
+	"location": "27.1276,88.098",
+	"place_guess": "Sepi Gaon, West Bengal 734201",
+	"taxa_id": 224257,
+	"user_id": "sristika_rai",
+	"img": "Macaria_multilineata.jpg"
+}, {
+	"id": 88357878,
+	"observed_on": "2021-07-24",
+	"location": "27.4579,88.5044",
+	"place_guess": "Gnon-Sangdong North Sikkim, Sikkim",
+	"taxa_id": 1039811,
+	"user_id": "pemayangden",
+	"img": "Monocerotesa_radiata(1).jpg"
+}, {
+	"id": 88393594,
+	"observed_on": "2021-07-18",
+	"location": "27.3438,88.5874",
+	"place_guess": "Perbing, Ranka, Sikkim 737135",
+	"taxa_id": 121835,
+	"user_id": "drnamgyal04",
+	"img": "Polyptychus_trilineatus.jpg"
+}, {
+	"id": 88406240,
+	"observed_on": "2021-07-24",
+	"location": "27.0149,88.3166",
+	"place_guess": "Pubong Khasmahal, West Bengal",
+	"taxa_id": 877000,
+	"user_id": "rajenchhetri",
+	"img": "Erebus_albicincta.jpg"
+}, {
+	"id": 88406273,
+	"observed_on": "2021-07-24",
+	"location": "27.0149,88.3166",
+	"place_guess": "Pubong Khasmahal, West Bengal",
+	"taxa_id": 1265049,
+	"user_id": "rajenchhetri",
+	"img": "Nacna_pulchripicta.jpg"
+}, {
+	"id": 88481907,
+	"observed_on": "2021-07-25",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1013518,
+	"user_id": "bonpradhan",
+	"img": "Hastina_pluristrigata.jpg"
+}, {
+	"id": 88563177,
+	"observed_on": "2021-07-16",
+	"location": "27.4714,88.5001",
+	"place_guess": "Sikkim 737116",
+	"taxa_id": 854878,
+	"user_id": "el72",
+	"img": "Darisa_fratercula.jpg"
+}, {
+	"id": 88715639,
+	"observed_on": "2021-07-26",
+	"location": "27.1225,88.0597",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 1274292,
+	"user_id": "mingma_tamang1",
+	"img": "Eustroma_mixtilineata.jpg"
+}, {
+	"id": 88801207,
+	"observed_on": "2021-07-27",
+	"location": "27.0916,88.4255",
+	"place_guess": "Sikkim 737128",
+	"taxa_id": 634922,
+	"user_id": "prawesh1",
+	"img": "Locastra_viridis.jpg"
+}, {
+	"id": 88832149,
+	"observed_on": "2021-07-27",
+	"location": "27.1226,88.0597",
+	"place_guess": "Singalila Forest, West Bengal",
+	"taxa_id": 1042378,
+	"user_id": "mingma_tamang1",
+	"img": "Eupterote_glaucescens(1).jpg"
+}, {
+	"id": 88892952,
+	"observed_on": "2021-07-27",
+	"location": "27.0915,88.4253",
+	"place_guess": "Sikkim 737128",
+	"taxa_id": 207635,
+	"user_id": "prawesh1",
+	"img": "Selepa_discigera.jpg"
+}, {
+	"id": 88946430,
+	"observed_on": "2021-07-28",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 194586,
+	"user_id": "bonpradhan",
+	"img": "Daddala_lucilla.jpg"
+}, {
+	"id": 89026708,
+	"observed_on": "2021-07-26",
+	"location": "27.4579,88.5044",
+	"place_guess": "Gnon-Sangdong North Sikkim, Sikkim",
+	"taxa_id": 424770,
+	"user_id": "pemayangden",
+	"img": "Hypochrosis_hyadaria.jpg"
+}, {
+	"id": 89027961,
+	"observed_on": "2021-07-25",
+	"location": "27.1024,88.8357",
+	"place_guess": "4R2P+W7W, Today Tangta Khasmahal, West Bengal 734319",
+	"taxa_id": 622358,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Hyaloplaga_pulchralis.jpg"
+}, {
+	"id": 89031213,
+	"observed_on": "2021-07-27",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 355437,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Lacera_noctilio.jpg"
+}, {
+	"id": 89031226,
+	"observed_on": "2021-07-27",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 423824,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Sarcinodes_aequilinearia.jpg"
+}, {
+	"id": 89031617,
+	"observed_on": "2021-07-27",
+	"location": "26.9961,88.3201",
+	"place_guess": "Lalung Busty ,Mangpu Cinchona Plantation, West Bengal",
+	"taxa_id": 339421,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Eucyclodes_sanguilineata(1).jpg"
+}, {
+	"id": 89031864,
+	"observed_on": "2021-07-27",
+	"location": "27.0094,88.3081",
+	"place_guess": "Rampuria Forest Village, Lamahata, West Bengal 734123",
+	"taxa_id": 622324,
+	"user_id": "atree_eastern_himalaya",
+	"img": "Squamosa_ocellata.jpg"
+}, {
+	"id": 89073073,
+	"observed_on": "2021-07-29",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 125216,
+	"user_id": "bonpradhan",
+	"img": "Hyalinetta_circumflexa.jpg"
+}, {
+	"id": 89079007,
+	"observed_on": null,
+	"location": "27.0891,88.0906",
+	"place_guess": "Bansbotte, West Bengal 734201",
+	"taxa_id": 125624,
+	"user_id": "laxmi4",
+	"img": "Aglaomorpha_plagiata(1).jpg"
+}, {
+	"id": 89284025,
+	"observed_on": "2021-07-31",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 124120,
+	"user_id": "bonpradhan",
+	"img": "Plutodes_costatus.jpg"
+}, {
+	"id": 89303247,
+	"observed_on": "2021-07-31",
+	"location": "27.4477,88.4967",
+	"place_guess": "Gnon-Samdong",
+	"taxa_id": 1268803,
+	"user_id": "punurip",
+	"img": "Achelura_bifasciata.jpg"
+}, {
+	"id": 89331957,
+	"observed_on": "2021-07-31",
+	"location": "27.114,88.2949",
+	"place_guess": "Darjiling, IN-WB, IN",
+	"taxa_id": 627652,
+	"user_id": "basu_limbu",
+	"img": "Cyana_bianca.jpg"
+}, {
+	"id": 89335145,
+	"observed_on": "2021-07-31",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 244241,
+	"user_id": "bonpradhan",
+	"img": "Palpoctenidia_phoenicosoma.jpg"
+}, {
+	"id": 89335165,
+	"observed_on": "2021-07-31",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 52038,
+	"user_id": "bonpradhan",
+	"img": "Sameodes_cancellalis(1).jpg"
+}, {
+	"id": 89335186,
+	"observed_on": "2021-07-31",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 124887,
+	"user_id": "bonpradhan",
+	"img": "Trachea_auriplena.jpg"
+}, {
+	"id": 89335196,
+	"observed_on": "2021-07-31",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 605214,
+	"user_id": "bonpradhan",
+	"img": "Trichosea_champa.jpg"
+}, {
+	"id": 89439598,
+	"observed_on": "2021-08-01",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 213715,
+	"user_id": "bonpradhan",
+	"img": "Anomis_flava(1).jpg"
+}, {
+	"id": 89439633,
+	"observed_on": "2021-08-01",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 975938,
+	"user_id": "bonpradhan",
+	"img": "Lemyra_multivittata.jpg"
+}, {
+	"id": 89439691,
+	"observed_on": "2021-08-01",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 126028,
+	"user_id": "bonpradhan",
+	"img": "Brunia_antica(1).jpg"
+}, {
+	"id": 89472181,
+	"observed_on": "2021-07-29",
+	"location": "26.9531,88.1558",
+	"place_guess": "X534+68J, Chamu Tea Garden, West Bengal 734216",
+	"taxa_id": 481163,
+	"user_id": "susadhnagurung",
+	"img": "Altha_nivea.jpg"
+}, {
+	"id": 89490668,
+	"observed_on": "2021-08-01",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 124804,
+	"user_id": "bonpradhan",
+	"img": "Bradina_diagonalis(1).jpg"
+}, {
+	"id": 89743308,
+	"observed_on": "2021-08-03",
+	"location": "27.3094,88.5966",
+	"place_guess": "Tadong, Gangtok, Sikkim 737102",
+	"taxa_id": 985205,
+	"user_id": "arun-subba",
+	"img": "Miltochrista_conjunctana(1).jpg"
+}, {
+	"id": 89744323,
+	"observed_on": "2021-08-02",
+	"location": "27.1225,88.0573",
+	"place_guess": "Gurdum forest P.O.Daragaon P.S lodhama, Singalila Forest, West Bengal 734201",
+	"taxa_id": 339478,
+	"user_id": "pasang1",
+	"img": "Paralbara_perhamata.jpg"
+}, {
+	"id": 89776324,
+	"observed_on": "2021-08-02",
+	"location": "27.122,88.0568",
+	"place_guess": "Gurdum Forest Village, Singalila Forest, West Bengal 734201",
+	"taxa_id": 605220,
+	"user_id": "naturalist61513",
+	"img": "Oreta_vatama.jpg"
+}, {
+	"id": 89800259,
+	"observed_on": "2021-08-02",
+	"location": "26.9531,88.1558",
+	"place_guess": "X534+68J, Chamu Tea Garden, West Bengal 734216",
+	"taxa_id": 854978,
+	"user_id": "susadhnagurung",
+	"img": "Xenoplia_foraria.jpg"
+}, {
+	"id": 89801339,
+	"observed_on": "2021-07-30",
+	"location": "26.9531,88.1558",
+	"place_guess": "X534+68J, Chamu Tea Garden, West Bengal 734216",
+	"taxa_id": 124649,
+	"user_id": "susadhnagurung",
+	"img": "Macrauzata_fenestraria.jpg"
+}, {
+	"id": 89803261,
+	"observed_on": "2021-07-26",
+	"location": "26.9531,88.1558",
+	"place_guess": "X534+68J, Chamu Tea Garden, West Bengal 734216",
+	"taxa_id": 506323,
+	"user_id": "susadhnagurung",
+	"img": "Collinsa_sphoraria.jpg"
+}, {
+	"id": 89865517,
+	"observed_on": "2021-08-04",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 333439,
+	"user_id": "bonpradhan",
+	"img": "Plutodes_flavescens.jpg"
+}, {
+	"id": 89865542,
+	"observed_on": "2021-08-04",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 985147,
+	"user_id": "bonpradhan",
+	"img": "Hastina_caeruleolineata.jpg"
+}, {
+	"id": 89865552,
+	"observed_on": "2021-08-04",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 855869,
+	"user_id": "bonpradhan",
+	"img": "Luxiaria_tephrosaria.jpg"
+}, {
+	"id": 90031549,
+	"observed_on": "2021-08-05",
+	"location": "27.1219,88.0573",
+	"place_guess": "Gurdum forest P.O.Daragaon P.S lodhama, Singalila Forest, West Bengal 734201",
+	"taxa_id": 857523,
+	"user_id": "pasang1",
+	"img": "Euproctis_varia.jpg"
+}, {
+	"id": 90160008,
+	"observed_on": "2021-08-06",
+	"location": "27.1222,88.0572",
+	"place_guess": "Gurdum Forest Village, Singalila Forest, West Bengal 734201",
+	"taxa_id": 623054,
+	"user_id": "pasang1",
+	"img": "Gaurena_florescens(1).jpg"
+}, {
+	"id": 90274753,
+	"observed_on": "2021-08-06",
+	"location": "26.8504,88.3348",
+	"place_guess": "V82M+CV4, Cart Road, West Bengal 734223",
+	"taxa_id": 418785,
+	"user_id": "deepsikha_sharma",
+	"img": "Borbacha_pardaria.jpg"
+}, {
+	"id": 90278517,
+	"observed_on": "2021-08-07",
+	"location": "27.1223,88.0568",
+	"place_guess": "Gurdum Forest Village, Singalila Forest, West Bengal 734201",
+	"taxa_id": 1151011,
+	"user_id": "pasang1",
+	"img": "Chorodna_vulpinaria(1).jpg"
+}, {
+	"id": 90336804,
+	"observed_on": "2021-08-07",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 868506,
+	"user_id": "bonpradhan",
+	"img": "Myrioblephara_idaeoides.jpg"
+}, {
+	"id": 90382026,
+	"observed_on": "2021-05-29",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 891873,
+	"user_id": "drnamgyal04",
+	"img": "Luxiaria_obliquata(1).jpg"
+}, {
+	"id": 90385697,
+	"observed_on": "2021-05-30",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 1142455,
+	"user_id": "drnamgyal04",
+	"img": "Pachyodes_pictaria(1).jpg"
+}, {
+	"id": 90388625,
+	"observed_on": "2021-05-30",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 538954,
+	"user_id": "drnamgyal04",
+	"img": "Barsine_orientalis.jpg"
+}, {
+	"id": 90395655,
+	"observed_on": "2021-05-31",
+	"location": "27.3353,88.6112",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 324134,
+	"user_id": "drnamgyal04",
+	"img": "Hadena_compta.jpg"
+}, {
+	"id": 90395904,
+	"observed_on": "2021-05-31",
+	"location": "27.3354,88.6113",
+	"place_guess": "Upper sichey, Gangtok, Sikkim",
+	"taxa_id": 354803,
+	"user_id": "drnamgyal04",
+	"img": "Eilema_sororcula.jpg"
+}, {
+	"id": 90396449,
+	"observed_on": "2021-05-31",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 424758,
+	"user_id": "drnamgyal04",
+	"img": "Leptomiza_calcearia(1).jpg"
+}, {
+	"id": 90397788,
+	"observed_on": "2021-06-01",
+	"location": "27.3354,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 567692,
+	"user_id": "drnamgyal04",
+	"img": "Chorodna_metaphaearia.jpg"
+}, {
+	"id": 90398090,
+	"observed_on": "2021-06-01",
+	"location": "27.3354,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 61855,
+	"user_id": "drnamgyal04",
+	"img": "Spilosoma_lutea.jpg"
+}, {
+	"id": 90403404,
+	"observed_on": "2021-06-01",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 343729,
+	"user_id": "drnamgyal04",
+	"img": "Endocrossis_flavibasalis.jpg"
+}, {
+	"id": 90405898,
+	"observed_on": "2021-06-01",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 125172,
+	"user_id": "drnamgyal04",
+	"img": "Corymica_arnearia(1).jpg"
+}, {
+	"id": 90407454,
+	"observed_on": "2021-06-02",
+	"location": "27.3354,88.6114",
+	"place_guess": "Upper sichey, Gangtok, Sikkim",
+	"taxa_id": 326378,
+	"user_id": "drnamgyal04",
+	"img": "Protuliocnemis_castalaria.jpg"
+}, {
+	"id": 90481181,
+	"observed_on": "2021-06-02",
+	"location": "27.3353,88.6113",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 121829,
+	"user_id": "drnamgyal04",
+	"img": "Callyna_semivitta.jpg"
+}, {
+	"id": 90481844,
+	"observed_on": "2021-06-02",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 735849,
+	"user_id": "drnamgyal04",
+	"img": "Melanthia_catenaria.jpg"
+}, {
+	"id": 90483900,
+	"observed_on": "2021-06-02",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 622322,
+	"user_id": "drnamgyal04",
+	"img": "Scopelodes_testacea.jpg"
+}, {
+	"id": 90485188,
+	"observed_on": "2021-06-02",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 205292,
+	"user_id": "drnamgyal04",
+	"img": "Eucyclodes_gavissima(1).jpg"
+}, {
+	"id": 90486310,
+	"observed_on": "2021-06-02",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 633619,
+	"user_id": "drnamgyal04",
+	"img": "Hypolamprus_emblicalis.jpg"
+}, {
+	"id": 90502626,
+	"observed_on": "2021-08-03",
+	"location": "26.8568,88.3371",
+	"place_guess": "Cart Road, West Bengal",
+	"taxa_id": 461131,
+	"user_id": "deepsikha_sharma",
+	"img": "Polythlipta_divaricata(1).jpg"
+}, {
+	"id": 90510528,
+	"observed_on": "2021-08-09",
+	"location": "27.167,88.3652",
+	"place_guess": "Namchi",
+	"taxa_id": 244926,
+	"user_id": "prerna_gurung",
+	"img": "Daphnis_hypothous.jpg"
+}, {
+	"id": 90530424,
+	"observed_on": "2021-06-03",
+	"location": "27.3354,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, SikkimUpper Sichey",
+	"taxa_id": 124657,
+	"user_id": "drnamgyal04",
+	"img": "Paralebeda_plagifera.jpg"
+}, {
+	"id": 90531631,
+	"observed_on": "2021-06-03",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 784702,
+	"user_id": "drnamgyal04",
+	"img": "Oxycophina_theorina.jpg"
+}, {
+	"id": 90537406,
+	"observed_on": "2021-06-03",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 512445,
+	"user_id": "drnamgyal04",
+	"img": "Hylaeora_capucina.jpg"
+}, {
+	"id": 90538214,
+	"observed_on": "2021-06-03",
+	"location": "27.3354,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 858874,
+	"user_id": "drnamgyal04",
+	"img": "Dindicodes_apicalis.jpg"
+}, {
+	"id": 90538621,
+	"observed_on": "2021-06-03",
+	"location": "27.3353,88.6113",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 450548,
+	"user_id": "drnamgyal04",
+	"img": "Scopelodes_contracta.jpg"
+}, {
+	"id": 90607053,
+	"observed_on": "2021-03-26",
+	"location": "27.066,88.1901",
+	"place_guess": "Bijanbari, West Bengal",
+	"taxa_id": 124566,
+	"user_id": "sachin1",
+	"img": "Eudocima_tyrannus.jpg"
+}, {
+	"id": 90608703,
+	"observed_on": "2021-06-03",
+	"location": "27.3353,88.6113",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 543579,
+	"user_id": "drnamgyal04",
+	"img": "Circobotys_aurealis.jpg"
+}, {
+	"id": 90610432,
+	"observed_on": "2021-06-03",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 124648,
+	"user_id": "drnamgyal04",
+	"img": "Agnidra_discispilaria.jpg"
+}, {
+	"id": 90611551,
+	"observed_on": "2021-06-04",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 1304011,
+	"user_id": "drnamgyal04",
+	"img": "Dindica_para.jpg"
+}, {
+	"id": 90614350,
+	"observed_on": "2021-06-04",
+	"location": "27.3353,88.6113",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 243955,
+	"user_id": "drnamgyal04",
+	"img": "Simplicia_cornicalis.jpg"
+}, {
+	"id": 90614566,
+	"observed_on": "2021-06-05",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 121874,
+	"user_id": "drnamgyal04",
+	"img": "Fascellina_plagiata(1).jpg"
+}, {
+	"id": 90727661,
+	"observed_on": "2021-06-07",
+	"location": "27.3353,88.6113",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 237825,
+	"user_id": "drnamgyal04",
+	"img": "Biston_suppressaria.jpg"
+}, {
+	"id": 90729921,
+	"observed_on": "2021-06-07",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 322137,
+	"user_id": "drnamgyal04",
+	"img": "Coremecis_nigrovittata.jpg"
+}, {
+	"id": 90732469,
+	"observed_on": "2021-06-08",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim 737101",
+	"taxa_id": 204810,
+	"user_id": "drnamgyal04",
+	"img": "Talanga_sexpunctalis(1).jpg"
+}, {
+	"id": 90780751,
+	"observed_on": "2021-06-09",
+	"location": "27.3354,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 635437,
+	"user_id": "drnamgyal04",
+	"img": "Herochroma_baba.jpg"
+}, {
+	"id": 90845943,
+	"observed_on": "2021-06-10",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 633516,
+	"user_id": "drnamgyal04",
+	"img": "Paramaxates_taiwana.jpg"
+}, {
+	"id": 90847867,
+	"observed_on": "2021-06-12",
+	"location": "27.3353,88.6115",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 1120413,
+	"user_id": "drnamgyal04",
+	"img": "Percnia_felinaria.jpg"
+}, {
+	"id": 90873378,
+	"observed_on": "2021-08-08",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 549970,
+	"user_id": "bonpradhan",
+	"img": "Calluga_costalis.jpg"
+}, {
+	"id": 90873385,
+	"observed_on": "2021-08-09",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 124897,
+	"user_id": "bonpradhan",
+	"img": "Kunugia_lineata.jpg"
+}, {
+	"id": 90873390,
+	"observed_on": "2021-08-09",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 869517,
+	"user_id": "bonpradhan",
+	"img": "Synegia_obscura.jpg"
+}, {
+	"id": 90899710,
+	"observed_on": "2021-08-12",
+	"location": "27.0396,88.3577",
+	"place_guess": "Bunglaw No. 7, Martin Park, Takdah Cantonment, Hum Tukdah Khasmahal, West Bengal 734222",
+	"taxa_id": 121887,
+	"user_id": "adityazoo",
+	"img": "Problepsis_vulgaris.jpg"
+}, {
+	"id": 90949332,
+	"observed_on": "2021-08-09",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 244668,
+	"user_id": "bonpradhan",
+	"img": "Hydrillodes_lentalis(1).jpg"
+}, {
+	"id": 90992639,
+	"observed_on": "2021-06-12",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 124795,
+	"user_id": "drnamgyal04",
+	"img": "Orybina_flaviplaga.jpg"
+}, {
+	"id": 90994998,
+	"observed_on": "2021-06-12",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 1173338,
+	"user_id": "drnamgyal04",
+	"img": "Sacada_pallescens.jpg"
+}, {
+	"id": 90999222,
+	"observed_on": "2021-06-14",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 325744,
+	"user_id": "drnamgyal04",
+	"img": "Vamuna_alboluteola.jpg"
+}, {
+	"id": 90999919,
+	"observed_on": "2021-06-14",
+	"location": "27.3354,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 320070,
+	"user_id": "drnamgyal04",
+	"img": "Pterostoma_palpina.jpg"
+}, {
+	"id": 91001920,
+	"observed_on": "2021-06-14",
+	"location": "27.3354,88.6114",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 840555,
+	"user_id": "drnamgyal04",
+	"img": "Crocidophora_fasciata.jpg"
+}, {
+	"id": 91008863,
+	"observed_on": "2021-08-13",
+	"location": "27.1225,88.0597",
+	"place_guess": "43F5+CGQ, Singalila Forest, West Bengal 734201",
+	"taxa_id": 981799,
+	"user_id": "mingma_tamang1",
+	"img": "Corgatha_costinotalis.jpg"
+}, {
+	"id": 91024682,
+	"observed_on": "2018-10-01",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 355990,
+	"user_id": "prosenjit",
+	"img": "Eressa_multigutta.jpg"
+}, {
+	"id": 91024684,
+	"observed_on": "2018-10-01",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 973521,
+	"user_id": "prosenjit",
+	"img": "Bharetta_cinnamomea.jpg"
+}, {
+	"id": 91024687,
+	"observed_on": "2018-10-01",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 787440,
+	"user_id": "prosenjit",
+	"img": "Euproctis_marginata.jpg"
+}, {
+	"id": 91024705,
+	"observed_on": "2018-10-02",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 897768,
+	"user_id": "prosenjit",
+	"img": "Menophra_decorata.jpg"
+}, {
+	"id": 91024706,
+	"observed_on": "2018-10-02",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 52031,
+	"user_id": "prosenjit",
+	"img": "Mocis_frugalis.jpg"
+}, {
+	"id": 91024721,
+	"observed_on": "2018-10-02",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 854213,
+	"user_id": "prosenjit",
+	"img": "Plutodes_pracina.jpg"
+}, {
+	"id": 91024731,
+	"observed_on": "2018-10-02",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 124892,
+	"user_id": "prosenjit",
+	"img": "Callopistria_repleta.jpg"
+}, {
+	"id": 91024746,
+	"observed_on": "2018-10-02",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 338487,
+	"user_id": "prosenjit",
+	"img": "Tyspanodes_nigrolinealis.jpg"
+}, {
+	"id": 91024761,
+	"observed_on": "2018-10-05",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 552834,
+	"user_id": "prosenjit",
+	"img": "Loepa_miranda.jpg"
+}, {
+	"id": 91024772,
+	"observed_on": "2018-03-08",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 905096,
+	"user_id": "prosenjit",
+	"img": "Sarcinodes_carnearia.jpg"
+}, {
+	"id": 91024777,
+	"observed_on": "2015-05-31",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 199465,
+	"user_id": "prosenjit",
+	"img": "Ambulyx_sericeipennis.jpg"
+}, {
+	"id": 91024784,
+	"observed_on": "2015-06-06",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 919358,
+	"user_id": "prosenjit",
+	"img": "Palirisa_lineosa.jpg"
+}, {
+	"id": 91024785,
+	"observed_on": "2017-11-09",
+	"location": "27.0824,88.7007",
+	"place_guess": "Bangal, Darjeeling, West Bengal 734101",
+	"taxa_id": 702050,
+	"user_id": "prosenjit",
+	"img": "Argonestis_flammans.jpg"
+}, {
+	"id": 91073998,
+	"observed_on": "2021-08-11",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 892554,
+	"user_id": "bonpradhan",
+	"img": "Patania_deficiens.jpg"
+}, {
+	"id": 91087060,
+	"observed_on": "2021-08-11",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 125045,
+	"user_id": "bonpradhan",
+	"img": "Herpetogramma_luctuosalis.jpg"
+}, {
+	"id": 91203250,
+	"observed_on": "2021-08-12",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1224878,
+	"user_id": "bonpradhan",
+	"img": "Arichanna_tramesata.jpg"
+}, {
+	"id": 91203251,
+	"observed_on": "2021-08-12",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 701315,
+	"user_id": "bonpradhan",
+	"img": "Teliphasa_nubilosa.jpg"
+}, {
+	"id": 91211732,
+	"observed_on": "2021-08-13",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1272377,
+	"user_id": "bonpradhan",
+	"img": "Callabraxas_amanda.jpg"
+}, {
+	"id": 91238872,
+	"observed_on": "2021-08-15",
+	"location": "27.3354,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 854211,
+	"user_id": "drnamgyal04",
+	"img": "Plutodes_subcaudata.jpg"
+}, {
+	"id": 91352364,
+	"observed_on": "2021-08-13",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1032503,
+	"user_id": "bonpradhan",
+	"img": "Krananda_falcata.jpg"
+}, {
+	"id": 91352371,
+	"observed_on": "2021-08-13",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1272958,
+	"user_id": "bonpradhan",
+	"img": "Teulisna_obliquistria.jpg"
+}, {
+	"id": 91390389,
+	"observed_on": "2014-03-23",
+	"location": "27.3354,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 704610,
+	"user_id": "drnamgyal04",
+	"img": "Thinopteryx_nebulosa.jpg"
+}, {
+	"id": 91407252,
+	"observed_on": "2014-08-24",
+	"location": "27.3354,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 489091,
+	"user_id": "drnamgyal04",
+	"img": "Ptisciana_seminivea.jpg"
+}, {
+	"id": 91411472,
+	"observed_on": "2021-08-14",
+	"location": "27.3376,88.6073",
+	"place_guess": "Kanger Ghati National Park, Gangtok, SK, IN",
+	"taxa_id": 120521,
+	"user_id": "raicb",
+	"img": "Erebus_caprimulgus.jpg"
+}, {
+	"id": 91519468,
+	"observed_on": "2018-10-26",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 522891,
+	"user_id": "drnamgyal04",
+	"img": "Axiocteta_oenoplex.jpg"
+}, {
+	"id": 91526043,
+	"observed_on": "2019-07-07",
+	"location": "27.3184,88.2391",
+	"place_guess": "Pelling, West Sikkim",
+	"taxa_id": 867688,
+	"user_id": "drnamgyal04",
+	"img": "Tyana_pustulifera.jpg"
+}, {
+	"id": 91527742,
+	"observed_on": "2019-07-16",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 208104,
+	"user_id": "drnamgyal04",
+	"img": "Calyptra_minuticornis.jpg"
+}, {
+	"id": 91529525,
+	"observed_on": "2020-05-25",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 1264751,
+	"user_id": "drnamgyal04",
+	"img": "Hylophilodes_orientalis.jpg"
+}, {
+	"id": 91599795,
+	"observed_on": "2021-08-13",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1265048,
+	"user_id": "bonpradhan",
+	"img": "Nacna_prasinaria.jpg"
+}, {
+	"id": 91640176,
+	"observed_on": "2021-05-03",
+	"location": "27.3353,88.6114",
+	"place_guess": "Sungava, Gangtok, Sikkim",
+	"taxa_id": 497684,
+	"user_id": "drnamgyal04",
+	"img": "Tyana_marina.jpg"
+}, {
+	"id": 91654124,
+	"observed_on": null,
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 202655,
+	"user_id": "tamding",
+	"img": "Chorodna_interruptaria.jpg"
+}, {
+	"id": 91654262,
+	"observed_on": "2021-08-03",
+	"location": "27.8981,88.5312",
+	"place_guess": "Thangu Valley",
+	"taxa_id": 1273921,
+	"user_id": "tamding",
+	"img": "Photoscotosia_albapex.jpg"
+}, {
+	"id": 91654401,
+	"observed_on": "2020-08-28",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 1115641,
+	"user_id": "tamding",
+	"img": "Lassaba_cervina.jpg"
+}, {
+	"id": 91654758,
+	"observed_on": "2020-08-22",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 1264674,
+	"user_id": "tamding",
+	"img": "Chorodna_adumbrata.jpg"
+}, {
+	"id": 91655629,
+	"observed_on": null,
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 361690,
+	"user_id": "tamding",
+	"img": "Pterodecta_felderi.jpg"
+}, {
+	"id": 91655681,
+	"observed_on": "2020-08-14",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 1078260,
+	"user_id": "tamding",
+	"img": "Abraxas_aesiopsis.jpg"
+}, {
+	"id": 91655830,
+	"observed_on": "2020-08-10",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 1274271,
+	"user_id": "tamding",
+	"img": "Oxymacaria_maculosata.jpg"
+}, {
+	"id": 91712221,
+	"observed_on": "2021-08-14",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 736201,
+	"user_id": "bonpradhan",
+	"img": "Orybina_plangonalis.jpg"
+}, {
+	"id": 91923703,
+	"observed_on": "2021-08-18",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 633913,
+	"user_id": "bonpradhan",
+	"img": "Scopula_mecysma.jpg"
+}, {
+	"id": 91929390,
+	"observed_on": "2021-08-19",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 121909,
+	"user_id": "bonpradhan",
+	"img": "Filodes_fulvidorsalis.jpg"
+}, {
+	"id": 92000968,
+	"observed_on": "2021-08-22",
+	"location": "27.0613,88.1814",
+	"place_guess": "Lower Relling, Bijanbari, West Bengal 734201",
+	"taxa_id": 213744,
+	"user_id": "sachin1",
+	"img": "Antepione_thisoaria.jpg"
+}, {
+	"id": 92313387,
+	"observed_on": "2015-01-29",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 204668,
+	"user_id": "drnamgyal04",
+	"img": "Oxymacaria_temeraria.jpg"
+}, {
+	"id": 92466009,
+	"observed_on": "2020-07-13",
+	"location": "27.3352,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 143476,
+	"user_id": "drnamgyal04",
+	"img": "Calledapteryx_dryopterata.jpg"
+}, {
+	"id": 92488916,
+	"observed_on": "2021-08-25",
+	"location": "26.7055,88.3099",
+	"place_guess": "Upper, Bagdogra, West Bengal 734014",
+	"taxa_id": 142990,
+	"user_id": "anirbandattaroy",
+	"img": "Autographa_precationis.jpg"
+}, {
+	"id": 92575604,
+	"observed_on": "2021-08-22",
+	"location": "27.2747,88.5337",
+	"place_guess": "Gangkha, Martam, Via, Singtam - (Near St. Josephs School, Martam), Sikkim 737134",
+	"taxa_id": 244109,
+	"user_id": "drnamgyal04",
+	"img": "Zythos_avellanea.jpg"
+}, {
+	"id": 92634621,
+	"observed_on": "2021-08-26",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 205202,
+	"user_id": "bonpradhan",
+	"img": "Ecliptopera_silaceata.jpg"
+}, {
+	"id": 92634624,
+	"observed_on": "2021-08-27",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1125589,
+	"user_id": "bonpradhan",
+	"img": "Myrioblephara_marmorata.jpg"
+}, {
+	"id": 92918030,
+	"observed_on": "2021-08-29",
+	"location": "27.3532,88.6091",
+	"place_guess": "Kanger Ghati National Park, Gangtok, SK, IN",
+	"taxa_id": 428590,
+	"user_id": "raicb",
+	"img": "Dysphania_sagana.jpg"
+}, {
+	"id": 93111058,
+	"observed_on": "2018-07-03",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 362254,
+	"user_id": "drnamgyal04",
+	"img": "Herdonia_hainanensis.jpg"
+}, {
+	"id": 93117249,
+	"observed_on": "2021-08-26",
+	"location": "27.4477,88.4967",
+	"place_guess": "Gnon-Samdong",
+	"taxa_id": 1227593,
+	"user_id": "punurip",
+	"img": "Darisa_lampasaria.jpg"
+}, {
+	"id": 93152555,
+	"observed_on": "2018-08-27",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 733848,
+	"user_id": "drnamgyal04",
+	"img": "Ditrigona_triangularia.jpg"
+}, {
+	"id": 93161057,
+	"observed_on": "2018-10-07",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 926252,
+	"user_id": "drnamgyal04",
+	"img": "Thymistida_tripunctata.jpg"
+}, {
+	"id": 93220634,
+	"observed_on": "2019-09-05",
+	"location": "27.3353,88.6114",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 121534,
+	"user_id": "drnamgyal04",
+	"img": "Oreta_rosea.jpg"
+}, {
+	"id": 93324275,
+	"observed_on": "2019-10-04",
+	"location": "27.3353,88.6115",
+	"place_guess": "Upper Sichey, Gangtok, Sikkim",
+	"taxa_id": 712199,
+	"user_id": "drnamgyal04",
+	"img": "Plutodes_lamisca.jpg"
+}, {
+	"id": 93329707,
+	"observed_on": "2021-09-02",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 714121,
+	"user_id": "bonpradhan",
+	"img": "Plagodis_reticulata.jpg"
+}, {
+	"id": 93554826,
+	"observed_on": "2021-09-03",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 202823,
+	"user_id": "bonpradhan",
+	"img": "Penicillaria_jocosatrix.jpg"
+}, {
+	"id": 93662429,
+	"observed_on": "2021-09-05",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 124871,
+	"user_id": "bonpradhan",
+	"img": "Polythlipta_cerealis.jpg"
+}, {
+	"id": 93735571,
+	"observed_on": null,
+	"location": "26.7664,88.378",
+	"place_guess": "Sukna Forest, West Bengal",
+	"taxa_id": 199156,
+	"user_id": "rujasyonle",
+	"img": "Eumelea_ludovicata.jpg"
+}, {
+	"id": 93841340,
+	"observed_on": "2021-09-05",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 121885,
+	"user_id": "bonpradhan",
+	"img": "Corymica_spatiosa.jpg"
+}, {
+	"id": 93841950,
+	"observed_on": "2021-09-05",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 203822,
+	"user_id": "bonpradhan",
+	"img": "Parapoynx_stagnalis.jpg"
+}, {
+	"id": 93876073,
+	"observed_on": "2021-02-20",
+	"location": "26.7965,88.3633",
+	"place_guess": "Sukna Forest, West Bengal",
+	"taxa_id": 346412,
+	"user_id": "karan_matalia",
+	"img": "Endocrossis_caldusalis.jpg"
+}, {
+	"id": 94184715,
+	"observed_on": "2021-09-09",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 495522,
+	"user_id": "bonpradhan",
+	"img": "Parotis_marginata.jpg"
+}, {
+	"id": 94185082,
+	"observed_on": "2021-09-09",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 974128,
+	"user_id": "bonpradhan",
+	"img": "Cnaphalocrocis_trebiusalis.jpg"
+}, {
+	"id": 95130403,
+	"observed_on": "2020-10-20",
+	"location": "27.3198,88.24",
+	"place_guess": "Pelling, Sikkim 737113",
+	"taxa_id": 1265273,
+	"user_id": "rohitmg",
+	"img": "Xenoclystia_nigroviridata.jpg"
+}, {
+	"id": 95225606,
+	"observed_on": "2021-09-17",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 1149222,
+	"user_id": "bonpradhan",
+	"img": "Sidyma_albifinis.jpg"
+}, {
+	"id": 96312672,
+	"observed_on": "2021-09-26",
+	"location": "27.0398,88.2659",
+	"place_guess": "Darjeeling town, Darjeeling, West Bengal",
+	"taxa_id": 121889,
+	"user_id": "bonpradhan",
+	"img": "Paracymoriza_vagalis.jpg"
+}, {
+	"id": 96779452,
+	"observed_on": "2021-10-01",
+	"location": "27.3511,88.6092",
+	"place_guess": "Kanger Ghati National Park, Gangtok, SK, IN",
+	"taxa_id": 319657,
+	"user_id": "raicb",
+	"img": "Idaea_vacillata.jpg"
+}, {
+	"id": 96852570,
+	"observed_on": "2021-10-02",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 778427,
+	"user_id": "bonpradhan",
+	"img": "Luxiaria_acutaria(1).jpg"
+}, {
+	"id": 96852777,
+	"observed_on": "2021-10-02",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 126045,
+	"user_id": "bonpradhan",
+	"img": "Schistophleps_bipuncta.jpg"
+}, {
+	"id": 96890784,
+	"observed_on": "2021-10-02",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 748693,
+	"user_id": "bonpradhan",
+	"img": "Peratostega_deletaria.jpg"
+}, {
+	"id": 97254551,
+	"observed_on": "2021-10-03",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 993171,
+	"user_id": "tamding",
+	"img": "Perizoma_vinculata.jpg"
+}, {
+	"id": 97254767,
+	"observed_on": "2021-10-02",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 1139006,
+	"user_id": "tamding",
+	"img": "Rheumaptera_nigralbata.jpg"
+}, {
+	"id": 97255179,
+	"observed_on": "2021-09-23",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 1277722,
+	"user_id": "tamding",
+	"img": "Triphosa_dubiosata.jpg"
+}, {
+	"id": 97255325,
+	"observed_on": "2021-09-23",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 947467,
+	"user_id": "tamding",
+	"img": "Perizoma_fasciata.jpg"
+}, {
+	"id": 97255557,
+	"observed_on": "2021-09-22",
+	"location": "27.7167,88.5577",
+	"place_guess": "Lachen",
+	"taxa_id": 911689,
+	"user_id": "tamding",
+	"img": "Loxaspilates_obliquaria.jpg"
+}, {
+	"id": 97410373,
+	"observed_on": "2021-10-03",
+	"location": "27.7325,88.5487",
+	"place_guess": "Sikkim 737120",
+	"taxa_id": 634377,
+	"user_id": "adityazoo",
+	"img": "Psyra_cuneata.jpg"
+}, {
+	"id": 97418194,
+	"observed_on": "2021-10-03",
+	"location": "27.7321,88.5491",
+	"place_guess": "Sikkim 737120",
+	"taxa_id": 1291314,
+	"user_id": "adityazoo",
+	"img": "Oxymacaria_oliva(1).jpg"
+}, {
+	"id": 97535455,
+	"observed_on": "2021-10-07",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 143108,
+	"user_id": "bonpradhan",
+	"img": "Scopula_inductata.jpg"
+}, {
+	"id": 97535909,
+	"observed_on": "2021-10-08",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 971180,
+	"user_id": "bonpradhan",
+	"img": "Sacada_sikkima.jpg"
+}, {
+	"id": 97615809,
+	"observed_on": "2021-10-09",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 735865,
+	"user_id": "bonpradhan",
+	"img": "Mesoleuca_costipannaria.jpg"
+}, {
+	"id": 97615975,
+	"observed_on": "2021-10-09",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 367739,
+	"user_id": "bonpradhan",
+	"img": "Agrioglypta_zelimalis.jpg"
+}, {
+	"id": 97725526,
+	"observed_on": "2021-10-09",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 154074,
+	"user_id": "bonpradhan",
+	"img": "Pelagodes_antiquadraria.jpg"
+}, {
+	"id": 97725804,
+	"observed_on": "2021-10-09",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 508627,
+	"user_id": "bonpradhan",
+	"img": "Pygospila_costiflexalis.jpg"
+}, {
+	"id": 97726661,
+	"observed_on": "2021-10-10",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 205111,
+	"user_id": "bonpradhan",
+	"img": "Synclera_traducalis.jpg"
+}, {
+	"id": 98168893,
+	"observed_on": "2021-10-08",
+	"location": "27.3354,88.6113",
+	"place_guess": "Kanger Ghati National Park, Gangtok, SK, IN",
+	"taxa_id": 717181,
+	"user_id": "raicb",
+	"img": "Arctornis_submarginata.jpg"
+}, {
+	"id": 98178721,
+	"observed_on": "2021-10-11",
+	"location": "27.2528,88.7766",
+	"place_guess": "Sikkim 737131",
+	"taxa_id": 612404,
+	"user_id": "ashwinv",
+	"img": "Ourapteryx_primularis.jpg"
+}, {
+	"id": 98179673,
+	"observed_on": "2021-10-09",
+	"location": "27.3463,88.6492",
+	"place_guess": "Grba Road,, Chongay Tar, Gangtok, Sikkim 737103",
+	"taxa_id": 1040130,
+	"user_id": "ashwinv",
+	"img": "Idaea_protensa.jpg"
+}, {
+	"id": 98180951,
+	"observed_on": "2021-10-09",
+	"location": "27.3224,88.6121",
+	"place_guess": "Vishal Gaon, Gangtok, Sikkim",
+	"taxa_id": 751646,
+	"user_id": "ashwinv",
+	"img": "Lophophelma_varicoloraria.jpg"
+}, {
+	"id": 98181147,
+	"observed_on": "2021-10-07",
+	"location": "27.3464,88.6489",
+	"place_guess": "Grba Road,, Chongay Tar, Gangtok, Sikkim 737103",
+	"taxa_id": 1115643,
+	"user_id": "ashwinv",
+	"img": "Darisa_firmilinea.jpg"
+}, {
+	"id": 98253457,
+	"observed_on": "2021-10-13",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 1046736,
+	"user_id": "bonpradhan",
+	"img": "Xanthorhoe_griseiviridis.jpg"
+}, {
+	"id": 98253595,
+	"observed_on": "2021-10-14",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 1292360,
+	"user_id": "bonpradhan",
+	"img": "Idaea_semilinea.jpg"
+}, {
+	"id": 98253598,
+	"observed_on": "2021-10-14",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 952168,
+	"user_id": "bonpradhan",
+	"img": "Alcis_perspicuata.jpg"
+}, {
+	"id": 98372041,
+	"observed_on": "2020-09-08",
+	"location": "27.3308,88.6122",
+	"place_guess": "Arithang, Gangtok, Sikkim 737101",
+	"taxa_id": 81672,
+	"user_id": "sunita16",
+	"img": "Clemensia_albata.jpg"
+}, {
+	"id": 98568815,
+	"observed_on": "2021-10-18",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 202976,
+	"user_id": "bonpradhan",
+	"img": "Camptomastix_hisbonalis.jpg"
+}, {
+	"id": 98661068,
+	"observed_on": "2021-10-18",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 340511,
+	"user_id": "bonpradhan",
+	"img": "Linguisaccus_subhyalina(1).jpg"
+}, {
+	"id": 98758786,
+	"observed_on": "2021-10-19",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 878750,
+	"user_id": "bonpradhan",
+	"img": "Pitama_lativitta.jpg"
+}, {
+	"id": 99609707,
+	"observed_on": "2021-10-28",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 574880,
+	"user_id": "bonpradhan",
+	"img": "Luxiaria_emphatica.jpg"
+}, {
+	"id": 99674807,
+	"observed_on": "2021-10-28",
+	"location": "27.1505,88.217",
+	"place_guess": "Sikkim 737121",
+	"taxa_id": 221972,
+	"user_id": "neerarawatchettri",
+	"img": "Hypenodes_fractilinea.jpg"
+}, {
+	"id": 99699588,
+	"observed_on": "2021-10-29",
+	"location": "27.1523,88.2166",
+	"place_guess": "Sikkim 737121",
+	"taxa_id": 205203,
+	"user_id": "neerarawatchettri",
+	"img": "Dyspteris_abortivaria.jpg"
+}, {
+	"id": 99737852,
+	"observed_on": "2019-05-23",
+	"location": "26.9312,88.4116",
+	"place_guess": "Gorumara Wildlife Sanctuary, Darjeeling, WB, IN",
+	"taxa_id": 628130,
+	"user_id": "m_berg",
+	"img": "Euproctis_albolyclene.jpg"
+}, {
+	"id": 99756477,
+	"observed_on": "2021-10-29",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 203104,
+	"user_id": "bonpradhan",
+	"img": "Pycnarmon_cribrata.jpg"
+}, {
+	"id": 99756484,
+	"observed_on": "2021-10-29",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 244882,
+	"user_id": "bonpradhan",
+	"img": "Zurobata_vacillans.jpg"
+}, {
+	"id": 99756823,
+	"observed_on": "2021-10-30",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 625418,
+	"user_id": "bonpradhan",
+	"img": "Nothomiza_costalis.jpg"
+}, {
+	"id": 100360540,
+	"observed_on": "2021-11-05",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 205115,
+	"user_id": "bonpradhan",
+	"img": "Anticarsia_irrorata.jpg"
+}, {
+	"id": 100360770,
+	"observed_on": "2021-11-05",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 1304323,
+	"user_id": "bonpradhan",
+	"img": "Xanthorhoe_curcumoides.jpg"
+}, {
+	"id": 100596290,
+	"observed_on": "2021-11-08",
+	"location": "27.0394,88.2657",
+	"place_guess": "Darjeeling town, Gandhi Road, Darjeeling, West Bengal",
+	"taxa_id": 496968,
+	"user_id": "bonpradhan",
+	"img": "Organopoda_carnearia(1).jpg"
+}]
