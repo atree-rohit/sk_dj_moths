@@ -97,11 +97,14 @@
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-areas: "image map"
-                        "image chart"
-                        "details details";
-    grid-template-rows: 2fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image image map"
+                        "image image chart"
+                        "details details details";
+    /*grid-template-rows: 2fr 1fr 1fr;*/
+    /*grid-template-columns: 1fr 1fr;*/
+}
+#species-modal > div{
+    /*border:  4px solid red;*/
 }
 #species-modal #image{
     grid-area: image;
@@ -109,7 +112,6 @@
 }
 #species-modal #map{
     grid-area: map;
-    background-color: red;
 }
 #species-modal #chart{
     grid-area: chart;
@@ -183,12 +185,12 @@
                     <img :src="require('@/assets/book_data/medium/'+selectedImageObservation.img)" alt="">
                 </div>
                 <div id="map">
-                    <SpeciesMap :points="selectedSpeciesData" />
+                    <SpeciesMap :observations="selectedSpeciesData" />
                 </div>
                 <div id="chart">Chart</div>
                 <div id="details">
-                    <h3 v-text="speciesImageObserver"></h3>
-                    <h3 v-text="speciesImageDate"></h3>
+                    <span v-text="speciesImageObserver"></span> &nbsp; &nbsp; &nbsp;
+                    <span v-text="speciesImageDate"></span>
                     <!-- <w-button class="ma1" bg-color="success" color="white" lg @click="gotoSpeciesPage(selectedSpecies)">Go to Species Page</w-button> -->
                 </div>
             </div>
@@ -278,7 +280,7 @@
                 if(user_data[this.selectedImageObservation.user_id][0] != null){
                     op += user_data[this.selectedImageObservation.user_id][0]
                 } else {
-                    op = this.selectedImageObservation.user_id
+                    op += this.selectedImageObservation.user_id
                 }
 
                 return op

@@ -5,6 +5,11 @@
 		stroke: rgba(255,50,0,.5);
 		stroke-width:.5px;
 	}
+	.map-boundary > path {
+		fill: white;
+		stroke: rgba(75,0,0,.5);
+		stroke-width: 1px;
+	}
 	.poly_text{
 		fill: #545;
 		font-size: 0.5vw;
@@ -26,8 +31,6 @@
 
 <template>
 	<div>
-		Map
-		{{xxx}}
 		<div id="map-container"></div>
 	</div>
 </template>
@@ -39,7 +42,7 @@ import districts_map from '../assets/book_data/districts_map.json'
 
 export default {
 	name:"SpeciesMap",
-	props: [ "points" ],
+	props: [ "observations" ],
 	data() {
 		return{
 			states: null,
@@ -49,77 +52,107 @@ export default {
 			colors: {},
 			legend: {},
 
-			xxx: this.points,
 			state_data: {},
 			selected:"All",
 			state_max: 0,
-			height: 600 ,
-			width: 800,
+			height: 300 ,
+			width: "100%",
 			// tooltip:this.popup,
 			map_first_render:true,
 		}
 	},
-	created(){
-		// this.init()
-		console.log(this.points)
+	mounted(){
+		this.init()
 	},
 	computed:{
-		stateData () {
-			let op = {}
+		points () {
+			let op = []
+			this.observations.forEach(o => {
+				let l = o.location.split(",")
+				// op.push({
+				// 	id: o.id,
+				// 	name: o.place_guess,
+				// 	latitude: l[0],
+				// 	longitude: l[1]
+				// })
+				op.push([l[1], l[0], o.id, o.place_guess])
+			})
+			return op
+		},
 
-			districts_map.features.forEach(s => {
-				op[s.properties.ST_NM] = [];
-			})
-			this.map_data.forEach(o => {
-				if(o.state !== null){
-					op[o.state].push(o)
-				}
-			})
-			return op
-		},
-		selectedGeoJson () {
-			let op = {properties:{ST_NM: 'All'}}
-			if (this.selected !== 'All') {
-				Object.keys(districts_map.features).forEach(c => {
-					if (districts_map.features[c].properties.ST_NM === this.selected) {
-						op = districts_map.features[c]
-					}
-				})
-			}
-			return op
-		},
 		zoom() {
 			let that = this
 			return d3.zoom(event)
 					.scaleExtent([.5, 50])
 					.translateExtent([[-0.5 * this.width,-0.75 * this.height],[2.5 * this.width, 2.5 * this.height]])
 					.on('zoom', function() {
-
 						that.svg.selectAll('.poly_text')
 							.attr('transform', event.transform),
 						that.svg.selectAll('path')
 							.attr('transform', event.transform),
 						that.svg.selectAll('circle')
 							.attr('transform', event.transform)
-						.attr("r", 2 / event.transform.k)
+						// .attr("r", 2 / event.transform.k)
 					})
 		},
 	},
 	watch: {
-		map_data () {
-			this.init()
-
-		},
-		selected_state (newVal, oldVal) {
-			if (!d3.select("#map-container .map-points").empty()) {
-				d3.selectAll(".map-points").remove()
-			}
-
-			this.init()
-		}
 	},
 	methods:{
 		init () {
+			this.renderMap()
+		},
+		renderMap () {
+			if (!d3.select("#map-container svg").empty()) {
+				d3.selectAll("#map-container svg").remove()
+			}
+
+			this.svg = d3.select("#map-container")
+						.append("svg")
+							.attr("preserveAspectRatio", "xMinYMin meet")
+							.attr("width", this.width)
+							.attr("height", this.height)
+							.style("background-color", "rgb(190, 229, 235)")
+							.classed("svg-content d-flex m-auto", true)
+
+			this.projection = d3.geoMercator().scale(8000).center([89.5, 26.6])
+			this.path = d3.geoPath().projection(this.projection)
+
+			let base = this.svg.append("g")
+						.classed("map-boundary", true)
+
+			let base_text = base.selectAll("text").append("g")
+			base = base.selectAll("path").append("g")
+			this.states = base.append("g").classed("states", true)
+			let that = this
+
+			districts_map.features.forEach( district => {
+				let s_name = district.properties.district
+				let that = this
+
+				let current_state = this.states.append("g")
+					.data([district])
+					.enter().append("path")
+					.attr("d", this.path)
+					.attr("id", this.stateID(s_name))
+					.attr("title", s_name)
+			})
+			let map_points = this.svg.append('g')
+				.classed('map-points', true)
+				.selectAll("circle")
+				.data(this.points).enter()
+				.append("circle")
+				.attr("cx", (d) => this.projection(d)[0])
+				.attr("cy", (d) => this.projection(d)[1])
+				.attr("r", "5px")
+				.attr("title", (d) => d)
+				.attr("stroke", "red")
+				.attr("fill", "white")
+
+			// this.svg.call(this.zoom)
+
+		},
+		init_old () {
 			this.map_first_render = true
 			this.states = null
 			this.path = null
@@ -171,7 +204,7 @@ export default {
 			this.clicked(this.selectedGeoJson)
 			this.map_first_render = false
 		},
-		renderMap () {
+		renderMap_old () {
 			this.selected = this.selected_state
 
 			if (!d3.select("#map-container svg").empty()) {
