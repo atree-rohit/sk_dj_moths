@@ -1,5 +1,5 @@
 <style scoped>
-    #mapid{height: 40em;width: 100%;z-index: 1}
+    #mapid{height: 40vh;width: 100%;z-index: 1}
 </style>
 
 <template>
