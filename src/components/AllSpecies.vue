@@ -97,6 +97,7 @@
     display: grid;
     width: 100%;
     height: 100%;
+    grid-template-columns: 1fr 1fr 30vw;
     grid-template-areas: "image image map"
                         "image image chart"
                         "details details details";
@@ -109,6 +110,14 @@
 #species-modal #image{
     grid-area: image;
     text-align: center;
+}
+#species-modal #image img{
+    max-width: 67vw;
+    max-height: 75vh;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
 }
 #species-modal #map{
     grid-area: map;
@@ -127,6 +136,12 @@
     .species-card img{
         max-height:calc(40vw / 3 * 2);
         max-width: 40vw;
+    }
+    #species-modal{
+        grid-template-areas: "image"
+                            "map"
+                            "chart"
+                            "details";
     }
 }
 
@@ -187,7 +202,9 @@
                 <div id="map">
                     <SpeciesMap :observations="selectedSpeciesData" />
                 </div>
-                <div id="chart">Chart</div>
+                <div id="chart">
+                    <DateChart :observations="selectedSpeciesData"/>
+                </div>
                 <div id="details">
                     <span v-text="speciesImageObserver"></span> &nbsp; &nbsp; &nbsp;
                     <span v-text="speciesImageDate"></span>
@@ -202,6 +219,7 @@
 
 <script>
     import SpeciesMap from './SpeciesMap.vue'
+    import DateChart from './DateChart.vue'
 
     import { NCard, NModal, NAutoComplete } from 'naive-ui'
     import moment from 'moment'
@@ -214,7 +232,7 @@
 
     export default {
         name: 'AllSpecies',
-        components: { SpeciesMap, NCard, NModal, NAutoComplete },
+        components: { SpeciesMap, DateChart, NCard, NModal, NAutoComplete },
         data() {
             return {
                 book_data: book_data,
