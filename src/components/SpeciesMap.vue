@@ -1,9 +1,7 @@
 <style>
-	#map-container .state-selected{
-		/*fill: #afa;*/
-		fill: #ff5;
-		stroke: rgba(255,50,0,.5);
-		stroke-width:.5px;
+	#map-container svg{
+		height: 33vh;
+		width: 19.75vw;
 	}
 	.map-boundary > path {
 		fill: white;
@@ -25,14 +23,16 @@
 		.poly_text{
 			font-size: 3.5vw;
 		}
+		#map-container svg{
+			height: 100%;
+			width: 100%;
+		}
 	}
 
 </style>
 
 <template>
-	<div>
-		<div id="map-container"></div>
-	</div>
+	<div id="map-container"></div>
 </template>
 
 <script>
@@ -55,8 +55,8 @@ export default {
 			state_data: {},
 			selected:"All",
 			state_max: 0,
-			height: 300 ,
-			width: "100%",
+			height: "100" ,
+			width: "100",
 			// tooltip:this.popup,
 			map_first_render:true,
 		}
@@ -110,12 +110,13 @@ export default {
 			this.svg = d3.select("#map-container")
 						.append("svg")
 							.attr("preserveAspectRatio", "xMinYMin meet")
-							.attr("width", this.width)
-							.attr("height", this.height)
+							// .attr("width", this.width)
+							// .attr("height", this.height)
+							.attr("viewbox", `0 0 ${this.width} ${this.height}`)
 							.style("background-color", "rgb(190, 229, 235)")
 							.classed("svg-content d-flex m-auto", true)
 
-			this.projection = d3.geoMercator().scale(8000).center([89.5, 26.6])
+			this.projection = d3.geoMercator().scale(6500).center([91, 26.25])
 			this.path = d3.geoPath().projection(this.projection)
 
 			let base = this.svg.append("g")
@@ -147,7 +148,7 @@ export default {
 				.attr("r", "5px")
 				.attr("title", (d) => d)
 				.attr("stroke", "red")
-				.attr("fill", "white")
+				.attr("fill", "rgba(255,0,0,.25)")
 
 			// this.svg.call(this.zoom)
 
