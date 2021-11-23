@@ -121,12 +121,17 @@
 }
 #species-modal #map{
     grid-area: map;
+    text-align: center;
 }
 #species-modal #chart{
     grid-area: chart;
+    text-align: center;
 }
 #species-modal #details{
     grid-area: details;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 @media only screen and (max-width: 480px){
     .genus-row{
@@ -170,7 +175,7 @@
                                             <img :src="require('@/assets/book_data/medium/'+observation.img)" alt="">
                                             <div class="species-name-div">
                                                 <span class="species-name">
-                                                    {{species}}
+                                                    {{ speciesId(species) }}. {{species}}
                                                 </span>
                                             </div>
                                         </div>
@@ -193,7 +198,7 @@
     </n-modal>
     <n-modal v-model:show="speciesModalDisplay" transform-origin="center" :on-after-leave="closeModal()">
         <n-card style="width: 80%;" :bordered="false" size="huge">
-            <template #header>{{selectedSpecies}}</template>
+            <template #header>{{ speciesId(selectedSpecies) }}. {{selectedSpecies}}</template>
             <template #header-extra> <span class="close" @click="speciesModalDisplay = false">&times;</span> </template>
             <div id="species-modal">
                 <div id="image">
@@ -208,6 +213,7 @@
                 <div id="details">
                     <span v-text="speciesImageObserver"></span> &nbsp; &nbsp; &nbsp;
                     <span v-text="speciesImageDate"></span>
+                    <span>{{ selectedSpeciesData.length }} Observations</span>
                     <!-- <w-button class="ma1" bg-color="success" color="white" lg @click="gotoSpeciesPage(selectedSpecies)">Go to Species Page</w-button> -->
                 </div>
             </div>
@@ -242,6 +248,7 @@
                 descriptions: species_descriptions,
                 tree:{},
                 searchValue:"",
+                allSpeciesList: [],
                 allSearchAutoCompleteValues:[],
                 familyModalDisplay: false,
                 speciesModalDisplay: false,
@@ -325,8 +332,26 @@
                     search_terms.add("Tribe " + taxa.tribe)
                     search_terms.add("Genus " + taxa.genus)
                     search_terms.add(taxa.species)
+                    
                 })
+                Object.keys(this.tree).forEach(sf => {
+                    Object.keys(this.tree[sf]).forEach(f => {
+                        Object.keys(this.tree[sf][f]).forEach(subf => {
+                            Object.keys(this.tree[sf][f][subf]).forEach(t => {
+                                Object.keys(this.tree[sf][f][subf][t]).forEach(g => {
+                                    Object.keys(this.tree[sf][f][subf][t][g]).forEach(s => {
+                                        this.allSpeciesList.push(s)
+                                    })
+                                })
+                            })
+                        })
+                    })
+                })
+
                 this.allSearchAutoCompleteValues = Array.from(search_terms)
+            },
+            speciesId(s){
+                return this.allSpeciesList.indexOf(s)
             },
             searchTree(level, search){
                 let op = {}
