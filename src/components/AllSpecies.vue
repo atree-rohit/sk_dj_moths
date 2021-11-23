@@ -79,86 +79,94 @@
         margin: 10px 0;
     }
 
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-#species-modal{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr 1fr 30vw;
-    grid-template-areas: "image image map"
-                        "image image chart"
-                        "details details details";
-    /*grid-template-rows: 2fr 1fr 1fr;*/
-    /*grid-template-columns: 1fr 1fr;*/
-}
-#species-modal > div{
-    /*border:  4px solid red;*/
-}
-#species-modal #image{
-    grid-area: image;
-    text-align: center;
-}
-#species-modal #image img{
-    max-width: 67vw;
-    max-height: 75vh;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    margin: auto;
-}
-#species-modal #map{
-    grid-area: map;
-    text-align: center;
-}
-#species-modal #chart{
-    grid-area: chart;
-    text-align: center;
-}
-#species-modal #details{
-    grid-area: details;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-@media only screen and (max-width: 480px){
-    .genus-row{
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2px;
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
     }
-    .species-card img{
-        max-height:calc(40vw / 3 * 2);
-        max-width: 40vw;
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
     }
     #species-modal{
-        grid-template-areas: "image"
-                            "map"
-                            "chart"
-                            "details";
+        display: grid;
+        width: 100%;
+        height: 95%;
+        /*max-height: 75vh;*/
+        grid-template-columns: 1fr 1fr 20vw;
+        grid-template-rows: 25vh 25vh 25vh 5vh;
+        grid-template-areas: "image image map"
+                            "image image map"
+                            "image image chart"
+                            "details details details";
+        /*grid-template-rows: 2fr 1fr 1fr;*/
+        /*grid-template-columns: 1fr 1fr;*/
     }
-}
-
+    #species-modal > div{
+        border:  1px solid red;
+        /*margin: 10px;*/
+        /*padding: 10px;*/
+    }
+    #species-modal #image{
+        grid-area: image;
+        text-align: center;
+    }
+    #species-modal #image img{
+        max-width: 67vw;
+        max-height: 75vh;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+    #species-modal #map{
+        grid-area: map;
+        text-align: center;
+    }
+    #species-modal #chart{
+        grid-area: chart;
+        text-align: center;
+    }
+    #species-modal #details{
+        grid-area: details;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    @media only screen and (max-width: 480px){
+        .genus-row{
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2px;
+        }
+        .species-card img{
+            max-height:calc(40vw / 3 * 2);
+            max-width: 40vw;
+        }
+        #species-modal{
+            grid-template-areas: "image"
+                                "map"
+                                "chart"
+                                "details";
+        }
+    }
 </style>
 
 <template>
     <div id="species-page">
-        <n-auto-complete :options="searchAutoCompleteValues" v-model:value="searchValue" placeholder="Search" :clearable="true" />
+        <n-auto-complete
+            :options="searchAutoCompleteValues"
+            v-model:value="searchValue"
+            placeholder="Search"
+        :clearable="true" />
         <n-card :bordered='false'
             content-style="padding:0;"
             v-for="(superfamilyData, superfamily) in filteredTree"
-            :key="superfamily">
+        :key="superfamily">
             <template v-for="(familyData, family) in superfamilyData" :key="family">
                 <n-card :bordered='false'
                     class="family-row"
@@ -169,10 +177,15 @@
                     <template v-for="(subfamilyData, subfamily) in familyData" :key="subfamily">
                         <template v-for="(tribeData, tribe) in subfamilyData" :key="tribe">
                             <template v-for="(genusData, genus) in tribeData" :key="genus">
-                                <div v-for="(speciesData, species) in genusData" class="species-card" :key="species" @click='showSpeciesModal(species, speciesData)'>
-                                    <template v-for="observation in speciesData" :key="observation.id">
+                                <div v-for="(speciesData, species) in genusData"
+                                    class="species-card"
+                                    :key="species"
+                                    @click='showSpeciesModal(species, speciesData)'
+                                >
+                                    <template v-for="observation in speciesData"
+                                    :key="observation.id">
                                         <div v-if="observation.img != null">
-                                            <img :src="require('@/assets/book_data/medium/'+observation.img)" alt="">
+                                            <img :src="require(`@/assets/book_data/medium/${observation.img}`)">
                                             <div class="species-name-div">
                                                 <span class="species-name">
                                                     {{ speciesId(species) }}. {{species}}
@@ -192,7 +205,9 @@
     <n-modal v-model:show="familyModalDisplay" transform-origin="center">
         <n-card style="width: 80%;" :bordered="false" size="huge">
             <template #header>Family {{selectedFamily}}</template>
-            <template #header-extra> <span class="close" @click="familyModalDisplay = false">&times;</span> </template>
+            <template #header-extra>
+                <span class="close" @click="familyModalDisplay = false">&times;</span>
+            </template>
             <p v-for="(p, k) in familyModalText" v-text="p" :key="k"></p>
         </n-card>
     </n-modal>
@@ -202,7 +217,7 @@
             <template #header-extra> <span class="close" @click="speciesModalDisplay = false">&times;</span> </template>
             <div id="species-modal">
                 <div id="image">
-                    <img :src="require('@/assets/book_data/medium/'+selectedImageObservation.img)" alt="">
+                    <img :src="require(`@/assets/book_data/medium/${selectedImageObservation.img}`)" alt=''>
                 </div>
                 <div id="map">
                     <SpeciesMap :observations="selectedSpeciesData" />
@@ -224,240 +239,238 @@
 </template>
 
 <script>
-    import SpeciesMap from './SpeciesMap.vue'
-    import DateChart from './DateChart.vue'
+import moment from 'moment'
 
-    import { NCard, NModal, NAutoComplete } from 'naive-ui'
-    import moment from 'moment'
+import { NCard, NModal, NAutoComplete } from 'naive-ui'
+import SpeciesMap from './SpeciesMap.vue'
+import DateChart from './DateChart.vue'
 
-    import book_data from '../assets/book_data/book_data.json'
-    import data_tree from '../assets/book_data/data_tree.json'
-    import taxonomy_data from '../assets/book_data/taxonomy_data.json'
-    import user_data from '../assets/book_data/user_data.json'
-    import species_descriptions from '../assets/book_data/descriptions.json'
+import BookData from '../assets/book_data/book_data.json'
+import dataTree from '../assets/book_data/data_tree.json'
+import taxonomyData from '../assets/book_data/taxonomy_data.json'
+import userData from '../assets/book_data/user_data.json'
+import speciesDescriptions from '../assets/book_data/descriptions.json'
 
-    export default {
-        name: 'AllSpecies',
-        components: { SpeciesMap, DateChart, NCard, NModal, NAutoComplete },
-        data() {
-            return {
-                book_data: book_data,
-                data_tree: data_tree,
-                user_data: user_data,
-                taxonomy_data: taxonomy_data,
-                descriptions: species_descriptions,
-                tree:{},
-                searchValue:"",
-                allSpeciesList: [],
-                allSearchAutoCompleteValues:[],
-                familyModalDisplay: false,
-                speciesModalDisplay: false,
-                modalIsOpen:false,
-                selectedFamily:"",
-                selectedSpecies: "",
-                selectedSpeciesData: [],
+export default {
+    name: 'AllSpecies',
+    components: {
+        SpeciesMap, DateChart, NCard, NModal, NAutoComplete,
+    },
+    data() {
+        return {
+            book_data: BookData,
+            data_tree: dataTree,
+            user_data: userData,
+            taxonomy_data: taxonomyData,
+            descriptions: speciesDescriptions,
+            tree: {},
+            searchValue: '',
+            allSpeciesList: [],
+            allSearchAutoCompleteValues: [],
+            familyModalDisplay: false,
+            speciesModalDisplay: false,
+            modalIsOpen: false,
+            selectedFamily: '',
+            selectedSpecies: '',
+            selectedSpeciesData: [],
+        }
+    },
+    created() {
+        this.init()
+    },
+    computed: {
+        familyModalText() {
+            let op = ''
+            if (this.selectedFamily !== '') {
+                op = this.descriptionParagraphs(this.selectedFamily)
             }
+            return op
         },
-        created() {
-            this.init()
+        searchAutoCompleteValues() {
+            return this.allSearchAutoCompleteValues.filter((str) => str.toLowerCase().includes(this.searchValue.toLowerCase()))
         },
-        computed:{
-            familyModalText(){
-                let op = ""
-                if(this.selectedFamily != ""){
-                    op = this.descriptionParagraphs(this.selectedFamily)
-                }
-                return op
-            },
-            searchAutoCompleteValues(){
-                return this.allSearchAutoCompleteValues.filter(str => str.toLowerCase().includes(this.searchValue.toLowerCase()))
-            },
-            filteredTree(){
-                let op = this.tree
-                if(this.allSearchAutoCompleteValues.includes(this.searchValue)){
-                    let words = this.searchValue.split(" ")
-                    let name = ""
-                    if(["Superfamily", "Family", "Subfamily", "Tribe", "Genus"].includes(words[0])){
-                        op = this.searchTree(words[0], words[1])
-                    } else {
-                        op = this.searchTree("Species", this.searchValue)
-                    }
-                }
-                return op
-            },
-            selectedImageObservation() {
-                let op = {}
-                if(this.selectedSpeciesData.length > 0){
-                    let x = this.selectedSpeciesData.filter(o => o.img != null)[0]
-                    this.selectedSpeciesData.forEach(o => {
-                        if(o.img != null){
-                            op = o
-                        }
-                    })
-                }
-                return op
-            },
-            speciesImage() {
-                return this.selectedImageObservation.img
-            },
-            speciesImageObserver() {
-                let op = "Observed by: "
-                if(user_data[this.selectedImageObservation.user_id][0] != null){
-                    op += user_data[this.selectedImageObservation.user_id][0]
+        filteredTree() {
+            let op = this.tree
+            if (this.allSearchAutoCompleteValues.includes(this.searchValue)) {
+                const words = this.searchValue.split(' ')
+                if (['Superfamily', 'Family', 'Subfamily', 'Tribe', 'Genus'].includes(words[0])) {
+                    op = this.searchTree(words[0], words[1])
                 } else {
-                    op += this.selectedImageObservation.user_id
+                    op = this.searchTree('Species', this.searchValue)
                 }
-
-                return op
-            },
-            speciesImageDate() {
-                return "Observed on: " + moment(this.selectedImageObservation.observed_on).format("D MMM, YY")
             }
+            return op
         },
-        watch: {
-            modalIsOpen() {
-                document.body.style.overflow = (this.modalIsOpen == true) ? 'hidden' : 'auto'
-            }
-        },
-        methods: {
-            init() {
-                let search_terms = new Set();
-                this.book_data.forEach(o => {
-                    let taxa = this.taxonomy_data[o.taxa_id]
-                    this.tree = this.data_tree
-
-                    search_terms.add("Superfamily " + taxa.superfamily)
-                    search_terms.add("Family " + taxa.family)
-                    search_terms.add("Subfamily " + taxa.subfamily)
-                    search_terms.add("Tribe " + taxa.tribe)
-                    search_terms.add("Genus " + taxa.genus)
-                    search_terms.add(taxa.species)
-                    
+        selectedImageObservation() {
+            let op = {}
+            if (this.selectedSpeciesData.length > 0) {
+                this.selectedSpeciesData.forEach((o) => {
+                    if (o.img != null) {
+                        op = o
+                    }
                 })
-                Object.keys(this.tree).forEach(sf => {
-                    Object.keys(this.tree[sf]).forEach(f => {
-                        Object.keys(this.tree[sf][f]).forEach(subf => {
-                            Object.keys(this.tree[sf][f][subf]).forEach(t => {
-                                Object.keys(this.tree[sf][f][subf][t]).forEach(g => {
-                                    Object.keys(this.tree[sf][f][subf][t][g]).forEach(s => {
-                                        this.allSpeciesList.push(s)
-                                    })
+            }
+            return op
+        },
+        speciesImage() {
+            return this.selectedImageObservation.img
+        },
+        speciesImageObserver() {
+            let op = 'Observed by: '
+            if (this.user_data[this.selectedImageObservation.user_id][0] != null) {
+                op += this.user_data[this.selectedImageObservation.user_id][0]
+            } else {
+                op += this.selectedImageObservation.user_id
+            }
+            return op
+        },
+        speciesImageDate() {
+            return `Observed on: ${moment(this.selectedImageObservation.observed_on).format('D MMM, YY')}`
+        },
+    },
+    watch: {
+        modalIsOpen() {
+            document.body.style.overflow = (this.modalIsOpen === true) ? 'hidden' : 'auto'
+        },
+    },
+    methods: {
+        init() {
+            const searchTerms = new Set();
+            this.tree = this.data_tree
+            this.book_data.forEach((o) => {
+                const taxa = this.taxonomy_data[o.taxa_id]
+                searchTerms.add(`Superfamily ${taxa.superfamily}`)
+                searchTerms.add(`Family ${taxa.family}`)
+                searchTerms.add(`Subfamily ${taxa.subfamily}`)
+                searchTerms.add(`Tribe ${taxa.tribe}`)
+                searchTerms.add(`Genus ${taxa.genus}`)
+                searchTerms.add(taxa.species)
+            })
+            Object.keys(this.tree).forEach((sf) => {
+                Object.keys(this.tree[sf]).forEach((f) => {
+                    Object.keys(this.tree[sf][f]).forEach((subf) => {
+                        Object.keys(this.tree[sf][f][subf]).forEach((t) => {
+                            Object.keys(this.tree[sf][f][subf][t]).forEach((g) => {
+                                Object.keys(this.tree[sf][f][subf][t][g]).forEach((s) => {
+                                    this.allSpeciesList.push(s)
                                 })
                             })
                         })
                     })
                 })
-
-                this.allSearchAutoCompleteValues = Array.from(search_terms)
-            },
-            speciesId(s){
-                return this.allSpeciesList.indexOf(s)
-            },
-            searchTree(level, search){
-                let op = {}
-                switch(level){
-                    case "Superfamily": op[search] = this.tree[search]
-                                        break
-                    case "Family": Object.keys(this.tree).forEach(sf => {
-                                        if(Object.keys(this.tree[sf]).includes(search)){
-                                            op[sf] = {}
-                                            op[sf][search] = this.tree[sf][search]
-                                        }
-                                    })
-                                    break
-                    case "Subfamily": Object.keys(this.tree).forEach(sf => {
-                                        Object.keys(this.tree[sf]).forEach(f => {
-                                            if(Object.keys(this.tree[sf][f]).includes(search)) {
-                                                op[sf] = {}
-                                                op[sf][f] = {}
-                                                op[sf][f][search] = this.tree[sf][f][search]
-                                            }
-                                        })
-                                    })
-                                    break;
-                    case "Tribe": Object.keys(this.tree).forEach(sf => {
-                                        Object.keys(this.tree[sf]).forEach(f => {
-                                            Object.keys(this.tree[sf][f]).forEach(subf => {
-                                                if(Object.keys(this.tree[sf][f][subf]).includes(search)){
-                                                    op[sf] = {}
-                                                    op[sf][f] = {}
-                                                    op[sf][f][subf] = {}
-                                                    op[sf][f][subf][search] = this.tree[sf][f][subf][search]
-                                                }
-                                            })
-                                        })
-                                    })
-                                    break;
-                    case "Genus": Object.keys(this.tree).forEach(sf => {
-                                        Object.keys(this.tree[sf]).forEach(f => {
-                                            Object.keys(this.tree[sf][f]).forEach(subf => {
-                                                Object.keys(this.tree[sf][f][subf]).forEach(t => {
-                                                    if(Object.keys(this.tree[sf][f][subf][t]).includes(search)){
-                                                        op[sf] = {}
-                                                        op[sf][f] = {}
-                                                        op[sf][f][subf] = {}
-                                                        op[sf][f][subf][t] = {}
-                                                        op[sf][f][subf][t][search] = this.tree[sf][f][subf][t][search]
-                                                    }
-                                                })
-                                            })
-                                        })
-                                    })
-                                    break;
-                    case "Species": Object.keys(this.tree).forEach(sf => {
-                                        Object.keys(this.tree[sf]).forEach(f => {
-                                            Object.keys(this.tree[sf][f]).forEach(subf => {
-                                                Object.keys(this.tree[sf][f][subf]).forEach(t => {
-                                                    Object.keys(this.tree[sf][f][subf][t]).forEach(g => {
-                                                        this.tree[sf][f][subf][t][g].forEach(s => {
-                                                            if(s[0] == search){
-                                                                op[sf] = {}
-                                                                op[sf][f] = {}
-                                                                op[sf][f][subf] = {}
-                                                                op[sf][f][subf][t] = {}
-                                                                op[sf][f][subf][t][g] = []
-                                                                op[sf][f][subf][t][g].push(s)
-                                                            }
-                                                        })
-                                                    })
-                                                })
-                                            })
-                                        })
-                                    })
-                                    break;
+            })
+            this.allSearchAutoCompleteValues = Array.from(searchTerms)
+        },
+        speciesId(s) {
+            return this.allSpeciesList.indexOf(s) + 1
+        },
+        searchTree(level, search) {
+            const op = {}
+            switch (level) {
+            case 'Superfamily': op[search] = this.tree[search]
+                break
+            case 'Family': Object.keys(this.tree).forEach((sf) => {
+                if (Object.keys(this.tree[sf]).includes(search)) {
+                    op[sf] = {}
+                    op[sf][search] = this.tree[sf][search]
                 }
-
-                return op
-            },
-            cardFamilyTitle (superFamily, family){
-                return `Superfamily ${superFamily} > Family ${family}`
-            },
-            descriptionParagraphs(family) {
-                let op = [""]
-                if(this.descriptions[family] != undefined)
-                    op = this.descriptions[family].split('<br>')
-                return op
-            },
-            gotoSpeciesPage(o){
-                let url = "https://www.inaturalist.org/taxa/" + o.taxa_id
-                window.open(url, '_blank').focus();
-            },
-            showFamilyModal(f){
-                this.modalIsOpen = true
-                this.selectedFamily = f
-                this.familyModalDisplay = true
-            },
-            showSpeciesModal(species, speciesData){
-                this.modalIsOpen = true
-                this.selectedSpecies = species
-                this.selectedSpeciesData = speciesData
-                this.speciesModalDisplay = true
-            },
-            closeModal(){
-                if(this.familyModalDisplay == false && this.speciesModalDisplay == false){
-                    this.modalIsOpen = false
-                }
+            })
+                break
+            case 'Subfamily': Object.keys(this.tree).forEach((sf) => {
+                Object.keys(this.tree[sf]).forEach((f) => {
+                    if (Object.keys(this.tree[sf][f]).includes(search)) {
+                        op[sf] = {}
+                        op[sf][f] = {}
+                        op[sf][f][search] = this.tree[sf][f][search]
+                    }
+                })
+            })
+                break
+            case 'Tribe': Object.keys(this.tree).forEach((sf) => {
+                Object.keys(this.tree[sf]).forEach((f) => {
+                    Object.keys(this.tree[sf][f]).forEach((subf) => {
+                        if (Object.keys(this.tree[sf][f][subf]).includes(search)) {
+                            op[sf] = {}
+                            op[sf][f] = {}
+                            op[sf][f][subf] = {}
+                            op[sf][f][subf][search] = this.tree[sf][f][subf][search]
+                        }
+                    })
+                })
+            })
+                break
+            case 'Genus': Object.keys(this.tree).forEach((sf) => {
+                Object.keys(this.tree[sf]).forEach((f) => {
+                    Object.keys(this.tree[sf][f]).forEach((subf) => {
+                        Object.keys(this.tree[sf][f][subf]).forEach((t) => {
+                            if (Object.keys(this.tree[sf][f][subf][t]).includes(search)) {
+                                op[sf] = {}
+                                op[sf][f] = {}
+                                op[sf][f][subf] = {}
+                                op[sf][f][subf][t] = {}
+                                op[sf][f][subf][t][search] = this.tree[sf][f][subf][t][search]
+                            }
+                        })
+                    })
+                })
+            })
+                break
+            case 'Species': Object.keys(this.tree).forEach((sf) => {
+                Object.keys(this.tree[sf]).forEach((f) => {
+                    Object.keys(this.tree[sf][f]).forEach((subf) => {
+                        Object.keys(this.tree[sf][f][subf]).forEach((t) => {
+                            Object.keys(this.tree[sf][f][subf][t]).forEach((g) => {
+                                this.tree[sf][f][subf][t][g].forEach((s) => {
+                                    if (s[0] === search) {
+                                        op[sf] = {}
+                                        op[sf][f] = {}
+                                        op[sf][f][subf] = {}
+                                        op[sf][f][subf][t] = {}
+                                        op[sf][f][subf][t][g] = []
+                                        op[sf][f][subf][t][g].push(s)
+                                    }
+                                })
+                            })
+                        })
+                    })
+                })
+            })
+                break
+            // no default
             }
-        }
-    }
+
+            return op
+        },
+        cardFamilyTitle(superFamily, family) {
+            return `Superfamily ${superFamily} > Family ${family}`
+        },
+        descriptionParagraphs(family) {
+            let op = ['']
+            if (this.descriptions[family] !== undefined) {
+                op = this.descriptions[family].split('<br>')
+            }
+            return op
+        },
+        gotoSpeciesPage(o) {
+            const url = `https://www.inaturalist.org/taxa/${o.taxa_id}`
+            window.open(url, '_blank').focus()
+        },
+        showFamilyModal(f) {
+            this.modalIsOpen = true
+            this.selectedFamily = f
+            this.familyModalDisplay = true
+        },
+        showSpeciesModal(species, speciesData) {
+            this.modalIsOpen = true
+            this.selectedSpecies = species
+            this.selectedSpeciesData = speciesData
+            this.speciesModalDisplay = true
+        },
+        closeModal() {
+            if (this.familyModalDisplay === false && this.speciesModalDisplay === false) {
+                this.modalIsOpen = false
+            }
+        },
+    },
+}
 </script>
