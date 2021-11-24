@@ -9,13 +9,15 @@
 </template>
 
 <script>
-import * as d3 from "d3"
+import * as d3 from 'd3'
+
 import moment from 'moment'
+
 export default {
-    name:"date-chart",
-    props: [ "observations" ],
+    name: 'date-chart',
+    props: ['observations'],
     data() {
-        return{
+        return {
             width: 0,
             height: 0,
             xScale: {},
@@ -42,6 +44,12 @@ export default {
         console.log(chart)
         // let svg = d3.select("#date-chart-continer").append(chart)
     },
+    created() {
+        window.addEventListener("resize", this.myEventHandler);
+    },
+    destroyed() {
+        window.removeEventListener("resize", this.myEventHandler);
+    },
     computed: {
         months_data() {
             let op = []
@@ -65,6 +73,9 @@ export default {
     watch: {
     },
     methods:{
+        myEventHandler(e) {
+            // your code for handling resize...
+        },
         BarChart(data, {
           x = (d, i) => i, // given d in data, returns the (ordinal) x-value
           y = d => d, // given d in data, returns the (quantitative) y-value
@@ -77,7 +88,7 @@ export default {
           xRange = [marginLeft, this.width - marginRight], // [left, right]
           yType = d3.scaleLinear, // y-scale type
           yDomain, // [ymin, ymax]
-          yRange = [height - marginBottom, marginTop], // [bottom, top]
+          yRange = [this.height - marginBottom, marginTop], // [bottom, top]
           xPadding = 0.1, // amount of x-range to reserve to separate bars
           yFormat, // a format specifier string for the y-axis
           yLabel, // a label for the y-axis
@@ -146,7 +157,7 @@ export default {
               .text(title);
 
           svg.append("g")
-              .attr("transform", `translate(0,${height - marginBottom})`)
+              .attr("transform", `translate(0,${this.height - marginBottom})`)
               .call(xAxis);
 
           // return svg.node();
