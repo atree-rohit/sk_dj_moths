@@ -1,6 +1,21 @@
 <style>
-    .tick text{
-        font-size: 1.5em !important;
+    #date-chart-continer rect.bar{
+        transition: all .6s;
+    }
+    #date-chart-continer rect.bar:hover{
+        fill: red;
+    }
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 100px;
+        height: 12px;
+        padding: 8px;
+        margin-top: -20px;
+        font: 10px sans-serif;
+        background: #000;
+        z-index: 30000;
+        pointer-events: none;
     }
 </style>
 
@@ -21,22 +36,15 @@ export default {
             chart: null,
             width: 0,
             height: 0,
-            xScale: {},
-            xScale2: {},
-            yScale: {},
-            yScale2: {},
-            bars1: {},
-            xAxis: {},
-            xAxisGroup: {},
-            watch_init_flag: false,
         }
     },
     mounted() {
         this.init()
-        window.addEventListener('resize', this.windowResize)
+        window.addEventListener('resize', this.init)
     },
     unmounted() {
-        window.removeEventListener('resize', this.windowResize)
+        window.removeEventListener('resize', this.init)
+        d3.selectAll('.tooltip').remove()
     },
     computed: {
         months_data() {
@@ -60,25 +68,18 @@ export default {
     watch: {
     },
     methods: {
-        windowResize(e) {
-            this.init()
-            console.log(this.width, this.height, e)
-        },
         BarChart(data, {
             x = (d, i) => i, // given d in data, returns the (ordinal) x-value
             y = (d) => d, // given d in data, returns the (quantitative) y-value
-            title, // given d in data, returns the title text
             marginTop = 20, // the top margin, in pixels
-            marginRight = 0, // the right margin, in pixels
-            marginBottom = 30, // the bottom margin, in pixels
-            marginLeft = 40, // the left margin, in pixels
+            marginRight = 10, // the right margin, in pixels
+            marginBottom = 40, // the bottom margin, in pixels
+            marginLeft = 25, // the left margin, in pixels
             xDomain, // an array of (ordinal) x-values
             xRange = [marginLeft, this.width - marginRight], // [left, right]
-            yType = d3.scaleLinear, // y-scale type
             yDomain, // [ymin, ymax]
             yRange = [this.height - marginBottom, marginTop], // [bottom, top]
             xPadding = 0.1, // amount of x-range to reserve to separate bars
-            yFormat, // a format specifier string for the y-axis
             yLabel, // a label for the y-axis
             color = 'currentColor', // bar fill color
         } = {}) {
@@ -96,26 +97,20 @@ export default {
 
             // Construct scales, axes, and formats.
             const xScale = d3.scaleBand(xDomain, xRange).padding(xPadding)
-            const yScale = yType(yDomain, yRange)
+            const yScale = d3.scaleLinear(yDomain, yRange)
             const xAxis = d3.axisBottom(xScale).tickSizeOuter(0)
             const yAxis = d3.axisLeft(yScale).tickFormat(d3.format('.0f')).ticks(d3.max(Y))
 
-            // Compute titles.
-            if (title === undefined) {
-                const formatValue = yScale.tickFormat(100, yFormat)
-                title = (i) => `${X[i]}\n${formatValue(Y[i])}`
-            } else {
-                const O = d3.map(data, (d) => d)
-                const T = title
-                title = (i) => T(O[i], i, data)
+            if (!d3.select('#date-chart-continer svg').empty()) {
+                d3.selectAll('#date-chart-continer svg').remove()
             }
-
-            // const svg = d3.create("svg")
             const svg = d3.select('#date-chart-continer').append('svg')
                 .attr('width', this.width)
                 .attr('height', this.height)
                 // .attr('viewBox', [0, 0, width, height])
                 .attr('style', 'max-width: 100%; height: auto; height: intrinsic;')
+            const tooltip = d3.select('body').append('div')
+                .attr('class', 'tooltip')
 
             svg.append('g')
                 .attr('transform', `translate(${marginLeft},0)`)
@@ -123,7 +118,7 @@ export default {
                 .call((g) => g.select('.domain').remove())
                 .call((g) => g.selectAll('.tick line').clone()
                     .attr('x2', this.width - marginLeft - marginRight)
-                    .attr('stroke-opacity', 0.1))
+                    .attr('stroke-opacity', 0.25))
                 .call((g) => g.append('text')
                     .attr('x', -marginLeft)
                     .attr('y', 10)
@@ -131,24 +126,42 @@ export default {
                     .attr('text-anchor', 'start')
                     .text(yLabel))
 
-            const bar = svg.append('g')
+            const mouseover = () =>  tooltip.style('display', 'inline')
+            const mousemove = (event, d) => {
+                tooltip.text(`${X[d]} : ${Y[d]} observation${(Y[d] > 1)?'s':''}`)
+                    .style('left', (event.pageX - 34))
+                    .style('top', (event.pageY - 12));
+            }
+
+            function mouseout() {
+                tooltip.style('display', 'none');
+            }
+
+            svg.append('g')
                 .attr('fill', color)
                 .selectAll('rect')
                 .data(I)
                 .join('rect')
                 .attr('x', (i) => xScale(X[i]))
                 .attr('y', (i) => yScale(Y[i]))
+                .classed('bar', true)
                 .attr('height', (i) => yScale(0) - yScale(Y[i]))
                 .attr('width', xScale.bandwidth())
+                .on('mouseover', mouseover)
+                .on('mousemove', (event, d) => mousemove(event, d))
+                .on('mouseout', mouseout)
 
-            if (title) {
-                bar.append('title')
-                    .text(title)
-            }
+
+
 
             svg.append('g')
                 .attr('transform', `translate(0,${this.height - marginBottom})`)
                 .call(xAxis)
+                .selectAll('text')
+                .style('text-anchor', 'end')
+                .attr('dx', '-.8em')
+                .attr('dy', '.15em')
+                .attr('transform', 'rotate(-65)');
             // return svg.node()
         },
         init() {
@@ -158,7 +171,7 @@ export default {
                 x: (d) => d.month,
                 y: (d) => d.frequency,
                 xDomain: this.months_data.map((d) => d.month),
-                yFormat: '%',
+                yFormat: '',
                 yLabel: '',
                 color: 'steelblue',
             })
