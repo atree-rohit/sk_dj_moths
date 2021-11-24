@@ -58,18 +58,16 @@ export default {
     },
     mounted() {
         this.init()
+        window.addEventListener('resize', this.init)
+    },
+    unmounted() {
+        window.removeEventListener('resize', this.init)
     },
     computed: {
         points() {
             const op = []
             this.observations.forEach((o) => {
                 const l = o.location.split(',')
-                // op.push({
-                //  id: o.id,
-                //  name: o.place_guess,
-                //  latitude: l[0],
-                //  longitude: l[1]
-                // })
                 op.push([l[1], l[0], o.id, o.place_guess])
             })
             return op
@@ -81,8 +79,7 @@ export default {
         init() {
             this.width = parseInt(d3.select('#map').style('width'), 10)
             this.height = parseInt(d3.select('#map').style('height'), 10)
-            console.log(d3.select('#map').node().getBoundingClientRect())
-            console.log(this.width, this.height)
+
             this.renderMap()
         },
         renderMap() {
