@@ -19,16 +19,6 @@
     .map-point:hover {
         fill: rgba(255,0,0,.5);
     }
-    .map-tooltip {
-        position: absolute;
-        text-align: center;
-        padding: 8px;
-        margin-top: -20px;
-        font: 10px sans-serif;
-        background: #000;
-        z-index: 30000;
-        pointer-events: none;
-    }
 </style>
 
 <template>
@@ -37,6 +27,8 @@
 
 <script>
 import * as d3 from 'd3'
+import { geoToH3, h3ToGeoBoundary } from 'h3-js';
+
 import districtsMap from '../assets/book_data/districts_map.json'
 
 export default {
@@ -55,6 +47,26 @@ export default {
                 (o) => [o.location.split(',')[1], o.location.split(',')[0], o.id, o.place_guess],
             )
         },
+        color() {
+            const max = d3.max(this.polygons.map((p) => p.ids.length))
+            return d3.scaleLinear().domain([0, max]).range(['#206020', '#22BB22'])
+        },
+        polygons() {
+            const op = {}
+            this.points.forEach((point) => {
+                const h3Address = geoToH3(point[1], point[0], 6)
+                if (op[h3Address] !== undefined) {
+                    op[h3Address].ids.push(point[2])
+                } else {
+                    const h3Geo = this.hexFeatures(h3ToGeoBoundary(h3Address, true))
+                    op[h3Address] = {
+                        ids: [point[2]],
+                        polygon: h3Geo.features[0],
+                    }
+                }
+            })
+            return Object.values(op)
+        },
     },
     methods: {
         renderMap() {
@@ -66,10 +78,17 @@ export default {
             const height = parseInt(d3.select('#map').style('height'), 10)
             const projection = d3.geoMercator().scale(1).translate([0, 0])
             const path = d3.geoPath().projection(projection)
-            const tooltip = d3.select('body')
-                .append('div')
-                .attr('class', 'map-tooltip')
-                .style('opacity', 0)
+
+            let tooltip = null
+
+            if (!d3.select('.tooltip').empty()) {
+                tooltip = d3.select('.tooltip')
+            } else {
+                tooltip = d3.select('body')
+                    .append('div')
+                    .attr('class', 'tooltip')
+                    .style('opacity', 0)
+            }
 
             const b = path.bounds(districtsMap)
             const s = 0.95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height)
@@ -83,11 +102,15 @@ export default {
                 .duration(200)
                 .style('opacity', 0.9)
 
-            const mousemove = (event, d) => tooltip.html(d.properties.district)
-                .style('left', (event.pageX - 50) + 'px')
-                .style('top', (event.pageY - 10) + 'px')
+            const mousemoveDistrict = (event, d) => tooltip.html(d.properties.district)
+                .style('left', `${(event.pageX - 50)}px`)
+                .style('top', `${(event.pageY - 10)}px`)
 
-            const mouseout = () =>  tooltip.transition()
+            const mousemoveHexagon = (event, d) => tooltip.html(`${d.ids.length} observation${(d.ids.length > 1) ? 's' : ''}`)
+                .style('left', `${(event.pageX - 50)}px`)
+                .style('top', `${(event.pageY - 10)}px`)
+
+            const mouseout = () => tooltip.transition()
                 .duration(500)
                 .style('opacity', 0)
 
@@ -107,20 +130,33 @@ export default {
                 .classed('district-boundary', true)
                 .attr('title', (d) => d.properties.district)
                 .on('mouseover', mouseover)
-                .on('mousemove', (event, d) => mousemove(event, d))
+                .on('mousemove', (event, d) => mousemoveDistrict(event, d))
                 .on('mouseout', mouseout)
 
             svg.append('g')
                 .classed('map-points', true)
-                .selectAll('circle')
-                .data(this.points)
+                .selectAll('path')
+                .data(this.polygons)
                 .enter()
-                .append('circle')
-                .classed('map-point', true)
-                .attr('cx', (d) => projection(d)[0])
-                .attr('cy', (d) => projection(d)[1])
-                .attr('r', '5px')
-                .attr('title', (d) => d)
+                .append('path')
+                .classed('polygon', true)
+                .attr('d', (d) => path(d.polygon))
+                .attr('fill', (d) => this.color(d.ids.length))
+                .on('mouseover', mouseover)
+                .on('mousemove', (event, d) => mousemoveHexagon(event, d))
+                .on('mouseout', mouseout)
+        },
+        hexFeatures(array) {
+            return {
+                type: 'FeatureCollection',
+                features: [{
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Polygon',
+                        coordinates: [array.reverse()],
+                    },
+                }],
+            }
         },
     },
 }
