@@ -1,33 +1,28 @@
 <style>
-    .map-boundary > path {
-        fill: white;
+    #map-container{
+        background-color: rgb(180,180,200);
+    }
+    .district-boundary {
+        fill: #fff;
         stroke: rgba(75,0,0,.5);
         stroke-width: 1px;
+        transition: all .75s;
     }
-    .poly_text{
-        fill: #545;
-        font-size: 0.5vw;
-        transition: fill,text-shadow .125s;
+    .district-boundary:hover {
+        fill: #ffa;
     }
-    .poly_text:hover{
-        fill: #00c;
-        text-shadow: 0px 0px 5px #fff;
-        cursor: pointer;
-        font-weight: 1000;
+    .map-point {
+        stroke: red;
+        transition: all .25s;
+        fill: rgba(255,0,0,.25);
     }
-    @media screen and (max-width: 800px) {
-        .poly_text{
-            font-size: 3.5vw;
-        }
-        #map-container svg{
-            height: 100%;
-            width: 100%;
-        }
+    .map-point:hover {
+        fill: rgba(255,0,0,.5);
     }
 </style>
 
 <template>
-    <div id="map-container"></div>
+    <svg id="map-container"></svg>
 </template>
 
 <script>
@@ -37,88 +32,65 @@ import districtsMap from '../assets/book_data/districts_map.json'
 export default {
     name: 'SpeciesMap',
     props: ['observations'],
-    data() {
-        return {
-            path: null,
-            svg: {},
-            projection: {},
-            height: 100,
-            width: 100,
-        }
-    },
     mounted() {
-        this.init()
-        window.addEventListener('resize', this.init)
+        window.addEventListener('resize', this.renderMap)
+        this.renderMap()
     },
     unmounted() {
-        window.removeEventListener('resize', this.init)
+        window.removeEventListener('resize', this.renderMap)
     },
     computed: {
         points() {
-            const op = []
-            this.observations.forEach((o) => {
-                const l = o.location.split(',')
-                op.push([l[1], l[0], o.id, o.place_guess])
-            })
-            return op
+            return this.observations.map(
+                (o) => [o.location.split(',')[1], o.location.split(',')[0], o.id, o.place_guess],
+            )
         },
-    },
-    watch: {
     },
     methods: {
-        init() {
-            this.width = parseInt(d3.select('#map').style('width'), 10)
-            this.height = parseInt(d3.select('#map').style('height'), 10)
-
-            this.renderMap()
-        },
         renderMap() {
             if (!d3.select('#map-container svg').empty()) {
                 d3.selectAll('#map-container svg').remove()
             }
 
-            this.svg = d3.select('#map-container')
-                .append('svg')
-                .attr('preserveAspectRatio', 'xMinYMin meet')
-                .attr('width', this.width)
-                .attr('height', this.height)
-                .style('background-color', 'rgb(190, 229, 235)')
-                .classed('svg-content d-flex m-auto', true)
+            const width = parseInt(d3.select('#map').style('width'), 10)
+            const height = parseInt(d3.select('#map').style('height'), 10)
+            const projection = d3.geoMercator().scale(1).translate([0, 0])
+            const path = d3.geoPath().projection(projection)
 
-            this.projection = d3.geoMercator().scale(1).translate([0, 0])
-            this.path = d3.geoPath().projection(this.projection)
+            const b = path.bounds(districtsMap)
+            const s = 0.95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height)
+            const t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2]
 
-            const b = this.path.bounds(districtsMap)
-            const s = 0.95 / Math.max((b[1][0] - b[0][0]) / this.width, (b[1][1] - b[0][1]) / this.height)
-            const t = [(this.width - s * (b[1][0] + b[0][0])) / 2, (this.height - s * (b[1][1] + b[0][1])) / 2]
-            this.projection
+            projection
                 .scale(s)
                 .translate(t);
 
-            // Add Map Boundary
-            this.svg.append('g')
+            const svg = d3.select('#map-container')
+                .attr('preserveAspectRatio', 'xMinYMin meet')
+                .attr('width', width)
+                .attr('height', height)
+
+            svg.append('g')
                 .classed('map-boundary', true)
                 .selectAll('path')
                 .data(districtsMap.features)
                 .enter()
                 .append('path')
-                .attr('d', this.path)
+                .attr('d', path)
                 .classed('district-boundary', true)
                 .attr('title', (d) => d.properties.district)
 
-            // Add Points
-            this.svg.append('g')
+            svg.append('g')
                 .classed('map-points', true)
                 .selectAll('circle')
                 .data(this.points)
                 .enter()
                 .append('circle')
-                .attr('cx', (d) => this.projection(d)[0])
-                .attr('cy', (d) => this.projection(d)[1])
+                .classed('map-point', true)
+                .attr('cx', (d) => projection(d)[0])
+                .attr('cy', (d) => projection(d)[1])
                 .attr('r', '5px')
                 .attr('title', (d) => d)
-                .attr('stroke', 'red')
-                .attr('fill', 'rgba(255,0,0,.25)')
         },
     },
 }
