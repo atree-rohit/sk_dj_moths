@@ -19,10 +19,20 @@
     .map-point:hover {
         fill: rgba(255,0,0,.5);
     }
+    .map-tooltip {
+        position: absolute;
+        text-align: center;
+        padding: 8px;
+        margin-top: -20px;
+        font: 10px sans-serif;
+        background: #000;
+        z-index: 30000;
+        pointer-events: none;
+    }
 </style>
 
 <template>
-    <svg id="map-container"></svg>
+    <div id="map-container"></div>
 </template>
 
 <script>
@@ -56,6 +66,10 @@ export default {
             const height = parseInt(d3.select('#map').style('height'), 10)
             const projection = d3.geoMercator().scale(1).translate([0, 0])
             const path = d3.geoPath().projection(projection)
+            const tooltip = d3.select('body')
+                .append('div')
+                .attr('class', 'map-tooltip')
+                .style('opacity', 0)
 
             const b = path.bounds(districtsMap)
             const s = 0.95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height)
@@ -65,7 +79,20 @@ export default {
                 .scale(s)
                 .translate(t);
 
+            const mouseover = () => tooltip.transition()
+                .duration(200)
+                .style('opacity', 0.9)
+
+            const mousemove = (event, d) => tooltip.html(d.properties.district)
+                .style('left', (event.pageX - 50) + 'px')
+                .style('top', (event.pageY - 10) + 'px')
+
+            const mouseout = () =>  tooltip.transition()
+                .duration(500)
+                .style('opacity', 0)
+
             const svg = d3.select('#map-container')
+                .append('svg')
                 .attr('preserveAspectRatio', 'xMinYMin meet')
                 .attr('width', width)
                 .attr('height', height)
@@ -79,6 +106,9 @@ export default {
                 .attr('d', path)
                 .classed('district-boundary', true)
                 .attr('title', (d) => d.properties.district)
+                .on('mouseover', mouseover)
+                .on('mousemove', (event, d) => mousemove(event, d))
+                .on('mouseout', mouseout)
 
             svg.append('g')
                 .classed('map-points', true)

@@ -5,10 +5,10 @@
     #date-chart-continer rect.bar:hover{
         fill: red;
     }
-    div.tooltip {
+    .date-chart-tooltip {
         position: absolute;
         text-align: center;
-        width: 100px;
+        /*width: 100px;*/
         height: 12px;
         padding: 8px;
         margin-top: -20px;
@@ -104,13 +104,16 @@ export default {
             if (!d3.select('#date-chart-continer svg').empty()) {
                 d3.selectAll('#date-chart-continer svg').remove()
             }
+            const tooltip = d3.select('body')
+                .append('div')
+                .attr('class', 'date-chart-tooltip')
+                .style('opacity', 0)
+
             const svg = d3.select('#date-chart-continer').append('svg')
                 .attr('width', this.width)
                 .attr('height', this.height)
                 // .attr('viewBox', [0, 0, width, height])
                 .attr('style', 'max-width: 100%; height: auto; height: intrinsic;')
-            const tooltip = d3.select('body').append('div')
-                .attr('class', 'tooltip')
 
             svg.append('g')
                 .attr('transform', `translate(${marginLeft},0)`)
@@ -126,16 +129,17 @@ export default {
                     .attr('text-anchor', 'start')
                     .text(yLabel))
 
-            const mouseover = () =>  tooltip.style('display', 'inline')
-            const mousemove = (event, d) => {
-                tooltip.text(`${X[d]} : ${Y[d]} observation${(Y[d] > 1)?'s':''}`)
-                    .style('left', (event.pageX - 34))
-                    .style('top', (event.pageY - 12));
-            }
+            const mouseover = () => tooltip.transition()
+                .duration(200)
+                .style('opacity', 0.9)
 
-            function mouseout() {
-                tooltip.style('display', 'none');
-            }
+            const mousemove = (event, d) => tooltip.html(`${X[d]} : ${Y[d]} observation${(Y[d] > 1) ? 's' : ''}`)
+                .style('left', (event.pageX - 50) + 'px')
+                .style('top', (event.pageY - 10) + 'px')
+
+            const mouseout = () =>  tooltip.transition()
+                .duration(500)
+                .style('opacity', 0)
 
             svg.append('g')
                 .attr('fill', color)
@@ -150,9 +154,6 @@ export default {
                 .on('mouseover', mouseover)
                 .on('mousemove', (event, d) => mousemove(event, d))
                 .on('mouseout', mouseout)
-
-
-
 
             svg.append('g')
                 .attr('transform', `translate(0,${this.height - marginBottom})`)
