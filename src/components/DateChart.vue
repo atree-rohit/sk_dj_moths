@@ -34,6 +34,11 @@ export default {
         window.removeEventListener('resize', this.init)
         d3.selectAll('.tooltip').remove()
     },
+    watch: {
+        observations() {
+            this.init()
+        },
+    },
     computed: {
         months_data() {
             const op = []
@@ -52,8 +57,6 @@ export default {
             })
             return op
         },
-    },
-    watch: {
     },
     methods: {
         BarChart(data, {
@@ -170,7 +173,7 @@ export default {
                 yLabel: '',
                 color: 'steelblue',
             })
-        },
+        }
     },
 }
 </script>

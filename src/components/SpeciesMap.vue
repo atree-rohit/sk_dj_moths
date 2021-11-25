@@ -41,6 +41,11 @@ export default {
     unmounted() {
         window.removeEventListener('resize', this.renderMap)
     },
+    watch: {
+        observations() {
+            this.renderMap()
+        },
+    },
     computed: {
         points() {
             return this.observations.map(
