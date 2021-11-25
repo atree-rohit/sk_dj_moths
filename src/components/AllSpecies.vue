@@ -190,7 +190,7 @@
                                 <div v-for="(speciesData, species) in genusData"
                                     class="species-card"
                                     :key="species"
-                                    @click='showSpeciesModal(species, speciesData)'
+                                    @click='showSpeciesModal(species)'
                                 >
                                     <template v-for="observation in speciesData"
                                     :key="observation.id">
@@ -223,7 +223,19 @@
     </n-modal>
     <n-modal v-model:show="speciesModalDisplay" transform-origin="center" :on-after-leave="closeModal()">
         <n-card style="width: 80%;" :bordered="false" size="huge">
-            <template #header>{{ speciesId(selectedSpecies) }}. {{selectedSpecies}}</template>
+            <template #header>
+                <n-button quaternary circle #icon v-if="speciesId(selectedSpecies) > 1" @click='previousSpecies'>
+                    <n-icon>
+                        <PreviousOutline />
+                    </n-icon>
+                </n-button>
+                <span>{{ speciesId(selectedSpecies) }}. {{selectedSpecies}}</span>
+                  <n-button strong quaternary circle #icon v-if="speciesId(selectedSpecies) < allSpeciesList.length" @click="nextSpecies">
+                    <n-icon>
+                        <NextOutline />
+                    </n-icon>
+                </n-button>
+            </template>
             <template #header-extra> <span class="close" @click="speciesModalDisplay = false">&times;</span> </template>
             <div id="species-modal">
                 <div id="image">
@@ -251,7 +263,8 @@
 <script>
 import moment from 'moment'
 
-import { NCard, NModal, NAutoComplete } from 'naive-ui'
+import { NCard, NModal, NAutoComplete, NIcon, NButton } from 'naive-ui'
+import { PreviousOutline, NextOutline } from '@vicons/carbon'
 import SpeciesMap from './SpeciesMap.vue'
 import DateChart from './DateChart.vue'
 
@@ -264,7 +277,7 @@ import speciesDescriptions from '../assets/book_data/descriptions.json'
 export default {
     name: 'AllSpecies',
     components: {
-        SpeciesMap, DateChart, NCard, NModal, NAutoComplete,
+        SpeciesMap, DateChart, NCard, NModal, NAutoComplete, NIcon, NButton, PreviousOutline, NextOutline
     },
     data() {
         return {
@@ -282,7 +295,6 @@ export default {
             modalIsOpen: false,
             selectedFamily: '',
             selectedSpecies: '',
-            selectedSpeciesData: [],
         }
     },
     created() {
@@ -332,6 +344,25 @@ export default {
                     op = this.searchTree('Species', this.searchValue)
                 }
             }
+            return op
+        },
+        selectedSpeciesData() {
+            let op = []
+            Object.keys(this.tree).forEach((sf) => {
+                Object.keys(this.tree[sf]).forEach((f) => {
+                    Object.keys(this.tree[sf][f]).forEach((subf) => {
+                        Object.keys(this.tree[sf][f][subf]).forEach((t) => {
+                            Object.keys(this.tree[sf][f][subf][t]).forEach((g) => {
+                                Object.keys(this.tree[sf][f][subf][t][g]).forEach((s) => {
+                                    if (s == this.selectedSpecies) {
+                                        op = this.tree[sf][f][subf][t][g][s]
+                                    }
+                                })
+                            })
+                        })
+                    })
+                })
+            })
             return op
         },
         selectedImageObservation() {
@@ -493,16 +524,21 @@ export default {
             this.selectedFamily = f
             this.familyModalDisplay = true
         },
-        showSpeciesModal(species, speciesData) {
+        showSpeciesModal(species) {
             this.modalIsOpen = true
             this.selectedSpecies = species
-            this.selectedSpeciesData = speciesData
             this.speciesModalDisplay = true
         },
         closeModal() {
             if (this.familyModalDisplay === false && this.speciesModalDisplay === false) {
                 this.modalIsOpen = false
             }
+        },
+        previousSpecies(){
+            this.selectedSpecies = this.allSpeciesList[this.speciesId(this.selectedSpecies) - 2]
+        },
+        nextSpecies() {
+            this.selectedSpecies = this.allSpeciesList[this.speciesId(this.selectedSpecies)]
         },
     },
 }
