@@ -108,7 +108,7 @@
         /*grid-template-columns: 1fr 1fr;*/
     }
     #species-modal > div{
-        border:  1px solid red;
+        /*border:  1px solid red;*/
         /*margin: 10px;*/
         /*padding: 10px;*/
     }
@@ -287,6 +287,29 @@ export default {
     },
     created() {
         this.init()
+        /*
+        const sp_obv = {}
+        let max = 0
+        let max_sp = ""
+        Object.keys(this.tree).forEach((sf) => {
+            Object.keys(this.tree[sf]).forEach((f) => {
+                Object.keys(this.tree[sf][f]).forEach((subf) => {
+                    Object.keys(this.tree[sf][f][subf]).forEach((t) => {
+                        Object.keys(this.tree[sf][f][subf][t]).forEach((g) => {
+                            Object.keys(this.tree[sf][f][subf][t][g]).forEach((s) => {
+                                sp_obv[s] = this.tree[sf][f][subf][t][g][s].length
+                                if (sp_obv[s] > max && ['Maruca vitrata', 'Spoladea recurvalis', 'Sirinopteryx rufivinctata'].indexOf(s) == -1) {
+                                    max = sp_obv[s]
+                                    max_sp = s
+                                }
+                            })
+                        })
+                    })
+                })
+            })
+        })
+        console.log(sp_obv, max, max_sp)
+        */
     },
     computed: {
         familyModalText() {
