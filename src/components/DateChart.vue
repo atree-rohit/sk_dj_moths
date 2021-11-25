@@ -5,18 +5,6 @@
     #date-chart-continer rect.bar:hover{
         fill: red;
     }
-    .date-chart-tooltip {
-        position: absolute;
-        text-align: center;
-        /*width: 100px;*/
-        height: 12px;
-        padding: 8px;
-        margin-top: -20px;
-        font: 10px sans-serif;
-        background: #000;
-        z-index: 30000;
-        pointer-events: none;
-    }
 </style>
 
 <template>
@@ -104,10 +92,16 @@ export default {
             if (!d3.select('#date-chart-continer svg').empty()) {
                 d3.selectAll('#date-chart-continer svg').remove()
             }
-            const tooltip = d3.select('body')
-                .append('div')
-                .attr('class', 'date-chart-tooltip')
-                .style('opacity', 0)
+            let tooltip = null
+
+            if (!d3.select('.tooltip').empty()) {
+                tooltip = d3.select('.tooltip')
+            } else {
+                tooltip = d3.select('body')
+                    .append('div')
+                    .attr('class', 'tooltip')
+                    .style('opacity', 0)
+            }
 
             const svg = d3.select('#date-chart-continer').append('svg')
                 .attr('width', this.width)
@@ -134,10 +128,10 @@ export default {
                 .style('opacity', 0.9)
 
             const mousemove = (event, d) => tooltip.html(`${X[d]} : ${Y[d]} observation${(Y[d] > 1) ? 's' : ''}`)
-                .style('left', (event.pageX - 50) + 'px')
-                .style('top', (event.pageY - 10) + 'px')
+                .style('left', `${(event.pageX - 50)}px`)
+                .style('top', `${(event.pageY - 10)}px`)
 
-            const mouseout = () =>  tooltip.transition()
+            const mouseout = () => tooltip.transition()
                 .duration(500)
                 .style('opacity', 0)
 

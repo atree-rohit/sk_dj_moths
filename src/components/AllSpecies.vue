@@ -154,6 +154,16 @@
                                 "details";
         }
     }
+    .tooltip {
+        position: absolute;
+        text-align: center;
+        padding: 8px;
+        margin-top: -20px;
+        font: 10px sans-serif;
+        background: #000;
+        z-index: 30000;
+        pointer-events: none;
+    }
 </style>
 
 <template>
