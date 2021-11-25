@@ -39,19 +39,11 @@ export default {
     props: ['observations'],
     data() {
         return {
-            states: null,
             path: null,
             svg: {},
             projection: {},
-            colors: {},
-            legend: {},
-
-            state_data: {},
-            selected: 'All',
-            state_max: 0,
             height: 100,
             width: 100,
-            map_first_render: true,
         }
     },
     mounted() {
@@ -99,26 +91,22 @@ export default {
             const b = this.path.bounds(districtsMap)
             const s = 0.95 / Math.max((b[1][0] - b[0][0]) / this.width, (b[1][1] - b[0][1]) / this.height)
             const t = [(this.width - s * (b[1][0] + b[0][0])) / 2, (this.height - s * (b[1][1] + b[0][1])) / 2]
-            // Update the projection to use computed scale & translate.
             this.projection
                 .scale(s)
                 .translate(t);
 
-            const base = this.svg.append('g')
+            // Add Map Boundary
+            this.svg.append('g')
                 .classed('map-boundary', true)
-                .selectAll('path').append('g')
+                .selectAll('path')
+                .data(districtsMap.features)
+                .enter()
+                .append('path')
+                .attr('d', this.path)
+                .classed('district-boundary', true)
+                .attr('title', (d) => d.properties.district)
 
-            this.states = base.append('g').classed('states', true)
-
-            districtsMap.features.forEach((district) => {
-                const name = district.properties.district
-
-                this.states.append('g')
-                    .data([district])
-                    .enter().append('path')
-                    .attr('d', this.path)
-                    .attr('title', name)
-            })
+            // Add Points
             this.svg.append('g')
                 .classed('map-points', true)
                 .selectAll('circle')
@@ -131,12 +119,7 @@ export default {
                 .attr('title', (d) => d)
                 .attr('stroke', 'red')
                 .attr('fill', 'rgba(255,0,0,.25)')
-
-            // this.svg.call(this.zoom)
-        },
-        stateID(s) {
-            return s.replaceAll(' ', '_').replaceAll('&', '')
         },
     },
-};
+}
 </script>
