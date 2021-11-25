@@ -24,7 +24,6 @@
             width: 100%;
         }
     }
-
 </style>
 
 <template>
@@ -33,8 +32,7 @@
 
 <script>
 import * as d3 from 'd3'
-import * as d3Legend from 'd3-svg-legend'
-import districts_map from '../assets/book_data/districts_map.json'
+import districtsMap from '../assets/book_data/districts_map.json'
 
 export default {
     name: 'SpeciesMap',
@@ -92,12 +90,19 @@ export default {
                 .attr('preserveAspectRatio', 'xMinYMin meet')
                 .attr('width', this.width)
                 .attr('height', this.height)
-                // .attr('viewbox', `0 0 ${this.width} ${this.height}`)
                 .style('background-color', 'rgb(190, 229, 235)')
                 .classed('svg-content d-flex m-auto', true)
 
-            this.projection = d3.geoMercator().scale(6500).center([91, 26.25])
+            this.projection = d3.geoMercator().scale(1).translate([0, 0])
             this.path = d3.geoPath().projection(this.projection)
+
+            const b = this.path.bounds(districtsMap)
+            const s = 0.95 / Math.max((b[1][0] - b[0][0]) / this.width, (b[1][1] - b[0][1]) / this.height)
+            const t = [(this.width - s * (b[1][0] + b[0][0])) / 2, (this.height - s * (b[1][1] + b[0][1])) / 2]
+            // Update the projection to use computed scale & translate.
+            this.projection
+                .scale(s)
+                .translate(t);
 
             const base = this.svg.append('g')
                 .classed('map-boundary', true)
@@ -105,14 +110,13 @@ export default {
 
             this.states = base.append('g').classed('states', true)
 
-            districts_map.features.forEach((district) => {
+            districtsMap.features.forEach((district) => {
                 const name = district.properties.district
 
                 this.states.append('g')
                     .data([district])
                     .enter().append('path')
                     .attr('d', this.path)
-                    .attr('id', this.stateID(name))
                     .attr('title', name)
             })
             this.svg.append('g')
