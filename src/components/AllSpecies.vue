@@ -138,7 +138,9 @@
         justify-content: space-between;
         text-align: center;
     }
-    /*n-modal*/
+    .n-collapse-item__content-wrapper{
+        transition: all .5s !important;
+    }
     @media only screen and (max-width: 480px){
         .genus-row{
             grid-template-columns: 1fr 1fr;
