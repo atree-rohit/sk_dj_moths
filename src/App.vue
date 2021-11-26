@@ -42,12 +42,12 @@
             <n-menu v-model:value="activeKey" mode="horizontal" :options="menuOptions" />
         </div>
     </div>
+    <AboutPage v-if="activeKey == 1"/>
     <AllSpecies v-if="activeKey == 2"/>
-    <SpeciesMap :observations="speciesData" v-if="activeKey == 3"/>
 </template>
 
 <script>
-    import SpeciesMap from './components/SpeciesMap.vue'
+    import AboutPage from './components/AboutPage.vue'
 
 
     import { NMenu } from 'naive-ui'
@@ -56,7 +56,7 @@
 
     export default {
         name: 'App',
-        components: { NMenu, HelloWorld, AllSpecies, SpeciesMap },
+        components: { NMenu, HelloWorld, AllSpecies, AboutPage },
         data() {
             return {
                 activeKey: 2,
