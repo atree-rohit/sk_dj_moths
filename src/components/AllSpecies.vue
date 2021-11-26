@@ -138,6 +138,7 @@
         justify-content: space-between;
         text-align: center;
     }
+    /*n-modal*/
     @media only screen and (max-width: 480px){
         .genus-row{
             grid-template-columns: 1fr 1fr;
@@ -152,6 +153,9 @@
                                 "map"
                                 "chart"
                                 "details";
+        }
+        .n-modal-container .n-card{
+            width: 96% !important;
         }
     }
     .tooltip {
@@ -221,7 +225,7 @@
             <p v-for="(p, k) in familyModalText" v-text="p" :key="k"></p>
         </n-card>
     </n-modal>
-    <n-modal v-model:show="speciesModalDisplay" transform-origin="center" :on-after-leave="closeModal()">
+    <n-modal v-model:show="speciesModalDisplay" transform-origin="center" :on-after-leave="closeModal()" content-style="color:red !important;">
         <n-card style="width: 80%;" :bordered="false" size="huge">
             <template #header>
                 <n-button quaternary circle #icon v-if="speciesId(selectedSpecies) > 1" @click='previousSpecies'>
