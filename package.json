@@ -14,7 +14,7 @@
     "d3": "^7.1.1",
     "d3-svg-legend": "^2.25.6",
     "h3-js": "^3.7.2",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "naive-ui": "^2.20.3",
     "register-service-worker": "^1.7.1",
     "vfonts": "^0.1.0",
